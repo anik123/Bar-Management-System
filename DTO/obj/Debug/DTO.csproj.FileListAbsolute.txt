@@ -1,0 +1,41 @@
+c:\users\tarun\documents\visual studio 2010\Projects\Inventory\DTO\bin\Debug\DTO.dll
+c:\users\tarun\documents\visual studio 2010\Projects\Inventory\DTO\bin\Debug\DTO.pdb
+c:\users\tarun\documents\visual studio 2010\Projects\Inventory\DTO\obj\Debug\ResolveAssemblyReference.cache
+c:\users\tarun\documents\visual studio 2010\Projects\Inventory\DTO\obj\Debug\DTO.dll
+c:\users\tarun\documents\visual studio 2010\Projects\Inventory\DTO\obj\Debug\DTO.pdb
+E:\Grammeen Bikash\Inventory\DTO\bin\Debug\DTO.dll
+E:\Grammeen Bikash\Inventory\DTO\bin\Debug\DTO.pdb
+E:\Grammeen Bikash\Inventory\DTO\obj\Debug\ResolveAssemblyReference.cache
+E:\Grammeen Bikash\Inventory\DTO\obj\Debug\DTO.dll
+E:\Grammeen Bikash\Inventory\DTO\obj\Debug\DTO.pdb
+E:\Grameenbikash Accounting\Inventory\DTO\bin\Debug\DTO.dll
+E:\Grameenbikash Accounting\Inventory\DTO\bin\Debug\DTO.pdb
+E:\Grameenbikash Accounting\Inventory\DTO\obj\Debug\ResolveAssemblyReference.cache
+E:\Grameenbikash Accounting\Inventory\DTO\obj\Debug\DTO.dll
+E:\Grameenbikash Accounting\Inventory\DTO\obj\Debug\DTO.pdb
+D:\Grameenbikash Accounting\Inventory\DTO\bin\Debug\DTO.dll
+D:\Grameenbikash Accounting\Inventory\DTO\bin\Debug\DTO.pdb
+D:\Grameenbikash Accounting\Inventory\DTO\obj\Debug\DTO.dll
+D:\Grameenbikash Accounting\Inventory\DTO\obj\Debug\DTO.pdb
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\DTO\bin\Debug\DTO.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\DTO\bin\Debug\DTO.pdb
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\DTO\obj\Debug\DTO.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\DTO\obj\Debug\DTO.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\DTO\bin\Debug\DTO.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\DTO\bin\Debug\DTO.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\DTO\obj\Debug\DTO.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\DTO\obj\Debug\DTO.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\DTO\bin\Debug\DTO.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\DTO\bin\Debug\DTO.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\DTO\obj\Debug\DTO.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\DTO\obj\Debug\DTO.pdb
+E:\latest\New folder\Inventory\DTO\bin\Debug\DTO.dll
+E:\latest\New folder\Inventory\DTO\bin\Debug\DTO.pdb
+E:\latest\New folder\Inventory\DTO\obj\Debug\ResolveAssemblyReference.cache
+E:\latest\New folder\Inventory\DTO\obj\Debug\DTO.dll
+E:\latest\New folder\Inventory\DTO\obj\Debug\DTO.pdb
+D:\Raowa Club (BAR)\DTO\bin\Debug\DTO.dll
+D:\Raowa Club (BAR)\DTO\bin\Debug\DTO.pdb
+D:\Raowa Club (BAR)\DTO\obj\Debug\DTO.dll
+D:\Raowa Club (BAR)\DTO\obj\Debug\DTO.pdb
+D:\Raowa Club (BAR)\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache

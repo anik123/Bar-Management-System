@@ -1,0 +1,888 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBAccount.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="DBAccountStoreContainer">
+    <EntitySet Name="AccBalanceSheetRpt" EntityType="DBAccount.Store.AccBalanceSheetRpt" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccBalanceSheetRpts" EntityType="DBAccount.Store.AccBalanceSheetRpts" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccCashFlowEntities" EntityType="DBAccount.Store.AccCashFlowEntities" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccCashFlowEntity" EntityType="DBAccount.Store.AccCashFlowEntity" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccCashFlowReport" EntityType="DBAccount.Store.AccCashFlowReport" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccCashFlowReports" EntityType="DBAccount.Store.AccCashFlowReports" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccCOAInfoes" EntityType="DBAccount.Store.AccCOAInfoes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccIncomeStatementRpt" EntityType="DBAccount.Store.AccIncomeStatementRpt" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccIncomeStatementRpts" EntityType="DBAccount.Store.AccIncomeStatementRpts" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccJournalEntries" EntityType="DBAccount.Store.AccJournalEntries" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccJournalEntry" EntityType="DBAccount.Store.AccJournalEntry" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccLedger" EntityType="DBAccount.Store.AccLedger" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccLedgers" EntityType="DBAccount.Store.AccLedgers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccLiabilitiesRpt" EntityType="DBAccount.Store.AccLiabilitiesRpt" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccLiabilitiesRpts" EntityType="DBAccount.Store.AccLiabilitiesRpts" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccMainHeads" EntityType="DBAccount.Store.AccMainHeads" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccMainVouchers" EntityType="DBAccount.Store.AccMainVouchers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccSubCode1" EntityType="DBAccount.Store.AccSubCode1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccSubCode2" EntityType="DBAccount.Store.AccSubCode2" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccSubVouchers" EntityType="DBAccount.Store.AccSubVouchers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DDLTests" EntityType="DBAccount.Store.DDLTests" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="EmpEducations" EntityType="DBAccount.Store.EmpEducations" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="EmpExperienceInfoes" EntityType="DBAccount.Store.EmpExperienceInfoes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Employees" EntityType="DBAccount.Store.Employees" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="EmpSpecialists" EntityType="DBAccount.Store.EmpSpecialists" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="EmpTrainings" EntityType="DBAccount.Store.EmpTrainings" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="EmpTypes" EntityType="DBAccount.Store.EmpTypes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Log_AccJournal" EntityType="DBAccount.Store.Log_AccJournal" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PayRole" EntityType="DBAccount.Store.PayRole" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PayRoles" EntityType="DBAccount.Store.PayRoles" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PayUserRole" EntityType="DBAccount.Store.PayUserRole" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PayUserRoles" EntityType="DBAccount.Store.PayUserRoles" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_AccBalanceSheetRpt_AccMainHeads" Association="DBAccount.Store.FK_AccBalanceSheetRpt_AccMainHeads">
+      <End Role="AccMainHeads" EntitySet="AccMainHeads" />
+      <End Role="AccBalanceSheetRpt" EntitySet="AccBalanceSheetRpt" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccBalanceSheetRpt_AccSubCode1" Association="DBAccount.Store.FK_AccBalanceSheetRpt_AccSubCode1">
+      <End Role="AccSubCode1" EntitySet="AccSubCode1" />
+      <End Role="AccBalanceSheetRpt" EntitySet="AccBalanceSheetRpt" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccCashFlowReport_AccSubCode1" Association="DBAccount.Store.FK_AccCashFlowReport_AccSubCode1">
+      <End Role="AccSubCode1" EntitySet="AccSubCode1" />
+      <End Role="AccCashFlowReport" EntitySet="AccCashFlowReport" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccCOAInfo_AccSubCode2" Association="DBAccount.Store.FK_AccCOAInfo_AccSubCode2">
+      <End Role="AccSubCode2" EntitySet="AccSubCode2" />
+      <End Role="AccCOAInfoes" EntitySet="AccCOAInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccIncomeStatementRpt_AccMainHeads" Association="DBAccount.Store.FK_AccIncomeStatementRpt_AccMainHeads">
+      <End Role="AccMainHeads" EntitySet="AccMainHeads" />
+      <End Role="AccIncomeStatementRpt" EntitySet="AccIncomeStatementRpt" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccJournalEntry_AccCOAInfoes" Association="DBAccount.Store.FK_AccJournalEntry_AccCOAInfoes">
+      <End Role="AccCOAInfoes" EntitySet="AccCOAInfoes" />
+      <End Role="AccJournalEntry" EntitySet="AccJournalEntry" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccJournalEntry_AccSubCode2" Association="DBAccount.Store.FK_AccJournalEntry_AccSubCode2">
+      <End Role="AccSubCode2" EntitySet="AccSubCode2" />
+      <End Role="AccJournalEntry" EntitySet="AccJournalEntry" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccJournalEntry_AccSubVouchers" Association="DBAccount.Store.FK_AccJournalEntry_AccSubVouchers">
+      <End Role="AccSubVouchers" EntitySet="AccSubVouchers" />
+      <End Role="AccJournalEntry" EntitySet="AccJournalEntry" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccLedger_AccJournalEntry" Association="DBAccount.Store.FK_AccLedger_AccJournalEntry">
+      <End Role="AccJournalEntry" EntitySet="AccJournalEntry" />
+      <End Role="AccLedger" EntitySet="AccLedger" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccLiabilitiesRpt_AccMainHeads" Association="DBAccount.Store.FK_AccLiabilitiesRpt_AccMainHeads">
+      <End Role="AccMainHeads" EntitySet="AccMainHeads" />
+      <End Role="AccLiabilitiesRpt" EntitySet="AccLiabilitiesRpt" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccSubCode1_AccMainHeads" Association="DBAccount.Store.FK_AccSubCode1_AccMainHeads">
+      <End Role="AccMainHeads" EntitySet="AccMainHeads" />
+      <End Role="AccSubCode1" EntitySet="AccSubCode1" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccSubCode2_AccMainHeads" Association="DBAccount.Store.FK_AccSubCode2_AccMainHeads">
+      <End Role="AccMainHeads" EntitySet="AccMainHeads" />
+      <End Role="AccSubCode2" EntitySet="AccSubCode2" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccSubCode2_AccSubCode1" Association="DBAccount.Store.FK_AccSubCode2_AccSubCode1">
+      <End Role="AccSubCode1" EntitySet="AccSubCode1" />
+      <End Role="AccSubCode2" EntitySet="AccSubCode2" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CashFlowReport_AccCOAInfoes" Association="DBAccount.Store.FK_CashFlowReport_AccCOAInfoes">
+      <End Role="AccCOAInfoes" EntitySet="AccCOAInfoes" />
+      <End Role="AccCashFlowReport" EntitySet="AccCashFlowReport" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CashFlowReport_CashFlowEntity" Association="DBAccount.Store.FK_CashFlowReport_CashFlowEntity">
+      <End Role="AccCashFlowEntity" EntitySet="AccCashFlowEntity" />
+      <End Role="AccCashFlowReport" EntitySet="AccCashFlowReport" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EmpEducations_Employees" Association="DBAccount.Store.FK_EmpEducations_Employees">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="EmpEducations" EntitySet="EmpEducations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EmpExperienceInfoes_Employees" Association="DBAccount.Store.FK_EmpExperienceInfoes_Employees">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="EmpExperienceInfoes" EntitySet="EmpExperienceInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EmpSpecialists_EmpTypes" Association="DBAccount.Store.FK_EmpSpecialists_EmpTypes">
+      <End Role="EmpTypes" EntitySet="EmpTypes" />
+      <End Role="EmpSpecialists" EntitySet="EmpSpecialists" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EmpTrainings_Employees" Association="DBAccount.Store.FK_EmpTrainings_Employees">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="EmpTrainings" EntitySet="EmpTrainings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PayUserRole_Employees1" Association="DBAccount.Store.FK_PayUserRole_Employees1">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="PayUserRole" EntitySet="PayUserRole" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PayUserRole_PayRole" Association="DBAccount.Store.FK_PayUserRole_PayRole">
+      <End Role="PayRole" EntitySet="PayRole" />
+      <End Role="PayUserRole" EntitySet="PayUserRole" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="AccBalanceSheetRpt">
+    <Key>
+      <PropertyRef Name="BalanceShtId" />
+    </Key>
+    <Property Name="BalanceShtId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MainHeadId" Type="int" />
+    <Property Name="SubCode1Id" Type="int" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="Priority" Type="int" />
+    <Property Name="ActiveStatus" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="AccBalanceSheetRpts">
+    <Key>
+      <PropertyRef Name="BalanceShtId" />
+    </Key>
+    <Property Name="BalanceShtId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MainHeadId" Type="int" />
+    <Property Name="SubCode1Id" Type="int" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="Priority" Type="int" />
+    <Property Name="ActiveStatus" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="AccCashFlowEntities">
+    <Key>
+      <PropertyRef Name="CFEId" />
+    </Key>
+    <Property Name="CFEId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CFEName" Type="varchar(max)" />
+    <Property Name="Priority" Type="int" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="AccCashFlowEntity">
+    <Key>
+      <PropertyRef Name="CFEId" />
+    </Key>
+    <Property Name="CFEId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CFEName" Type="varchar(max)" />
+    <Property Name="Priority" Type="int" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="AccCashFlowReport">
+    <Key>
+      <PropertyRef Name="CFRId" />
+    </Key>
+    <Property Name="CFRId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CFEId" Type="int" />
+    <Property Name="ActiveStatus" Type="varchar" MaxLength="50" />
+    <Property Name="SubCode_1Id" Type="int" />
+    <Property Name="COAId" Type="int" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="AccCashFlowReports">
+    <Key>
+      <PropertyRef Name="CFRId" />
+    </Key>
+    <Property Name="CFRId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CFEId" Type="int" />
+    <Property Name="ActiveStatus" Type="varchar" MaxLength="50" />
+    <Property Name="SubCode_1Id" Type="int" />
+    <Property Name="COAId" Type="int" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="AccCOAInfoes">
+    <Key>
+      <PropertyRef Name="COAId" />
+    </Key>
+    <Property Name="COAId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="COAACCId" Type="nvarchar(max)" />
+    <Property Name="AccountName" Type="nvarchar(max)" />
+    <Property Name="AID" Type="bigint" />
+    <Property Name="SubCode_2Id" Type="int" />
+    <Property Name="APPID" Type="bigint" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="Status" Type="nchar" MaxLength="10" />
+    <Property Name="Balance" Type="float" />
+    <Property Name="OpeningDate" Type="datetime" />
+    <Property Name="OpenBy" Type="nchar" MaxLength="10" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="AccIncomeStatementRpt">
+    <Key>
+      <PropertyRef Name="InStaRptId" />
+    </Key>
+    <Property Name="InStaRptId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MainHeadId" Type="int" />
+    <Property Name="SubCode1Id" Type="int" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="Priority" Type="int" />
+    <Property Name="ActiveStatus" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="AccIncomeStatementRpts">
+    <Key>
+      <PropertyRef Name="InStaRptId" />
+    </Key>
+    <Property Name="InStaRptId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MainHeadId" Type="int" />
+    <Property Name="SubCode1Id" Type="int" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="Priority" Type="int" />
+    <Property Name="ActiveStatus" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="AccJournalEntries">
+    <Key>
+      <PropertyRef Name="JournalId" />
+    </Key>
+    <Property Name="JournalId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SubCode2Id" Type="int" />
+    <Property Name="COAId" Type="int" />
+    <Property Name="SubVoucherId" Type="int" />
+    <Property Name="TransectionNo" Type="int" Nullable="false" />
+    <Property Name="JournalType" Type="nvarchar(max)" />
+    <Property Name="DRAmount" Type="float" />
+    <Property Name="CRAmount" Type="float" />
+    <Property Name="VONO" Type="nvarchar(max)" />
+    <Property Name="MRNO" Type="nvarchar(max)" />
+    <Property Name="TransectionDate" Type="datetime" />
+    <Property Name="Remarks" Type="nvarchar(max)" />
+    <Property Name="PostLeadgerStatus" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="AccJournalEntry">
+    <Key>
+      <PropertyRef Name="JournalId" />
+    </Key>
+    <Property Name="JournalId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SubCode2Id" Type="int" />
+    <Property Name="COAId" Type="int" />
+    <Property Name="SubVoucherId" Type="int" />
+    <Property Name="TransectionNo" Type="int" Nullable="false" />
+    <Property Name="JournalType" Type="nvarchar(max)" />
+    <Property Name="DRAmount" Type="float" />
+    <Property Name="CRAmount" Type="float" />
+    <Property Name="VONO" Type="nvarchar(max)" />
+    <Property Name="MRNO" Type="nvarchar(max)" />
+    <Property Name="TransectionDate" Type="date" />
+    <Property Name="Remarks" Type="nvarchar(max)" />
+    <Property Name="PostLeadgerStatus" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="AccLedger">
+    <Key>
+      <PropertyRef Name="LedgerId" />
+    </Key>
+    <Property Name="LedgerId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="JournalId" Type="int" />
+    <Property Name="OPBAL" Type="float" />
+    <Property Name="DRAmount" Type="float" />
+    <Property Name="CRAmount" Type="float" />
+    <Property Name="CLBAL" Type="float" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="date" />
+  </EntityType>
+  <EntityType Name="AccLedgers">
+    <Key>
+      <PropertyRef Name="LedgerId" />
+    </Key>
+    <Property Name="LedgerId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="JournalId" Type="int" />
+    <Property Name="OPBAL" Type="float" />
+    <Property Name="DRAmount" Type="float" />
+    <Property Name="CRAmount" Type="float" />
+    <Property Name="CLBAL" Type="float" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="AccLiabilitiesRpt">
+    <Key>
+      <PropertyRef Name="LiabRptId" />
+    </Key>
+    <Property Name="LiabRptId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MainHeadId" Type="int" />
+    <Property Name="SubCode1Id" Type="int" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="Priority" Type="int" />
+    <Property Name="ActiveStatus" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="AccLiabilitiesRpts">
+    <Key>
+      <PropertyRef Name="LiabRptId" />
+    </Key>
+    <Property Name="LiabRptId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MainHeadId" Type="int" />
+    <Property Name="SubCode1Id" Type="int" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="Priority" Type="int" />
+    <Property Name="ActiveStatus" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="AccMainHeads">
+    <Key>
+      <PropertyRef Name="MainHeadId" />
+    </Key>
+    <Property Name="MainHeadId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MainHadeNum" Type="varchar" MaxLength="50" />
+    <Property Name="MainHeadName" Type="varchar" MaxLength="150" />
+    <Property Name="Description" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="AID" Type="int" />
+  </EntityType>
+  <EntityType Name="AccMainVouchers">
+    <Key>
+      <PropertyRef Name="MainVoucherId" />
+    </Key>
+    <Property Name="MainVoucherId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MainVoucherCode" Type="varchar" MaxLength="50" />
+    <Property Name="MainVoucherName" Type="varchar" MaxLength="150" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="AccSubCode1">
+    <Key>
+      <PropertyRef Name="SubCode_1Id" />
+    </Key>
+    <Property Name="SubCode_1Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SubCode_1Num" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="SubCode_1Name" Type="nvarchar" MaxLength="550" />
+    <Property Name="AID" Type="int" />
+    <Property Name="Description" Type="nvarchar" MaxLength="500" />
+    <Property Name="MainHeadId" Type="int" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="AssetType" Type="int" />
+    <Property Name="Balance" Type="float" />
+  </EntityType>
+  <EntityType Name="AccSubCode2">
+    <Key>
+      <PropertyRef Name="SubCode2_Id" />
+    </Key>
+    <Property Name="SubCode2_Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SubCode2_Num" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="SubCode_2Name" Type="varchar" MaxLength="550" />
+    <Property Name="AID" Type="int" />
+    <Property Name="Description" Type="varchar" MaxLength="500" />
+    <Property Name="MainHeadId" Type="int" />
+    <Property Name="SubCode_1Id" Type="int" />
+    <Property Name="Balance" Type="float" />
+    <Property Name="AssetType" Type="int" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="Depreciation" Type="varchar" MaxLength="550" />
+  </EntityType>
+  <EntityType Name="AccSubVouchers">
+    <Key>
+      <PropertyRef Name="SubVoucherId" />
+    </Key>
+    <Property Name="SubVoucherId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SubVoucherCode" Type="varchar" MaxLength="50" />
+    <Property Name="SubVoucherName" Type="varchar" MaxLength="250" />
+    <Property Name="MainVoucherId" Type="int" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="DDLTests">
+    <Key>
+      <PropertyRef Name="DDLId" />
+    </Key>
+    <Property Name="DDLId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DDLName" Type="varchar" MaxLength="50" />
+    <Property Name="ParentId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EmpEducations">
+    <Key>
+      <PropertyRef Name="EduId" />
+    </Key>
+    <Property Name="EduId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="EmpId" Type="int" />
+    <Property Name="ResultType" Type="varchar" MaxLength="50" />
+    <Property Name="Division" Type="varchar" MaxLength="50" />
+    <Property Name="Cgpa" Type="varchar" MaxLength="50" />
+    <Property Name="InstituteName" Type="varchar" MaxLength="550" />
+    <Property Name="Board" Type="varchar" MaxLength="50" />
+    <Property Name="PassingYear" Type="varchar" MaxLength="50" />
+    <Property Name="Eximination" Type="varchar" MaxLength="550" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="Updatedate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="Note" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="EmpExperienceInfoes">
+    <Key>
+      <PropertyRef Name="ExperienceId" />
+    </Key>
+    <Property Name="ExperienceId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="EmpId" Type="int" />
+    <Property Name="Disignation" Type="varchar" MaxLength="50" />
+    <Property Name="FromDate" Type="datetime" />
+    <Property Name="ToDate" Type="datetime" />
+    <Property Name="OrganizationName" Type="varchar" MaxLength="500" />
+    <Property Name="Responsibility" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="Year" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="Employees">
+    <Key>
+      <PropertyRef Name="EmpId" />
+    </Key>
+    <Property Name="EmpId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="EmpName" Type="nvarchar(max)" />
+    <Property Name="SurName" Type="nvarchar(max)" />
+    <Property Name="Gender" Type="nvarchar(max)" />
+    <Property Name="Age" Type="nvarchar(max)" />
+    <Property Name="DOB" Type="datetime" />
+    <Property Name="Address" Type="nvarchar(max)" />
+    <Property Name="Phone" Type="nvarchar(max)" />
+    <Property Name="Mobile1" Type="nvarchar(max)" />
+    <Property Name="Mobile2" Type="nvarchar(max)" />
+    <Property Name="Email" Type="nvarchar(max)" />
+    <Property Name="JoinDate" Type="datetime" />
+    <Property Name="NationalID" Type="nvarchar(max)" />
+    <Property Name="CreateBy" Type="nvarchar(max)" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="nvarchar(max)" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="MotherName" Type="varchar" MaxLength="250" />
+    <Property Name="FatherName" Type="varchar" MaxLength="250" />
+    <Property Name="PermanentAdd" Type="varchar" MaxLength="500" />
+    <Property Name="Nationality" Type="varchar" MaxLength="50" />
+    <Property Name="Merital" Type="varchar" MaxLength="50" />
+    <Property Name="Religion" Type="varchar" MaxLength="50" />
+    <Property Name="ImageName" Type="varchar" MaxLength="550" />
+    <Property Name="EmpSpecilistId" Type="int" Nullable="false" />
+    <Property Name="EmpTypeId" Type="int" Nullable="false" />
+    <Property Name="JobType" Type="varchar" MaxLength="50" />
+    <Property Name="JobStatus" Type="varchar" MaxLength="50" />
+    <Property Name="ReferenceBy" Type="varchar" MaxLength="250" />
+    <Property Name="RefContactNum" Type="varchar" MaxLength="50" />
+    <Property Name="FamilyContactNum" Type="varchar" MaxLength="50" />
+    <Property Name="OtizmStatus" Type="varchar" MaxLength="50" />
+    <Property Name="OtizmType" Type="varchar" MaxLength="500" />
+    <Property Name="UserName" Type="varchar" MaxLength="250" />
+    <Property Name="Password" Type="varchar" MaxLength="100" />
+    <Property Name="EduStatus" Type="varchar" MaxLength="50" />
+    <Property Name="TariningStatus" Type="varchar" MaxLength="50" />
+    <Property Name="ExperienceStatus" Type="varchar" MaxLength="50" />
+    <Property Name="SalaryStatus" Type="varchar" MaxLength="50" />
+    <Property Name="LocationStatus" Type="varchar" MaxLength="50" />
+    <Property Name="DiscountStatus" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="EmpSpecialists">
+    <Key>
+      <PropertyRef Name="EmpSpecilistId" />
+    </Key>
+    <Property Name="EmpSpecilistId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Specialist" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="EmpTypeId" Type="int" Nullable="false" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="EmpTrainings">
+    <Key>
+      <PropertyRef Name="TrainingId" />
+    </Key>
+    <Property Name="TrainingId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="EmpId" Type="int" />
+    <Property Name="TrainingName" Type="varchar" MaxLength="500" />
+    <Property Name="TopicsCovered" Type="varchar" MaxLength="500" />
+    <Property Name="InstituteName" Type="varchar" MaxLength="500" />
+    <Property Name="Location" Type="varchar" MaxLength="500" />
+    <Property Name="TrainingYear" Type="varchar" MaxLength="50" />
+    <Property Name="Duration" Type="varchar" MaxLength="150" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="EmpTypes">
+    <Key>
+      <PropertyRef Name="EmpTypeId" />
+    </Key>
+    <Property Name="EmpTypeId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TypeName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Log_AccJournal">
+    <Key>
+      <PropertyRef Name="LogJournalId" />
+    </Key>
+    <Property Name="LogJournalId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LogField" Type="varchar(max)" />
+    <Property Name="LogDate" Type="datetime" />
+    <Property Name="LogBy" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="PayRole">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="RoleId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="RoleName" Type="varchar" MaxLength="50" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="PayRoles">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="RoleId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="RoleName" Type="varchar" MaxLength="50" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="PayUserRole">
+    <Key>
+      <PropertyRef Name="UserRoleId" />
+    </Key>
+    <Property Name="UserRoleId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="EmpId" Type="int" Nullable="false" />
+    <Property Name="RoleId" Type="int" Nullable="false" />
+    <Property Name="CreateBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="PayUserRoles">
+    <Key>
+      <PropertyRef Name="UserRoleId" />
+    </Key>
+    <Property Name="UserRoleId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="EmpId" Type="int" Nullable="false" />
+    <Property Name="RoleId" Type="int" Nullable="false" />
+    <Property Name="CreateBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <Association Name="FK_AccBalanceSheetRpt_AccMainHeads">
+    <End Role="AccMainHeads" Type="DBAccount.Store.AccMainHeads" Multiplicity="0..1" />
+    <End Role="AccBalanceSheetRpt" Type="DBAccount.Store.AccBalanceSheetRpt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccMainHeads">
+        <PropertyRef Name="MainHeadId" />
+      </Principal>
+      <Dependent Role="AccBalanceSheetRpt">
+        <PropertyRef Name="MainHeadId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccBalanceSheetRpt_AccSubCode1">
+    <End Role="AccSubCode1" Type="DBAccount.Store.AccSubCode1" Multiplicity="0..1" />
+    <End Role="AccBalanceSheetRpt" Type="DBAccount.Store.AccBalanceSheetRpt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccSubCode1">
+        <PropertyRef Name="SubCode_1Id" />
+      </Principal>
+      <Dependent Role="AccBalanceSheetRpt">
+        <PropertyRef Name="SubCode1Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccCashFlowReport_AccSubCode1">
+    <End Role="AccSubCode1" Type="DBAccount.Store.AccSubCode1" Multiplicity="0..1" />
+    <End Role="AccCashFlowReport" Type="DBAccount.Store.AccCashFlowReport" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccSubCode1">
+        <PropertyRef Name="SubCode_1Id" />
+      </Principal>
+      <Dependent Role="AccCashFlowReport">
+        <PropertyRef Name="SubCode_1Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccCOAInfo_AccSubCode2">
+    <End Role="AccSubCode2" Type="DBAccount.Store.AccSubCode2" Multiplicity="0..1" />
+    <End Role="AccCOAInfoes" Type="DBAccount.Store.AccCOAInfoes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccSubCode2">
+        <PropertyRef Name="SubCode2_Id" />
+      </Principal>
+      <Dependent Role="AccCOAInfoes">
+        <PropertyRef Name="SubCode_2Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccIncomeStatementRpt_AccMainHeads">
+    <End Role="AccMainHeads" Type="DBAccount.Store.AccMainHeads" Multiplicity="0..1" />
+    <End Role="AccIncomeStatementRpt" Type="DBAccount.Store.AccIncomeStatementRpt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccMainHeads">
+        <PropertyRef Name="MainHeadId" />
+      </Principal>
+      <Dependent Role="AccIncomeStatementRpt">
+        <PropertyRef Name="MainHeadId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccJournalEntry_AccCOAInfoes">
+    <End Role="AccCOAInfoes" Type="DBAccount.Store.AccCOAInfoes" Multiplicity="0..1" />
+    <End Role="AccJournalEntry" Type="DBAccount.Store.AccJournalEntry" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccCOAInfoes">
+        <PropertyRef Name="COAId" />
+      </Principal>
+      <Dependent Role="AccJournalEntry">
+        <PropertyRef Name="COAId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccJournalEntry_AccSubCode2">
+    <End Role="AccSubCode2" Type="DBAccount.Store.AccSubCode2" Multiplicity="0..1" />
+    <End Role="AccJournalEntry" Type="DBAccount.Store.AccJournalEntry" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccSubCode2">
+        <PropertyRef Name="SubCode2_Id" />
+      </Principal>
+      <Dependent Role="AccJournalEntry">
+        <PropertyRef Name="SubCode2Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccJournalEntry_AccSubVouchers">
+    <End Role="AccSubVouchers" Type="DBAccount.Store.AccSubVouchers" Multiplicity="0..1" />
+    <End Role="AccJournalEntry" Type="DBAccount.Store.AccJournalEntry" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccSubVouchers">
+        <PropertyRef Name="SubVoucherId" />
+      </Principal>
+      <Dependent Role="AccJournalEntry">
+        <PropertyRef Name="SubVoucherId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccLedger_AccJournalEntry">
+    <End Role="AccJournalEntry" Type="DBAccount.Store.AccJournalEntry" Multiplicity="0..1" />
+    <End Role="AccLedger" Type="DBAccount.Store.AccLedger" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccJournalEntry">
+        <PropertyRef Name="JournalId" />
+      </Principal>
+      <Dependent Role="AccLedger">
+        <PropertyRef Name="JournalId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccLiabilitiesRpt_AccMainHeads">
+    <End Role="AccMainHeads" Type="DBAccount.Store.AccMainHeads" Multiplicity="0..1" />
+    <End Role="AccLiabilitiesRpt" Type="DBAccount.Store.AccLiabilitiesRpt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccMainHeads">
+        <PropertyRef Name="MainHeadId" />
+      </Principal>
+      <Dependent Role="AccLiabilitiesRpt">
+        <PropertyRef Name="MainHeadId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccSubCode1_AccMainHeads">
+    <End Role="AccMainHeads" Type="DBAccount.Store.AccMainHeads" Multiplicity="0..1" />
+    <End Role="AccSubCode1" Type="DBAccount.Store.AccSubCode1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccMainHeads">
+        <PropertyRef Name="MainHeadId" />
+      </Principal>
+      <Dependent Role="AccSubCode1">
+        <PropertyRef Name="MainHeadId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccSubCode2_AccMainHeads">
+    <End Role="AccMainHeads" Type="DBAccount.Store.AccMainHeads" Multiplicity="0..1" />
+    <End Role="AccSubCode2" Type="DBAccount.Store.AccSubCode2" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccMainHeads">
+        <PropertyRef Name="MainHeadId" />
+      </Principal>
+      <Dependent Role="AccSubCode2">
+        <PropertyRef Name="MainHeadId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccSubCode2_AccSubCode1">
+    <End Role="AccSubCode1" Type="DBAccount.Store.AccSubCode1" Multiplicity="0..1" />
+    <End Role="AccSubCode2" Type="DBAccount.Store.AccSubCode2" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccSubCode1">
+        <PropertyRef Name="SubCode_1Id" />
+      </Principal>
+      <Dependent Role="AccSubCode2">
+        <PropertyRef Name="SubCode_1Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CashFlowReport_AccCOAInfoes">
+    <End Role="AccCOAInfoes" Type="DBAccount.Store.AccCOAInfoes" Multiplicity="0..1" />
+    <End Role="AccCashFlowReport" Type="DBAccount.Store.AccCashFlowReport" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccCOAInfoes">
+        <PropertyRef Name="COAId" />
+      </Principal>
+      <Dependent Role="AccCashFlowReport">
+        <PropertyRef Name="COAId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CashFlowReport_CashFlowEntity">
+    <End Role="AccCashFlowEntity" Type="DBAccount.Store.AccCashFlowEntity" Multiplicity="0..1" />
+    <End Role="AccCashFlowReport" Type="DBAccount.Store.AccCashFlowReport" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccCashFlowEntity">
+        <PropertyRef Name="CFEId" />
+      </Principal>
+      <Dependent Role="AccCashFlowReport">
+        <PropertyRef Name="CFEId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EmpEducations_Employees">
+    <End Role="Employees" Type="DBAccount.Store.Employees" Multiplicity="0..1" />
+    <End Role="EmpEducations" Type="DBAccount.Store.EmpEducations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="EmpId" />
+      </Principal>
+      <Dependent Role="EmpEducations">
+        <PropertyRef Name="EmpId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EmpExperienceInfoes_Employees">
+    <End Role="Employees" Type="DBAccount.Store.Employees" Multiplicity="0..1" />
+    <End Role="EmpExperienceInfoes" Type="DBAccount.Store.EmpExperienceInfoes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="EmpId" />
+      </Principal>
+      <Dependent Role="EmpExperienceInfoes">
+        <PropertyRef Name="EmpId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EmpSpecialists_EmpTypes">
+    <End Role="EmpTypes" Type="DBAccount.Store.EmpTypes" Multiplicity="1" />
+    <End Role="EmpSpecialists" Type="DBAccount.Store.EmpSpecialists" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EmpTypes">
+        <PropertyRef Name="EmpTypeId" />
+      </Principal>
+      <Dependent Role="EmpSpecialists">
+        <PropertyRef Name="EmpTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EmpTrainings_Employees">
+    <End Role="Employees" Type="DBAccount.Store.Employees" Multiplicity="0..1" />
+    <End Role="EmpTrainings" Type="DBAccount.Store.EmpTrainings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="EmpId" />
+      </Principal>
+      <Dependent Role="EmpTrainings">
+        <PropertyRef Name="EmpId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PayUserRole_Employees1">
+    <End Role="Employees" Type="DBAccount.Store.Employees" Multiplicity="1" />
+    <End Role="PayUserRole" Type="DBAccount.Store.PayUserRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="EmpId" />
+      </Principal>
+      <Dependent Role="PayUserRole">
+        <PropertyRef Name="EmpId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PayUserRole_PayRole">
+    <End Role="PayRole" Type="DBAccount.Store.PayRole" Multiplicity="1" />
+    <End Role="PayUserRole" Type="DBAccount.Store.PayUserRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PayRole">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="PayUserRole">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" ReturnType="int" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+</Schema>

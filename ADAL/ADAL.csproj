@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{40A47533-20F1-40B3-BC59-0284DF73E59C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ADAL</RootNamespace>
+    <AssemblyName>ADAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BalanceSheetRptDAL.cs" />
+    <Compile Include="CashFlowEntityDAL.cs" />
+    <Compile Include="CashFlowReportDAL.cs" />
+    <Compile Include="COAInfoDAL.cs" />
+    <Compile Include="CrystalReptDAL.cs" />
+    <Compile Include="EmpBasicInfoDAL.cs" />
+    <Compile Include="EmpEducationDAL.cs" />
+    <Compile Include="EmpTrainingDAL.cs" />
+    <Compile Include="EmpTypeDAL.cs" />
+    <Compile Include="ExperienceDAL.cs" />
+    <Compile Include="IncomeStatementRptSetupDAL.cs" />
+    <Compile Include="JournalDAL.cs" />
+    <Compile Include="LedgerDAL.cs" />
+    <Compile Include="LiabilitiesRptDAL.cs" />
+    <Compile Include="LoginDAL.cs" />
+    <Compile Include="Log_AccJournalDAL.cs" />
+    <Compile Include="MainHeadDAL.cs" />
+    <Compile Include="MainVoucherDAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportDAL.cs" />
+    <Compile Include="RoleDAL.cs" />
+    <Compile Include="SpecialistDAL.cs" />
+    <Compile Include="SubCode_1DAL.cs" />
+    <Compile Include="SubCode_2DAL.cs" />
+    <Compile Include="SubVocherDAL.cs" />
+    <Compile Include="TransDetailsDAL.cs" />
+    <Compile Include="TransitemDAL.cs" />
+    <Compile Include="UserRoleDAL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ADTO\ADTO.csproj">
+      <Project>{0C77C466-C72F-487F-9607-CE3BC9A2B336}</Project>
+      <Name>ADTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{BD657B32-4490-43D6-99BB-724FB5432359}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{2289A21E-4A86-4020-AA0B-3B943D77BBD9}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B9539CD1-BAE3-479B-9E77-C9DEDBCEE1EB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BLL</RootNamespace>
+    <AssemblyName>BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountTypeBLL.cs" />
+    <Compile Include="BankAccountInfoBLL.cs" />
+    <Compile Include="BankInfoBLL.cs" />
+    <Compile Include="CategoryBLL.cs" />
+    <Compile Include="CocktailInfoBLL.cs" />
+    <Compile Include="CompanyBLL.cs" />
+    <Compile Include="CompProfile\BranchProfileBLL.cs" />
+    <Compile Include="CompProfile\CompProfileInfoBLL.cs" />
+    <Compile Include="CompProfile\PayRollReprotBLL.cs" />
+    <Compile Include="ExpenseBLL.cs" />
+    <Compile Include="ExpenseHeadBLL.cs" />
+    <Compile Include="InvenBranchReturnBLL.cs" />
+    <Compile Include="InvenBranchToCentralReturnDtlBLL.cs" />
+    <Compile Include="InvenCentralChallenBLL.cs" />
+    <Compile Include="InvenCentralPurchseBLL.cs" />
+    <Compile Include="InvenCentralPurOrderBLL.cs" />
+    <Compile Include="InvenCentralPurRequisitionBLL.cs" />
+    <Compile Include="InvenCentralReturnBLL.cs" />
+    <Compile Include="InvenCentralStoreStatusBLL.cs" />
+    <Compile Include="InvenCentralToPartyReturnDtlBLL.cs" />
+    <Compile Include="InvenChangeBLL.cs" />
+    <Compile Include="InvenPerRequisitionBLL.cs" />
+    <Compile Include="InvenPurOrderBLL.cs" />
+    <Compile Include="InvenReorderBLL.cs" />
+    <Compile Include="InvenSalesBLL.cs" />
+    <Compile Include="InvenSalesDetailBLL.cs" />
+    <Compile Include="InvenSalesInputBLL.cs" />
+    <Compile Include="InvenSaleXtraInfoBLL.cs" />
+    <Compile Include="InvenStoreStatusBLL.cs" />
+    <Compile Include="InvenTempSaleBLL.cs" />
+    <Compile Include="Log_InventoryBLL.cs" />
+    <Compile Include="MemberBLL.cs" />
+    <Compile Include="PBLL\AssetBLL.cs" />
+    <Compile Include="PBLL\BankTransectionBLL.cs" />
+    <Compile Include="PBLL\BankTransectionDtlBLL.cs" />
+    <Compile Include="PBLL\CompanyCashEntryBLL.cs" />
+    <Compile Include="PBLL\LogPayRollBLL.cs" />
+    <Compile Include="PBLL\Page_ObjectBLL\PageObjectBLL.cs" />
+    <Compile Include="PBLL\Page_ObjectBLL\PageObjectRoleBLL.cs" />
+    <Compile Include="ProductBLL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PurchaseDueBLL.cs" />
+    <Compile Include="ReportBLL.cs" />
+    <Compile Include="ReportSetUpFilBLL.cs" />
+    <Compile Include="UnitBLL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{BD657B32-4490-43D6-99BB-724FB5432359}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{C04A182B-5CC1-4144-BF3B-3F257AA4E63D}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

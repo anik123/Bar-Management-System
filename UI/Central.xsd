@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Central" targetNamespace="http://tempuri.org/Central.xsd" xmlns:mstns="http://tempuri.org/Central.xsd" xmlns="http://tempuri.org/Central.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="InventoryConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="InventoryConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.InventoryConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="CentralByRetunTableAdapter" GeneratorDataComponentClassName="CentralByRetunTableAdapter" Name="CentralByRetun" UserDataComponentName="CentralByRetunTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="InventoryConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillCentralByRetun" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetDataCentralByRetun" GeneratorSourceName="FillCentralByRetun" GetMethodModifier="Public" GetMethodName="GetDataCentralByRetun" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetDataCentralByRetun" UserSourceName="FillCentralByRetun">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        InvenCentralToPartyReturnDtl.reQty, InvenCentralToPartyReturnDtl.reProAmount, InvenCentralToPartyReturnDtl.reBy, InvenCentralToPartyReturnDtl.reDate, 
+                         CompanyInfoes.CompName, Categories.CategoryName, InvenBranchProfile.BrProName
+FROM            InvenCentralToPartyReturnDtl INNER JOIN
+                         Products ON InvenCentralToPartyReturnDtl.reProId = Products.ProductId INNER JOIN
+                         Categories ON Products.CategoryId = Categories.CatId INNER JOIN
+                         CompanyInfoes ON Products.CompId = CompanyInfoes.CompId INNER JOIN
+                         InvenBranchProfile ON InvenCentralToPartyReturnDtl.reProBranchId = InvenBranchProfile.BrProId</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="reQty" DataSetColumn="reQty" />
+              <Mapping SourceColumn="reDate" DataSetColumn="reDate" />
+              <Mapping SourceColumn="reProAmount" DataSetColumn="reProAmount" />
+              <Mapping SourceColumn="reBy" DataSetColumn="reBy" />
+              <Mapping SourceColumn="BrProName" DataSetColumn="BrProName" />
+              <Mapping SourceColumn="CompName" DataSetColumn="CompName" />
+              <Mapping SourceColumn="CategoryName" DataSetColumn="CategoryName" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Central" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Central" msprop:Generator_UserDSName="Central">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CentralByRetun" msprop:Generator_TableClassName="CentralByRetunDataTable" msprop:Generator_TableVarName="tableCentralByRetun" msprop:Generator_TablePropName="CentralByRetun" msprop:Generator_RowDeletingName="CentralByRetunRowDeleting" msprop:Generator_RowChangingName="CentralByRetunRowChanging" msprop:Generator_RowEvHandlerName="CentralByRetunRowChangeEventHandler" msprop:Generator_RowDeletedName="CentralByRetunRowDeleted" msprop:Generator_UserTableName="CentralByRetun" msprop:Generator_RowChangedName="CentralByRetunRowChanged" msprop:Generator_RowEvArgName="CentralByRetunRowChangeEvent" msprop:Generator_RowClassName="CentralByRetunRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="reQty" msprop:Generator_ColumnVarNameInTable="columnreQty" msprop:Generator_ColumnPropNameInRow="reQty" msprop:Generator_ColumnPropNameInTable="reQtyColumn" msprop:Generator_UserColumnName="reQty" type="xs:int" minOccurs="0" />
+              <xs:element name="reDate" msprop:Generator_ColumnVarNameInTable="columnreDate" msprop:Generator_ColumnPropNameInRow="reDate" msprop:Generator_ColumnPropNameInTable="reDateColumn" msprop:Generator_UserColumnName="reDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="reProAmount" msprop:Generator_ColumnVarNameInTable="columnreProAmount" msprop:Generator_ColumnPropNameInRow="reProAmount" msprop:Generator_ColumnPropNameInTable="reProAmountColumn" msprop:Generator_UserColumnName="reProAmount" type="xs:int" minOccurs="0" />
+              <xs:element name="reBy" msprop:Generator_ColumnVarNameInTable="columnreBy" msprop:Generator_ColumnPropNameInRow="reBy" msprop:Generator_ColumnPropNameInTable="reByColumn" msprop:Generator_UserColumnName="reBy" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BrProName" msprop:Generator_ColumnVarNameInTable="columnBrProName" msprop:Generator_ColumnPropNameInRow="BrProName" msprop:Generator_ColumnPropNameInTable="BrProNameColumn" msprop:Generator_UserColumnName="BrProName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="550" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CompName" msprop:Generator_ColumnVarNameInTable="columnCompName" msprop:Generator_ColumnPropNameInRow="CompName" msprop:Generator_ColumnPropNameInTable="CompNameColumn" msprop:Generator_UserColumnName="CompName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CategoryName" msprop:Generator_ColumnVarNameInTable="columnCategoryName" msprop:Generator_ColumnPropNameInRow="CategoryName" msprop:Generator_ColumnPropNameInTable="CategoryNameColumn" msprop:Generator_UserColumnName="CategoryName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

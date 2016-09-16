@@ -1,0 +1,1334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{841AE454-1A77-4BAB-9FF4-8B660B815B50}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UI</RootNamespace>
+    <AssemblyName>UI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.40412.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\AjaxControlToolkit.Binary.NET4\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="OnBarcode.Barcode.ASPNET">
+      <HintPath>..\ImpDoc\OnBarcode.Barcode.ASPNET.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AccSysManagment\AccountingReport\AccountingReportUI.aspx" />
+    <Content Include="AccSysManagment\AccountingReport\BalanceSheetRptUI.aspx" />
+    <Content Include="AccSysManagment\AccountingReport\CashFlowRptUI.aspx" />
+    <Content Include="AccSysManagment\AccountingReport\ChartofAccountRptUI.aspx" />
+    <Content Include="AccSysManagment\AccountingReport\ExpenseRpt.aspx" />
+    <Content Include="AccSysManagment\AccountingReport\IncomeStatementHardCodeRptUI.aspx" />
+    <Content Include="AccSysManagment\AccountingReport\IncomeStatementRptUI.aspx" />
+    <Content Include="AccSysManagment\AccountingReport\JouranlDateToDateRptUI.aspx" />
+    <Content Include="AccSysManagment\AccountingReport\JournalRptUI.aspx" />
+    <Content Include="AccSysManagment\AccountingReport\JournalUpdateRptUI.aspx" />
+    <Content Include="AccSysManagment\AccountingReport\LedgerRptUI.aspx" />
+    <Content Include="AccSysManagment\AccountingReport\LiabilitiesRptUI.aspx" />
+    <Content Include="AccSysManagment\AccountingReport\TrialBalanceRptUINew.aspx" />
+    <Content Include="AccSysManagment\AccountingReport\TrialBalenceRptUI.aspx" />
+    <Content Include="AccSysManagment\Accounting\JournalEntryNew.aspx" />
+    <Content Include="AccSysManagment\Accounting\UpdateJournal.aspx" />
+    <Content Include="AccSysManagment\Employee\EmployeeInfo.aspx" />
+    <Content Include="AccSysManagment\Employee\EmployeeRoleAssignNew.aspx" />
+    <Content Include="AccSysManagment\Employee\EmployeeType.aspx" />
+    <Content Include="AccSysManagment\Employee\EmpRoleAssign.aspx" />
+    <Content Include="AccSysManagment\Employee\LogFile\Log_EmpPayInofUI.aspx" />
+    <Content Include="AccSysManagment\Employee\PasswordChangeUI.aspx" />
+    <Content Include="AccSysManagment\LogFile\LogFileJouranlEditRpt.aspx" />
+    <Content Include="AccSysManagment\LogFile\Log_JournalEdit.aspx" />
+    <Content Include="AccSysManagment\Report Setup File\BalanceSheetRptUI.aspx" />
+    <Content Include="AccSysManagment\Report Setup File\CashFlowEntityUI.aspx" />
+    <Content Include="AccSysManagment\Report Setup File\IncomeStatementRptUI.aspx" />
+    <Content Include="AccSysManagment\Report Setup File\LiabilitiesRptSetupUI.aspx" />
+    <Content Include="AccSysManagment\Report Setup File\Transaction.aspx" />
+    <Content Include="AccSysManagment\SetupFile\AccountHead.aspx" />
+    <Content Include="AccSysManagment\SetupFile\COAInfoUI.aspx" />
+    <Content Include="AccSysManagment\SetupFile\ReportSetUpFile.aspx" />
+    <Content Include="AccSysManagment\SetupFile\VoucherUI.aspx" />
+    <Content Include="Admin\BankAccountUI.aspx" />
+    <Content Include="Admin\BarCodeEmpPopUp.aspx" />
+    <Content Include="Admin\BranchWiseReorder_Purchase_PriceUI.aspx" />
+    <Content Include="Admin\CompanyInfoUI.aspx" />
+    <Content Include="Admin\ExpenseHeadUI.aspx" />
+    <Content Include="Admin\ExpenseUI.aspx" />
+    <Content Include="Admin\ProductCategoryUI.aspx" />
+    <Content Include="Admin\ProductUI.aspx" />
+    <Content Include="Admin\ProductUnitUI.aspx" />
+    <Content Include="AccSysManagment\BranchCollection\CompanyTakaTransectionUI.aspx" />
+    <Content Include="AccSysManagment\BranchCollection\Report\BankAmountIndividualRptUI.aspx" />
+    <Content Include="AccSysManagment\BranchCollection\Report\BankTranDtlRpt.aspx" />
+    <Content Include="AccSysManagment\BranchCollection\Report\CollectionReportUI.aspx" />
+    <Content Include="AccSysManagment\BranchCollection\Report\CompanyCashEntryRptUI.aspx" />
+    <Content Include="AccSysManagment\BranchCollection\Report\CurrentAssetRptUI.aspx" />
+    <Content Include="CompProfile\BranchProfileInfoUI.aspx" />
+    <Content Include="CompProfile\CompProfileInfoUI.aspx" />
+    <Content Include="Images\8299098.jpg" />
+    <Content Include="Images\arrow.jpg" />
+    <Content Include="Images\back_icon.png" />
+    <Content Include="Images\Bar_Background.jpg" />
+    <Content Include="Images\bg.png" />
+    <Content Include="Images\body_bg_mid.png" />
+    <Content Include="Images\body_bg_top.png" />
+    <Content Include="Images\Container_Header.gif" />
+    <Content Include="Images\cross_icon_normal.png" />
+    <Content Include="Images\footer_bg_left.png" />
+    <Content Include="Images\footer_bg_mid.png" />
+    <Content Include="Images\footer_bg_right.png" />
+    <Content Include="Images\Grid_ActionDelete.gif" />
+    <Content Include="Images\Grid_Footer.gif" />
+    <Content Include="Images\Grid_Header.gif" />
+    <Content Include="Images\Grid_RowAlternate.gif" />
+    <Content Include="Images\Grid_RowHover.gif" />
+    <Content Include="Images\Grid_RowNormal.gif" />
+    <Content Include="Images\Grid_RowNumber.gif" />
+    <Content Include="Images\home_icon.png" />
+    <Content Include="Images\loader.gif" />
+    <Content Include="Images\login_bg.png" />
+    <Content Include="Images\logo.gif" />
+    <Content Include="Images\logo.jpg" />
+    <Content Include="Images\Logo.png" />
+    <Content Include="Images\Message_Error.png" />
+    <Content Include="Images\Message_Information.png" />
+    <Content Include="Images\Message_Success.png" />
+    <Content Include="Images\Message_Warning.png" />
+    <Content Include="Images\next_icon.png" />
+    <Content Include="Images\Pic002.jpg" />
+    <Content Include="Images\Progressbar_Content.gif" />
+    <Content Include="Images\Progressbar_Wrapper.gif" />
+    <Content Include="Images\sed.png" />
+    <Content Include="Images\shadow.png" />
+    <Content Include="Images\titlebar_bg.jpg" />
+    <Content Include="image\admin_bg_bot.png" />
+    <Content Include="image\admin_bg_mid.png" />
+    <Content Include="image\admin_bg_top.png" />
+    <Content Include="image\back.gif" />
+    <Content Include="image\back_icon.png" />
+    <Content Include="image\bg.png" />
+    <Content Include="image\blank.gif" />
+    <Content Include="image\body_bg_mid.png" />
+    <Content Include="image\body_bg_top.png" />
+    <Content Include="image\computer.gif" />
+    <Content Include="image\cross_icon_normal.png" />
+    <Content Include="image\folder.gif" />
+    <Content Include="image\footer_bg_left.png" />
+    <Content Include="image\footer_bg_mid.png" />
+    <Content Include="image\footer_bg_right.png" />
+    <Content Include="image\home_icon.png" />
+    <Content Include="image\ie.gif" />
+    <Content Include="image\loading.gif" />
+    <Content Include="image\login_bg.png" />
+    <Content Include="image\logo.png" />
+    <Content Include="image\logout_icon.png" />
+    <Content Include="image\log_in_butt.png" />
+    <Content Include="image\minus.gif" />
+    <Content Include="image\next_icon.png" />
+    <Content Include="image\ParentNodes.png" />
+    <Content Include="image\password_icon.png" />
+    <Content Include="image\sed.png" />
+    <Content Include="image\shadow.png" />
+    <Content Include="image\silvergradient.gif" />
+    <Content Include="image\silvergradientover.gif" />
+    <Content Include="image\Stage_BG_btm.png" />
+    <Content Include="image\star.gif" />
+    <Content Include="image\tab.png" />
+    <Content Include="image\tab2.png" />
+    <Content Include="image\titlebar_bg.jpg" />
+    <Content Include="image\user_icon.png" />
+    <Content Include="image\WebResource.gif" />
+    <Content Include="image\WebResource_002.gif" />
+    <Content Include="image\WebResource_003.gif" />
+    <Content Include="LoginUI.aspx" />
+    <Content Include="LogSuccessPage.aspx" />
+    <Content Include="Manager\BranchChallanUI.aspx" />
+    <Content Include="Manager\BranchReturnProductReciveUI.aspx" />
+    <Content Include="Manager\CentarlUnderStock.aspx" />
+    <Content Include="Manager\CentralAllChallenViewUI.aspx" />
+    <Content Include="Manager\CentralAllPurchaseView.aspx" />
+    <Content Include="Manager\CentralProductReturnToParty.aspx" />
+    <Content Include="Manager\CentralPurOrderUI.aspx" />
+    <Content Include="Manager\CentralReportUI.aspx" />
+    <Content Include="Manager\CentralToPartyReturnView.aspx" />
+    <Content Include="Manager\InvenCentralPurchse.aspx" />
+    <Content Include="Manager\InvenCentralStockIn.aspx" />
+    <Content Include="Admin\Log_InvenReorder_Branch_WiseUI_Reorder.aspx" />
+    <Content Include="Manager\PurchasePaymaentDetailViewUI.aspx" />
+    <Content Include="Manager\PurchasePaymentCentralUI.aspx" />
+    <Content Include="Manager\PurchaseOrderCentrealUI.aspx" />
+    <Content Include="Manager\PurchasePaymentDueUI.aspx" />
+    <Content Include="Manager\PurchaseRequisitionCentralUI.aspx" />
+    <Content Include="Manager\PurchaseStatementUI.aspx" />
+    <Content Include="Manager\Report\CentralReturnRpt.aspx" />
+    <Content Include="Manager\Report\BranchWiseSalesRptUI.aspx" />
+    <Content Include="Manager\Report\CentralPurchaseOrderRptUI.aspx" />
+    <Content Include="Manager\Report\CentralPurchasePaymentRptUI.aspx" />
+    <Content Include="Manager\Report\CentralStockStatus.aspx" />
+    <Content Include="Manager\Report\ChallanBranchRptUI.aspx" />
+    <Content Include="Manager\Report\FinalOpearationSummaryRptUI.aspx" />
+    <Content Include="Manager\Report\OpearationSummaryRptUI.aspx" />
+    <Content Include="Manager\Report\PurchaseProductRptUI.aspx" />
+    <Content Include="Manager\Report\RatingOfGoodsRptUI.aspx" />
+    <Content Include="Manager\Report\ReturnCentralToPartyRptUI.aspx" />
+    <Content Include="Manager\Report\SaleOpearationSummaryRptUI.aspx" />
+    <Content Include="Manager\ReturnCentralProductToParty.aspx" />
+    <Content Include="Manager\SalesDetailsBranchWise.aspx" />
+    <Content Include="Admin\MemberUI.aspx" />
+    <Content Include="Manager\StockReturnUI.aspx" />
+    <Content Include="PageObject\PageObjectCreation.aspx" />
+    <Content Include="PageObject\PageObjectRole.aspx" />
+    <Content Include="ReportSetUpFile\ProductListRptUI.aspx" />
+    <Content Include="Shop\AdjustSalesRpt.aspx" />
+    <Content Include="Shop\BranchChangeProductUI.aspx" />
+    <Content Include="Shop\BranchReturnUI.aspx" />
+    <Content Include="Shop\BranchSalesAmountView.aspx" />
+    <Content Include="Shop\BranchSalesRpt.aspx" />
+    <Content Include="Shop\BranchSalesUsingBarCode.aspx" />
+    <Content Include="Shop\BranchToCenteralReturnUI.aspx" />
+    <Content Include="Shop\CocktailUI.aspx" />
+    <Content Include="Shop\DailySalesDueUI.aspx" />
+    <Content Include="Shop\DailySalesUI.aspx" />
+    <Content Include="Shop\DuePaymentUI.aspx" />
+    <Content Include="Shop\FirstSale.aspx" />
+    <Content Include="Shop\InvenSalesDetail.aspx" />
+    <Content Include="Shop\MemberWiseInovice.aspx" />
+    <Content Include="Shop\ProductChange.aspx" />
+    <Content Include="Shop\PurchaseRequisition.aspx" />
+    <Content Include="Shop\Report\BranchProfitRpt.aspx" />
+    <Content Include="Shop\Report\BranchReturnProductRptUI.aspx" />
+    <Content Include="Shop\Report\BranchSalesRptUI.aspx" />
+    <Content Include="Shop\Report\BranchStockStatusRptUI.aspx" />
+    <Content Include="Shop\Report\BranchStockStatus_Details_RptUI.aspx" />
+    <Content Include="Shop\Report\BranchTempSale.aspx" />
+    <Content Include="Shop\Report\BranchWiseSaleReportUI.aspx" />
+    <Content Include="Shop\Report\DailySalesDueReportRpt.aspx" />
+    <Content Include="Shop\Report\DailySalesReportRpt.aspx" />
+    <Content Include="Shop\Report\InvenSaleDetail.aspx" />
+    <Content Include="Shop\Report\RatingOfGoods_BranchWiseRptUI.aspx" />
+    <Content Include="Shop\Report\BranchReturnRpt.aspx" />
+    <Content Include="Shop\SecondSales.aspx" />
+    <Content Include="Shop\ShopReportUI.aspx" />
+    <Content Include="Shop\ShopToPartyReturnView.aspx" />
+    <Content Include="Shop\UnderStockProduct.aspx" />
+    <Content Include="ReportSetUpFile\BankAccountInfoRptUI.aspx" />
+    <Content Include="ReportSetUpFile\ClientCompanyListRptUI.aspx" />
+    <Content Include="ReportSetUpFile\CompanyBranchListRptUI.aspx" />
+    <Content Include="ReportSetUpFile\ReportSetUpFileUI.aspx" />
+    <Content Include="Style\Site.css" />
+    <Content Include="Test\Styles\Site.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Test\TreeView.aspx" />
+    <Content Include="Test\WebForm1.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccSysManagment\AccountingReport\AccountingReportUI.aspx.cs">
+      <DependentUpon>AccountingReportUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\AccountingReport\AccountingReportUI.aspx.designer.cs">
+      <DependentUpon>AccountingReportUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\AccountingReport\BalanceSheetRptUI.aspx.cs">
+      <DependentUpon>BalanceSheetRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\AccountingReport\BalanceSheetRptUI.aspx.designer.cs">
+      <DependentUpon>BalanceSheetRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\AccountingReport\CashFlowRptUI.aspx.cs">
+      <DependentUpon>CashFlowRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\AccountingReport\CashFlowRptUI.aspx.designer.cs">
+      <DependentUpon>CashFlowRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\AccountingReport\ChartofAccountRptUI.aspx.cs">
+      <DependentUpon>ChartofAccountRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\AccountingReport\ChartofAccountRptUI.aspx.designer.cs">
+      <DependentUpon>ChartofAccountRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\AccountingReport\ExpenseRpt.aspx.cs">
+      <DependentUpon>ExpenseRpt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\AccountingReport\ExpenseRpt.aspx.designer.cs">
+      <DependentUpon>ExpenseRpt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\AccountingReport\IncomeStatementHardCodeRptUI.aspx.cs">
+      <DependentUpon>IncomeStatementHardCodeRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\AccountingReport\IncomeStatementHardCodeRptUI.aspx.designer.cs">
+      <DependentUpon>IncomeStatementHardCodeRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\AccountingReport\IncomeStatementRptUI.aspx.cs">
+      <DependentUpon>IncomeStatementRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\AccountingReport\IncomeStatementRptUI.aspx.designer.cs">
+      <DependentUpon>IncomeStatementRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\AccountingReport\JouranlDateToDateRptUI.aspx.cs">
+      <DependentUpon>JouranlDateToDateRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\AccountingReport\JouranlDateToDateRptUI.aspx.designer.cs">
+      <DependentUpon>JouranlDateToDateRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\AccountingReport\JournalRptUI.aspx.cs">
+      <DependentUpon>JournalRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\AccountingReport\JournalRptUI.aspx.designer.cs">
+      <DependentUpon>JournalRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\AccountingReport\JournalUpdateRptUI.aspx.cs">
+      <DependentUpon>JournalUpdateRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\AccountingReport\JournalUpdateRptUI.aspx.designer.cs">
+      <DependentUpon>JournalUpdateRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\AccountingReport\LedgerRptUI.aspx.cs">
+      <DependentUpon>LedgerRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\AccountingReport\LedgerRptUI.aspx.designer.cs">
+      <DependentUpon>LedgerRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\AccountingReport\LiabilitiesRptUI.aspx.cs">
+      <DependentUpon>LiabilitiesRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\AccountingReport\LiabilitiesRptUI.aspx.designer.cs">
+      <DependentUpon>LiabilitiesRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\AccountingReport\TrialBalanceRptUINew.aspx.cs">
+      <DependentUpon>TrialBalanceRptUINew.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\AccountingReport\TrialBalanceRptUINew.aspx.designer.cs">
+      <DependentUpon>TrialBalanceRptUINew.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\AccountingReport\TrialBalenceRptUI.aspx.cs">
+      <DependentUpon>TrialBalenceRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\AccountingReport\TrialBalenceRptUI.aspx.designer.cs">
+      <DependentUpon>TrialBalenceRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\Accounting\JournalEntryNew.aspx.cs">
+      <DependentUpon>JournalEntryNew.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\Accounting\JournalEntryNew.aspx.designer.cs">
+      <DependentUpon>JournalEntryNew.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\Accounting\UpdateJournal.aspx.cs">
+      <DependentUpon>UpdateJournal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\Accounting\UpdateJournal.aspx.designer.cs">
+      <DependentUpon>UpdateJournal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\Employee\EmployeeInfo.aspx.cs">
+      <DependentUpon>EmployeeInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\Employee\EmployeeInfo.aspx.designer.cs">
+      <DependentUpon>EmployeeInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\Employee\EmployeeRoleAssignNew.aspx.cs">
+      <DependentUpon>EmployeeRoleAssignNew.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\Employee\EmployeeRoleAssignNew.aspx.designer.cs">
+      <DependentUpon>EmployeeRoleAssignNew.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\Employee\EmployeeType.aspx.cs">
+      <DependentUpon>EmployeeType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\Employee\EmployeeType.aspx.designer.cs">
+      <DependentUpon>EmployeeType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\Employee\EmpRoleAssign.aspx.cs">
+      <DependentUpon>EmpRoleAssign.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\Employee\EmpRoleAssign.aspx.designer.cs">
+      <DependentUpon>EmpRoleAssign.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\Employee\LogFile\Log_EmpPayInofUI.aspx.cs">
+      <DependentUpon>Log_EmpPayInofUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\Employee\LogFile\Log_EmpPayInofUI.aspx.designer.cs">
+      <DependentUpon>Log_EmpPayInofUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\Employee\PasswordChangeUI.aspx.cs">
+      <DependentUpon>PasswordChangeUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\Employee\PasswordChangeUI.aspx.designer.cs">
+      <DependentUpon>PasswordChangeUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\LogFile\LogFileJouranlEditRpt.aspx.cs">
+      <DependentUpon>LogFileJouranlEditRpt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\LogFile\LogFileJouranlEditRpt.aspx.designer.cs">
+      <DependentUpon>LogFileJouranlEditRpt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\LogFile\Log_JournalEdit.aspx.cs">
+      <DependentUpon>Log_JournalEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\LogFile\Log_JournalEdit.aspx.designer.cs">
+      <DependentUpon>Log_JournalEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\Report Setup File\BalanceSheetRptUI.aspx.cs">
+      <DependentUpon>BalanceSheetRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\Report Setup File\BalanceSheetRptUI.aspx.designer.cs">
+      <DependentUpon>BalanceSheetRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\Report Setup File\CashFlowEntityUI.aspx.cs">
+      <DependentUpon>CashFlowEntityUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\Report Setup File\CashFlowEntityUI.aspx.designer.cs">
+      <DependentUpon>CashFlowEntityUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\Report Setup File\IncomeStatementRptUI.aspx.cs">
+      <DependentUpon>IncomeStatementRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\Report Setup File\IncomeStatementRptUI.aspx.designer.cs">
+      <DependentUpon>IncomeStatementRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\Report Setup File\LiabilitiesRptSetupUI.aspx.cs">
+      <DependentUpon>LiabilitiesRptSetupUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\Report Setup File\LiabilitiesRptSetupUI.aspx.designer.cs">
+      <DependentUpon>LiabilitiesRptSetupUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\Report Setup File\Transaction.aspx.cs">
+      <DependentUpon>Transaction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\Report Setup File\Transaction.aspx.designer.cs">
+      <DependentUpon>Transaction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\SetupFile\AccountHead.aspx.cs">
+      <DependentUpon>AccountHead.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\SetupFile\AccountHead.aspx.designer.cs">
+      <DependentUpon>AccountHead.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\SetupFile\COAInfoUI.aspx.cs">
+      <DependentUpon>COAInfoUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\SetupFile\COAInfoUI.aspx.designer.cs">
+      <DependentUpon>COAInfoUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\SetupFile\ReportSetUpFile.aspx.cs">
+      <DependentUpon>ReportSetUpFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\SetupFile\ReportSetUpFile.aspx.designer.cs">
+      <DependentUpon>ReportSetUpFile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\SetupFile\VoucherUI.aspx.cs">
+      <DependentUpon>VoucherUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\SetupFile\VoucherUI.aspx.designer.cs">
+      <DependentUpon>VoucherUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\BankAccountUI.aspx.cs">
+      <DependentUpon>BankAccountUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\BankAccountUI.aspx.designer.cs">
+      <DependentUpon>BankAccountUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\BarCodeEmpPopUp.aspx.cs">
+      <DependentUpon>BarCodeEmpPopUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\BarCodeEmpPopUp.aspx.designer.cs">
+      <DependentUpon>BarCodeEmpPopUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\BranchWiseReorder_Purchase_PriceUI.aspx.cs">
+      <DependentUpon>BranchWiseReorder_Purchase_PriceUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\BranchWiseReorder_Purchase_PriceUI.aspx.designer.cs">
+      <DependentUpon>BranchWiseReorder_Purchase_PriceUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CompanyInfoUI.aspx.cs">
+      <DependentUpon>CompanyInfoUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CompanyInfoUI.aspx.designer.cs">
+      <DependentUpon>CompanyInfoUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ExpenseHeadUI.aspx.cs">
+      <DependentUpon>ExpenseHeadUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ExpenseHeadUI.aspx.designer.cs">
+      <DependentUpon>ExpenseHeadUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ExpenseUI.aspx.cs">
+      <DependentUpon>ExpenseUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ExpenseUI.aspx.designer.cs">
+      <DependentUpon>ExpenseUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ProductCategoryUI.aspx.cs">
+      <DependentUpon>ProductCategoryUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ProductCategoryUI.aspx.designer.cs">
+      <DependentUpon>ProductCategoryUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ProductUI.aspx.cs">
+      <DependentUpon>ProductUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ProductUI.aspx.designer.cs">
+      <DependentUpon>ProductUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ProductUnitUI.aspx.cs">
+      <DependentUpon>ProductUnitUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ProductUnitUI.aspx.designer.cs">
+      <DependentUpon>ProductUnitUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\BranchCollection\CompanyTakaTransectionUI.aspx.cs">
+      <DependentUpon>CompanyTakaTransectionUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\BranchCollection\CompanyTakaTransectionUI.aspx.designer.cs">
+      <DependentUpon>CompanyTakaTransectionUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\BranchCollection\Report\BankAmountIndividualRptUI.aspx.cs">
+      <DependentUpon>BankAmountIndividualRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\BranchCollection\Report\BankAmountIndividualRptUI.aspx.designer.cs">
+      <DependentUpon>BankAmountIndividualRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\BranchCollection\Report\BankTranDtlRpt.aspx.cs">
+      <DependentUpon>BankTranDtlRpt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\BranchCollection\Report\BankTranDtlRpt.aspx.designer.cs">
+      <DependentUpon>BankTranDtlRpt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\BranchCollection\Report\CollectionReportUI.aspx.cs">
+      <DependentUpon>CollectionReportUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\BranchCollection\Report\CollectionReportUI.aspx.designer.cs">
+      <DependentUpon>CollectionReportUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\BranchCollection\Report\CompanyCashEntryRptUI.aspx.cs">
+      <DependentUpon>CompanyCashEntryRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\BranchCollection\Report\CompanyCashEntryRptUI.aspx.designer.cs">
+      <DependentUpon>CompanyCashEntryRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccSysManagment\BranchCollection\Report\CurrentAssetRptUI.aspx.cs">
+      <DependentUpon>CurrentAssetRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccSysManagment\BranchCollection\Report\CurrentAssetRptUI.aspx.designer.cs">
+      <DependentUpon>CurrentAssetRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Branch.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Branch.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Central.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Central.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CompProfile\BranchProfileInfoUI.aspx.cs">
+      <DependentUpon>BranchProfileInfoUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompProfile\BranchProfileInfoUI.aspx.designer.cs">
+      <DependentUpon>BranchProfileInfoUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CompProfile\CompProfileInfoUI.aspx.cs">
+      <DependentUpon>CompProfileInfoUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompProfile\CompProfileInfoUI.aspx.designer.cs">
+      <DependentUpon>CompProfileInfoUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="LoginUI.aspx.cs">
+      <DependentUpon>LoginUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginUI.aspx.designer.cs">
+      <DependentUpon>LoginUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogSuccessPage.aspx.cs">
+      <DependentUpon>LogSuccessPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogSuccessPage.aspx.designer.cs">
+      <DependentUpon>LogSuccessPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\BranchChallanUI.aspx.cs">
+      <DependentUpon>BranchChallanUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\BranchChallanUI.aspx.designer.cs">
+      <DependentUpon>BranchChallanUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\BranchReturnProductReciveUI.aspx.cs">
+      <DependentUpon>BranchReturnProductReciveUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\BranchReturnProductReciveUI.aspx.designer.cs">
+      <DependentUpon>BranchReturnProductReciveUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\CentarlUnderStock.aspx.cs">
+      <DependentUpon>CentarlUnderStock.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\CentarlUnderStock.aspx.designer.cs">
+      <DependentUpon>CentarlUnderStock.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\CentralAllChallenViewUI.aspx.cs">
+      <DependentUpon>CentralAllChallenViewUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\CentralAllChallenViewUI.aspx.designer.cs">
+      <DependentUpon>CentralAllChallenViewUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\CentralAllPurchaseView.aspx.cs">
+      <DependentUpon>CentralAllPurchaseView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\CentralAllPurchaseView.aspx.designer.cs">
+      <DependentUpon>CentralAllPurchaseView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\CentralProductReturnToParty.aspx.cs">
+      <DependentUpon>CentralProductReturnToParty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\CentralProductReturnToParty.aspx.designer.cs">
+      <DependentUpon>CentralProductReturnToParty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\CentralPurOrderUI.aspx.cs">
+      <DependentUpon>CentralPurOrderUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\CentralPurOrderUI.aspx.designer.cs">
+      <DependentUpon>CentralPurOrderUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\CentralReportUI.aspx.cs">
+      <DependentUpon>CentralReportUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\CentralReportUI.aspx.designer.cs">
+      <DependentUpon>CentralReportUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\CentralToPartyReturnView.aspx.cs">
+      <DependentUpon>CentralToPartyReturnView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\CentralToPartyReturnView.aspx.designer.cs">
+      <DependentUpon>CentralToPartyReturnView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\InvenCentralPurchse.aspx.cs">
+      <DependentUpon>InvenCentralPurchse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\InvenCentralPurchse.aspx.designer.cs">
+      <DependentUpon>InvenCentralPurchse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\InvenCentralStockIn.aspx.cs">
+      <DependentUpon>InvenCentralStockIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\InvenCentralStockIn.aspx.designer.cs">
+      <DependentUpon>InvenCentralStockIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Log_InvenReorder_Branch_WiseUI_Reorder.aspx.cs">
+      <DependentUpon>Log_InvenReorder_Branch_WiseUI_Reorder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Log_InvenReorder_Branch_WiseUI_Reorder.aspx.designer.cs">
+      <DependentUpon>Log_InvenReorder_Branch_WiseUI_Reorder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\PurchasePaymaentDetailViewUI.aspx.cs">
+      <DependentUpon>PurchasePaymaentDetailViewUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\PurchasePaymaentDetailViewUI.aspx.designer.cs">
+      <DependentUpon>PurchasePaymaentDetailViewUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\PurchasePaymentCentralUI.aspx.cs">
+      <DependentUpon>PurchasePaymentCentralUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\PurchasePaymentCentralUI.aspx.designer.cs">
+      <DependentUpon>PurchasePaymentCentralUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\PurchaseOrderCentrealUI.aspx.cs">
+      <DependentUpon>PurchaseOrderCentrealUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\PurchaseOrderCentrealUI.aspx.designer.cs">
+      <DependentUpon>PurchaseOrderCentrealUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\PurchasePaymentDueUI.aspx.cs">
+      <DependentUpon>PurchasePaymentDueUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\PurchasePaymentDueUI.aspx.designer.cs">
+      <DependentUpon>PurchasePaymentDueUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\PurchaseRequisitionCentralUI.aspx.cs">
+      <DependentUpon>PurchaseRequisitionCentralUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\PurchaseRequisitionCentralUI.aspx.designer.cs">
+      <DependentUpon>PurchaseRequisitionCentralUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\PurchaseStatementUI.aspx.cs">
+      <DependentUpon>PurchaseStatementUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\PurchaseStatementUI.aspx.designer.cs">
+      <DependentUpon>PurchaseStatementUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\Report\CentralReturnRpt.aspx.cs">
+      <DependentUpon>CentralReturnRpt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\Report\CentralReturnRpt.aspx.designer.cs">
+      <DependentUpon>CentralReturnRpt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\Report\BranchWiseSalesRptUI.aspx.cs">
+      <DependentUpon>BranchWiseSalesRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\Report\BranchWiseSalesRptUI.aspx.designer.cs">
+      <DependentUpon>BranchWiseSalesRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\Report\CentralPurchaseOrderRptUI.aspx.cs">
+      <DependentUpon>CentralPurchaseOrderRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\Report\CentralPurchaseOrderRptUI.aspx.designer.cs">
+      <DependentUpon>CentralPurchaseOrderRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\Report\CentralPurchasePaymentRptUI.aspx.cs">
+      <DependentUpon>CentralPurchasePaymentRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\Report\CentralPurchasePaymentRptUI.aspx.designer.cs">
+      <DependentUpon>CentralPurchasePaymentRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\Report\CentralStockStatus.aspx.cs">
+      <DependentUpon>CentralStockStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\Report\CentralStockStatus.aspx.designer.cs">
+      <DependentUpon>CentralStockStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\Report\ChallanBranchRptUI.aspx.cs">
+      <DependentUpon>ChallanBranchRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\Report\ChallanBranchRptUI.aspx.designer.cs">
+      <DependentUpon>ChallanBranchRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\Report\FinalOpearationSummaryRptUI.aspx.cs">
+      <DependentUpon>FinalOpearationSummaryRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\Report\FinalOpearationSummaryRptUI.aspx.designer.cs">
+      <DependentUpon>FinalOpearationSummaryRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\Report\OpearationSummaryRptUI.aspx.cs">
+      <DependentUpon>OpearationSummaryRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\Report\OpearationSummaryRptUI.aspx.designer.cs">
+      <DependentUpon>OpearationSummaryRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\Report\PurchaseProductRptUI.aspx.cs">
+      <DependentUpon>PurchaseProductRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\Report\PurchaseProductRptUI.aspx.designer.cs">
+      <DependentUpon>PurchaseProductRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\Report\RatingOfGoodsRptUI.aspx.cs">
+      <DependentUpon>RatingOfGoodsRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\Report\RatingOfGoodsRptUI.aspx.designer.cs">
+      <DependentUpon>RatingOfGoodsRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\Report\ReturnCentralToPartyRptUI.aspx.cs">
+      <DependentUpon>ReturnCentralToPartyRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\Report\ReturnCentralToPartyRptUI.aspx.designer.cs">
+      <DependentUpon>ReturnCentralToPartyRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\Report\SaleOpearationSummaryRptUI.aspx.cs">
+      <DependentUpon>SaleOpearationSummaryRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\Report\SaleOpearationSummaryRptUI.aspx.designer.cs">
+      <DependentUpon>SaleOpearationSummaryRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\ReturnCentralProductToParty.aspx.cs">
+      <DependentUpon>ReturnCentralProductToParty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\ReturnCentralProductToParty.aspx.designer.cs">
+      <DependentUpon>ReturnCentralProductToParty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\SalesDetailsBranchWise.aspx.cs">
+      <DependentUpon>SalesDetailsBranchWise.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\SalesDetailsBranchWise.aspx.designer.cs">
+      <DependentUpon>SalesDetailsBranchWise.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\MemberUI.aspx.cs">
+      <DependentUpon>MemberUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\MemberUI.aspx.designer.cs">
+      <DependentUpon>MemberUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\StockReturnUI.aspx.cs">
+      <DependentUpon>StockReturnUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\StockReturnUI.aspx.designer.cs">
+      <DependentUpon>StockReturnUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageObject\PageObjectCreation.aspx.cs">
+      <DependentUpon>PageObjectCreation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageObject\PageObjectCreation.aspx.designer.cs">
+      <DependentUpon>PageObjectCreation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageObject\PageObjectRole.aspx.cs">
+      <DependentUpon>PageObjectRole.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageObject\PageObjectRole.aspx.designer.cs">
+      <DependentUpon>PageObjectRole.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReportSetUpFile\ProductListRptUI.aspx.cs">
+      <DependentUpon>ProductListRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReportSetUpFile\ProductListRptUI.aspx.designer.cs">
+      <DependentUpon>ProductListRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\AdjustSalesRpt.aspx.cs">
+      <DependentUpon>AdjustSalesRpt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\AdjustSalesRpt.aspx.designer.cs">
+      <DependentUpon>AdjustSalesRpt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\BranchChangeProductUI.aspx.cs">
+      <DependentUpon>BranchChangeProductUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\BranchChangeProductUI.aspx.designer.cs">
+      <DependentUpon>BranchChangeProductUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\BranchReturnUI.aspx.cs">
+      <DependentUpon>BranchReturnUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\BranchReturnUI.aspx.designer.cs">
+      <DependentUpon>BranchReturnUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\BranchSalesAmountView.aspx.cs">
+      <DependentUpon>BranchSalesAmountView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\BranchSalesAmountView.aspx.designer.cs">
+      <DependentUpon>BranchSalesAmountView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\BranchSalesRpt.aspx.cs">
+      <DependentUpon>BranchSalesRpt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\BranchSalesRpt.aspx.designer.cs">
+      <DependentUpon>BranchSalesRpt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\BranchSalesUsingBarCode.aspx.cs">
+      <DependentUpon>BranchSalesUsingBarCode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\BranchSalesUsingBarCode.aspx.designer.cs">
+      <DependentUpon>BranchSalesUsingBarCode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\BranchToCenteralReturnUI.aspx.cs">
+      <DependentUpon>BranchToCenteralReturnUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\BranchToCenteralReturnUI.aspx.designer.cs">
+      <DependentUpon>BranchToCenteralReturnUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\CocktailUI.aspx.cs">
+      <DependentUpon>CocktailUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\CocktailUI.aspx.designer.cs">
+      <DependentUpon>CocktailUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\DailySalesDueUI.aspx.cs">
+      <DependentUpon>DailySalesDueUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\DailySalesDueUI.aspx.designer.cs">
+      <DependentUpon>DailySalesDueUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\DailySalesUI.aspx.cs">
+      <DependentUpon>DailySalesUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\DailySalesUI.aspx.designer.cs">
+      <DependentUpon>DailySalesUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\DuePaymentUI.aspx.cs">
+      <DependentUpon>DuePaymentUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\DuePaymentUI.aspx.designer.cs">
+      <DependentUpon>DuePaymentUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\FirstSale.aspx.cs">
+      <DependentUpon>FirstSale.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\FirstSale.aspx.designer.cs">
+      <DependentUpon>FirstSale.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\InvenSalesDetail.aspx.cs">
+      <DependentUpon>InvenSalesDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\InvenSalesDetail.aspx.designer.cs">
+      <DependentUpon>InvenSalesDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\MemberWiseInovice.aspx.cs">
+      <DependentUpon>MemberWiseInovice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\MemberWiseInovice.aspx.designer.cs">
+      <DependentUpon>MemberWiseInovice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\ProductChange.aspx.cs">
+      <DependentUpon>ProductChange.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\ProductChange.aspx.designer.cs">
+      <DependentUpon>ProductChange.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\PurchaseRequisition.aspx.cs">
+      <DependentUpon>PurchaseRequisition.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\PurchaseRequisition.aspx.designer.cs">
+      <DependentUpon>PurchaseRequisition.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\Report\BranchProfitRpt.aspx.cs">
+      <DependentUpon>BranchProfitRpt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\Report\BranchProfitRpt.aspx.designer.cs">
+      <DependentUpon>BranchProfitRpt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\Report\BranchReturnProductRptUI.aspx.cs">
+      <DependentUpon>BranchReturnProductRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\Report\BranchReturnProductRptUI.aspx.designer.cs">
+      <DependentUpon>BranchReturnProductRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\Report\BranchSalesRptUI.aspx.cs">
+      <DependentUpon>BranchSalesRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\Report\BranchSalesRptUI.aspx.designer.cs">
+      <DependentUpon>BranchSalesRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\Report\BranchStockStatusRptUI.aspx.cs">
+      <DependentUpon>BranchStockStatusRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\Report\BranchStockStatusRptUI.aspx.designer.cs">
+      <DependentUpon>BranchStockStatusRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\Report\BranchStockStatus_Details_RptUI.aspx.cs">
+      <DependentUpon>BranchStockStatus_Details_RptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\Report\BranchStockStatus_Details_RptUI.aspx.designer.cs">
+      <DependentUpon>BranchStockStatus_Details_RptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\Report\BranchTempSale.aspx.cs">
+      <DependentUpon>BranchTempSale.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\Report\BranchTempSale.aspx.designer.cs">
+      <DependentUpon>BranchTempSale.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\Report\BranchWiseSaleReportUI.aspx.cs">
+      <DependentUpon>BranchWiseSaleReportUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\Report\BranchWiseSaleReportUI.aspx.designer.cs">
+      <DependentUpon>BranchWiseSaleReportUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\Report\DailySalesDueReportRpt.aspx.cs">
+      <DependentUpon>DailySalesDueReportRpt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\Report\DailySalesDueReportRpt.aspx.designer.cs">
+      <DependentUpon>DailySalesDueReportRpt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\Report\DailySalesReportRpt.aspx.cs">
+      <DependentUpon>DailySalesReportRpt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\Report\DailySalesReportRpt.aspx.designer.cs">
+      <DependentUpon>DailySalesReportRpt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\Report\InvenSaleDetail.aspx.cs">
+      <DependentUpon>InvenSaleDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\Report\InvenSaleDetail.aspx.designer.cs">
+      <DependentUpon>InvenSaleDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\Report\RatingOfGoods_BranchWiseRptUI.aspx.cs">
+      <DependentUpon>RatingOfGoods_BranchWiseRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\Report\RatingOfGoods_BranchWiseRptUI.aspx.designer.cs">
+      <DependentUpon>RatingOfGoods_BranchWiseRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\Report\BranchReturnRpt.aspx.cs">
+      <DependentUpon>BranchReturnRpt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\Report\BranchReturnRpt.aspx.designer.cs">
+      <DependentUpon>BranchReturnRpt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\SecondSales.aspx.cs">
+      <DependentUpon>SecondSales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\SecondSales.aspx.designer.cs">
+      <DependentUpon>SecondSales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\ShopReportUI.aspx.cs">
+      <DependentUpon>ShopReportUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\ShopReportUI.aspx.designer.cs">
+      <DependentUpon>ShopReportUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\ShopToPartyReturnView.aspx.cs">
+      <DependentUpon>ShopToPartyReturnView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\ShopToPartyReturnView.aspx.designer.cs">
+      <DependentUpon>ShopToPartyReturnView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\UnderStockProduct.aspx.cs">
+      <DependentUpon>UnderStockProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\UnderStockProduct.aspx.designer.cs">
+      <DependentUpon>UnderStockProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportSetUpFile\BankAccountInfoRptUI.aspx.cs">
+      <DependentUpon>BankAccountInfoRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReportSetUpFile\BankAccountInfoRptUI.aspx.designer.cs">
+      <DependentUpon>BankAccountInfoRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReportSetUpFile\ClientCompanyListRptUI.aspx.cs">
+      <DependentUpon>ClientCompanyListRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReportSetUpFile\ClientCompanyListRptUI.aspx.designer.cs">
+      <DependentUpon>ClientCompanyListRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReportSetUpFile\CompanyBranchListRptUI.aspx.cs">
+      <DependentUpon>CompanyBranchListRptUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReportSetUpFile\CompanyBranchListRptUI.aspx.designer.cs">
+      <DependentUpon>CompanyBranchListRptUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReportSetUpFile\ReportSetUpFileUI.aspx.cs">
+      <DependentUpon>ReportSetUpFileUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReportSetUpFile\ReportSetUpFileUI.aspx.designer.cs">
+      <DependentUpon>ReportSetUpFileUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Test\Class1.cs" />
+    <Compile Include="Test\TreeView.aspx.cs">
+      <DependentUpon>TreeView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test\TreeView.aspx.designer.cs">
+      <DependentUpon>TreeView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Test\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AccSysManagment\Employee\UploadEmpImage\" />
+    <Folder Include="Admin\ProductBarcodeBackUp\" />
+    <Folder Include="Admin\ProductBarcode\" />
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ABLL\ABLL.csproj">
+      <Project>{C620D663-7D81-4587-ADE7-43F619825CAE}</Project>
+      <Name>ABLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ADTO\ADTO.csproj">
+      <Project>{0C77C466-C72F-487F-9607-CE3BC9A2B336}</Project>
+      <Name>ADTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{B9539CD1-BAE3-479B-9E77-C9DEDBCEE1EB}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{C04A182B-5CC1-4144-BF3B-3F257AA4E63D}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AccSysManagment\AccountingReport\BalanceSheetRpt.rdlc" />
+    <EmbeddedResource Include="AccSysManagment\AccountingReport\CashFlowRpt.rdlc" />
+    <EmbeddedResource Include="AccSysManagment\AccountingReport\ChartOfAccountingRpt.rdlc" />
+    <EmbeddedResource Include="AccSysManagment\AccountingReport\ExpenseRpt.rdlc" />
+    <EmbeddedResource Include="AccSysManagment\AccountingReport\IncomeStatementHardCodeRpt.rdlc" />
+    <EmbeddedResource Include="AccSysManagment\AccountingReport\IncomeStatementRpt.rdlc" />
+    <EmbeddedResource Include="AccSysManagment\AccountingReport\JouranalUpdateRpt.rdlc" />
+    <EmbeddedResource Include="AccSysManagment\AccountingReport\JouranlDateToDateNew.rdlc" />
+    <EmbeddedResource Include="AccSysManagment\AccountingReport\JournalRpt.rdlc" />
+    <EmbeddedResource Include="AccSysManagment\AccountingReport\LedgerRpt.rdlc" />
+    <EmbeddedResource Include="AccSysManagment\AccountingReport\LiabilitiesRpt.rdlc" />
+    <EmbeddedResource Include="AccSysManagment\AccountingReport\TrialBalanceRpt.rdlc" />
+    <EmbeddedResource Include="AccSysManagment\AccountingReport\TrialBalenceRpt.rdlc" />
+    <EmbeddedResource Include="AccSysManagment\BranchCollection\Report\BankAmountIndividualRpt.rdlc" />
+    <EmbeddedResource Include="AccSysManagment\BranchCollection\Report\BankTransectionRptDtlNew.rdlc" />
+    <EmbeddedResource Include="AccSysManagment\BranchCollection\Report\CompanyCashRpt.rdlc" />
+    <EmbeddedResource Include="AccSysManagment\BranchCollection\Report\CurrentAssetRpt.rdlc" />
+    <EmbeddedResource Include="Manager\Report\CentralReturnRpt.rdlc" />
+    <EmbeddedResource Include="Manager\Report\FinalOperationSummaryRpt.rdlc" />
+    <EmbeddedResource Include="Manager\Report\SaleOperationSummaryRpt.rdlc" />
+    <EmbeddedResource Include="Manager\Report\OperationSummary_Sales_Purchase_Rpt.rdlc" />
+    <EmbeddedResource Include="Manager\Report\RatingOfGoodsRpt.rdlc" />
+    <EmbeddedResource Include="Manager\Report\BranchWiseSalrpt.rdlc" />
+    <EmbeddedResource Include="Manager\Report\CentralStoreStatusRpt.rdlc" />
+    <EmbeddedResource Include="Manager\Report\Challan_BranchWise.rdlc" />
+    <EmbeddedResource Include="Manager\Report\PurchaseOrder_CentralRpt.rdlc" />
+    <EmbeddedResource Include="Manager\Report\PurchasePaymentCentralRpt.rdlc" />
+    <EmbeddedResource Include="Manager\Report\PurchaseProductRptNew.rdlc" />
+    <EmbeddedResource Include="Manager\Report\ReturnCentralToPartyRpt.rdlc" />
+    <EmbeddedResource Include="ReportSetUpFile\BankAccountRpt.rdlc" />
+    <EmbeddedResource Include="ReportSetUpFile\BranchList_CompanyRpt.rdlc" />
+    <EmbeddedResource Include="ReportSetUpFile\CompClientListRpt.rdlc" />
+    <EmbeddedResource Include="ReportSetUpFile\ProductListRpt.rdlc" />
+    <EmbeddedResource Include="Shop\Report\BranchReturnProductRpt.rdlc" />
+    <EmbeddedResource Include="Shop\Report\BranchStockStatus_Details_Rpt.rdlc" />
+    <EmbeddedResource Include="Shop\Report\BranchStoreStatusRpt.rdlc" />
+    <EmbeddedResource Include="Shop\Report\BranchWiseSalesRpt.rdlc" />
+    <EmbeddedResource Include="Shop\Report\BranchStockStatus_DetailsRpt.rdlc" />
+    <EmbeddedResource Include="Shop\Report\BranchReturnRpt.rdlc" />
+    <EmbeddedResource Include="Shop\Report\BranchProfit.rdlc" />
+    <EmbeddedResource Include="Shop\Report\BranchStockStatusRpt.rdlc" />
+    <EmbeddedResource Include="Shop\Report\BranchWiseTempSalesRpt.rdlc" />
+    <EmbeddedResource Include="Shop\Report\InvenDailyDueSale.rdlc" />
+    <EmbeddedResource Include="Shop\Report\Copy of BranchWiseSalesRpt.rdlc" />
+    <EmbeddedResource Include="Shop\Report\Copy of Copy of InvenDailySale.rdlc" />
+    <EmbeddedResource Include="Shop\Report\Copy of InvenDailySale.rdlc" />
+    <EmbeddedResource Include="Shop\Report\DetailsBranchStoreStatusRpt.rdlc" />
+    <EmbeddedResource Include="Shop\Report\InvenDailySale.rdlc" />
+    <EmbeddedResource Include="Shop\Report\InvenSalesDetail.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Branch.xsc">
+      <DependentUpon>Branch.xsd</DependentUpon>
+    </None>
+    <None Include="Branch.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Branch.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Branch.xss">
+      <DependentUpon>Branch.xsd</DependentUpon>
+    </None>
+    <None Include="Central.xsc">
+      <DependentUpon>Central.xsd</DependentUpon>
+    </None>
+    <None Include="Central.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Central.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Central.xss">
+      <DependentUpon>Central.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>7548</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

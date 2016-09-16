@@ -1,0 +1,335 @@
+E:\Grameenbikash Accounting\Inventory\UI\obj\Debug\ResolveAssemblyReference.cache
+E:\Grameenbikash Accounting\Inventory\UI\obj\Debug\RdlCompile.cache
+E:\Grameenbikash Accounting\Inventory\UI\obj\Debug\RdlCompile.compiled
+E:\Grameenbikash Accounting\Inventory\UI\obj\Debug\UI.pdb
+E:\Grameenbikash Accounting\Inventory\UI\bin\UI.dll
+E:\Grameenbikash Accounting\Inventory\UI\bin\UI.pdb
+E:\Grameenbikash Accounting\Inventory\UI\bin\ABLL.dll
+E:\Grameenbikash Accounting\Inventory\UI\bin\ADTO.dll
+E:\Grameenbikash Accounting\Inventory\UI\bin\AjaxControlToolkit.dll
+E:\Grameenbikash Accounting\Inventory\UI\bin\BLL.dll
+E:\Grameenbikash Accounting\Inventory\UI\bin\DAL.dll
+E:\Grameenbikash Accounting\Inventory\UI\bin\DTO.dll
+E:\Grameenbikash Accounting\Inventory\UI\bin\ADAL.dll
+E:\Grameenbikash Accounting\Inventory\UI\bin\Utility.dll
+E:\Grameenbikash Accounting\Inventory\UI\bin\log4net.dll
+E:\Grameenbikash Accounting\Inventory\UI\bin\AutoMapper.dll
+E:\Grameenbikash Accounting\Inventory\UI\bin\ABLL.pdb
+E:\Grameenbikash Accounting\Inventory\UI\bin\ADTO.pdb
+E:\Grameenbikash Accounting\Inventory\UI\bin\BLL.pdb
+E:\Grameenbikash Accounting\Inventory\UI\bin\DAL.pdb
+E:\Grameenbikash Accounting\Inventory\UI\bin\DTO.pdb
+E:\Grameenbikash Accounting\Inventory\UI\bin\AjaxControlToolkit.pdb
+E:\Grameenbikash Accounting\Inventory\UI\bin\ADAL.pdb
+E:\Grameenbikash Accounting\Inventory\UI\bin\Utility.pdb
+E:\Grameenbikash Accounting\Inventory\UI\bin\ar\AjaxControlToolkit.resources.dll
+E:\Grameenbikash Accounting\Inventory\UI\bin\cs\AjaxControlToolkit.resources.dll
+E:\Grameenbikash Accounting\Inventory\UI\bin\de\AjaxControlToolkit.resources.dll
+E:\Grameenbikash Accounting\Inventory\UI\bin\es\AjaxControlToolkit.resources.dll
+E:\Grameenbikash Accounting\Inventory\UI\bin\fr\AjaxControlToolkit.resources.dll
+E:\Grameenbikash Accounting\Inventory\UI\bin\he\AjaxControlToolkit.resources.dll
+E:\Grameenbikash Accounting\Inventory\UI\bin\hi\AjaxControlToolkit.resources.dll
+E:\Grameenbikash Accounting\Inventory\UI\bin\it\AjaxControlToolkit.resources.dll
+E:\Grameenbikash Accounting\Inventory\UI\bin\ja\AjaxControlToolkit.resources.dll
+E:\Grameenbikash Accounting\Inventory\UI\bin\ko\AjaxControlToolkit.resources.dll
+E:\Grameenbikash Accounting\Inventory\UI\bin\nl\AjaxControlToolkit.resources.dll
+E:\Grameenbikash Accounting\Inventory\UI\bin\pt\AjaxControlToolkit.resources.dll
+E:\Grameenbikash Accounting\Inventory\UI\bin\ru\AjaxControlToolkit.resources.dll
+E:\Grameenbikash Accounting\Inventory\UI\bin\tr-TR\AjaxControlToolkit.resources.dll
+E:\Grameenbikash Accounting\Inventory\UI\bin\zh-CHS\AjaxControlToolkit.resources.dll
+E:\Grameenbikash Accounting\Inventory\UI\bin\zh-CHT\AjaxControlToolkit.resources.dll
+E:\Grameenbikash Accounting\Inventory\UI\obj\Debug\UI.dll
+D:\Grameenbikash Accounting\Inventory\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+D:\Grameenbikash Accounting\Inventory\UI\obj\Debug\RdlCompile.cache
+D:\Grameenbikash Accounting\Inventory\UI\obj\Debug\RdlCompile.compiled
+D:\Grameenbikash Accounting\Inventory\UI\bin\UI.dll
+D:\Grameenbikash Accounting\Inventory\UI\bin\UI.pdb
+D:\Grameenbikash Accounting\Inventory\UI\bin\ABLL.dll
+D:\Grameenbikash Accounting\Inventory\UI\bin\ADTO.dll
+D:\Grameenbikash Accounting\Inventory\UI\bin\AjaxControlToolkit.dll
+D:\Grameenbikash Accounting\Inventory\UI\bin\BLL.dll
+D:\Grameenbikash Accounting\Inventory\UI\bin\DTO.dll
+D:\Grameenbikash Accounting\Inventory\UI\bin\ADAL.dll
+D:\Grameenbikash Accounting\Inventory\UI\bin\DAL.dll
+D:\Grameenbikash Accounting\Inventory\UI\bin\Utility.dll
+D:\Grameenbikash Accounting\Inventory\UI\bin\log4net.dll
+D:\Grameenbikash Accounting\Inventory\UI\bin\AutoMapper.dll
+D:\Grameenbikash Accounting\Inventory\UI\bin\ABLL.pdb
+D:\Grameenbikash Accounting\Inventory\UI\bin\ADTO.pdb
+D:\Grameenbikash Accounting\Inventory\UI\bin\BLL.pdb
+D:\Grameenbikash Accounting\Inventory\UI\bin\DTO.pdb
+D:\Grameenbikash Accounting\Inventory\UI\bin\AjaxControlToolkit.pdb
+D:\Grameenbikash Accounting\Inventory\UI\bin\ADAL.pdb
+D:\Grameenbikash Accounting\Inventory\UI\bin\DAL.pdb
+D:\Grameenbikash Accounting\Inventory\UI\bin\Utility.pdb
+D:\Grameenbikash Accounting\Inventory\UI\bin\ar\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory\UI\bin\cs\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory\UI\bin\de\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory\UI\bin\es\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory\UI\bin\fr\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory\UI\bin\he\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory\UI\bin\hi\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory\UI\bin\it\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory\UI\bin\ja\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory\UI\bin\ko\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory\UI\bin\nl\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory\UI\bin\pt\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory\UI\bin\ru\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory\UI\bin\tr-TR\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory\UI\bin\zh-CHS\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory\UI\bin\zh-CHT\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory\UI\obj\Debug\UI.dll
+D:\Grameenbikash Accounting\Inventory\UI\obj\Debug\UI.pdb
+D:\Grameenbikash Accounting\Inventory\UI\bin\OnBarcode.Barcode.ASPNET.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\UI.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\UI.pdb
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\ABLL.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\ADTO.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\AjaxControlToolkit.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\BLL.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\DTO.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\OnBarcode.Barcode.ASPNET.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\ADAL.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\DAL.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\Utility.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\log4net.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\AutoMapper.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\ABLL.pdb
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\ADTO.pdb
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\BLL.pdb
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\DTO.pdb
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\AjaxControlToolkit.pdb
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\ADAL.pdb
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\DAL.pdb
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\Utility.pdb
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\ar\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\cs\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\de\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\es\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\fr\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\he\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\hi\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\it\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\ja\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\ko\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\nl\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\pt\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\ru\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\tr-TR\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\zh-CHS\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\bin\zh-CHT\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\obj\Debug\RdlCompile.cache
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\obj\Debug\RdlCompile.compiled
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\obj\Debug\UI.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\UI\obj\Debug\UI.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\UI.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\UI.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\ABLL.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\ADTO.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\AjaxControlToolkit.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\BLL.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\DTO.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\OnBarcode.Barcode.ASPNET.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\ADAL.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\DAL.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\Utility.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\log4net.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\AutoMapper.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\ABLL.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\ADTO.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\BLL.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\DTO.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\AjaxControlToolkit.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\ADAL.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\DAL.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\Utility.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\ar\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\cs\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\de\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\es\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\fr\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\he\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\hi\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\it\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\ja\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\ko\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\nl\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\pt\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\ru\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\tr-TR\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\zh-CHS\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\bin\zh-CHT\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\obj\Debug\RdlCompile.cache
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\obj\Debug\RdlCompile.compiled
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\obj\Debug\UI.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\UI\obj\Debug\UI.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\UI.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\UI.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\ABLL.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\ADTO.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\AjaxControlToolkit.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\BLL.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\DTO.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\OnBarcode.Barcode.ASPNET.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\ADAL.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\DAL.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\Utility.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\log4net.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\AutoMapper.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\ABLL.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\ADTO.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\BLL.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\DTO.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\AjaxControlToolkit.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\ADAL.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\DAL.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\Utility.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\ar\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\cs\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\de\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\es\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\fr\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\he\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\hi\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\it\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\ja\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\ko\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\nl\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\pt\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\ru\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\tr-TR\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\zh-CHS\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\bin\zh-CHT\AjaxControlToolkit.resources.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\obj\Debug\RdlCompile.cache
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\obj\Debug\RdlCompile.compiled
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\obj\Debug\UI.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\UI\obj\Debug\UI.pdb
+E:\latest\New folder\Inventory\UI\bin\UI.dll
+E:\latest\New folder\Inventory\UI\bin\UI.pdb
+E:\latest\New folder\Inventory\UI\bin\ABLL.dll
+E:\latest\New folder\Inventory\UI\bin\ADTO.dll
+E:\latest\New folder\Inventory\UI\bin\AjaxControlToolkit.dll
+E:\latest\New folder\Inventory\UI\bin\BLL.dll
+E:\latest\New folder\Inventory\UI\bin\DTO.dll
+E:\latest\New folder\Inventory\UI\bin\OnBarcode.Barcode.ASPNET.dll
+E:\latest\New folder\Inventory\UI\bin\ADAL.dll
+E:\latest\New folder\Inventory\UI\bin\DAL.dll
+E:\latest\New folder\Inventory\UI\bin\Utility.dll
+E:\latest\New folder\Inventory\UI\bin\log4net.dll
+E:\latest\New folder\Inventory\UI\bin\AutoMapper.dll
+E:\latest\New folder\Inventory\UI\bin\ABLL.pdb
+E:\latest\New folder\Inventory\UI\bin\ADTO.pdb
+E:\latest\New folder\Inventory\UI\bin\BLL.pdb
+E:\latest\New folder\Inventory\UI\bin\DTO.pdb
+E:\latest\New folder\Inventory\UI\bin\AjaxControlToolkit.pdb
+E:\latest\New folder\Inventory\UI\bin\ADAL.pdb
+E:\latest\New folder\Inventory\UI\bin\DAL.pdb
+E:\latest\New folder\Inventory\UI\bin\Utility.pdb
+E:\latest\New folder\Inventory\UI\bin\ar\AjaxControlToolkit.resources.dll
+E:\latest\New folder\Inventory\UI\bin\cs\AjaxControlToolkit.resources.dll
+E:\latest\New folder\Inventory\UI\bin\de\AjaxControlToolkit.resources.dll
+E:\latest\New folder\Inventory\UI\bin\es\AjaxControlToolkit.resources.dll
+E:\latest\New folder\Inventory\UI\bin\fr\AjaxControlToolkit.resources.dll
+E:\latest\New folder\Inventory\UI\bin\he\AjaxControlToolkit.resources.dll
+E:\latest\New folder\Inventory\UI\bin\hi\AjaxControlToolkit.resources.dll
+E:\latest\New folder\Inventory\UI\bin\it\AjaxControlToolkit.resources.dll
+E:\latest\New folder\Inventory\UI\bin\ja\AjaxControlToolkit.resources.dll
+E:\latest\New folder\Inventory\UI\bin\ko\AjaxControlToolkit.resources.dll
+E:\latest\New folder\Inventory\UI\bin\nl\AjaxControlToolkit.resources.dll
+E:\latest\New folder\Inventory\UI\bin\pt\AjaxControlToolkit.resources.dll
+E:\latest\New folder\Inventory\UI\bin\ru\AjaxControlToolkit.resources.dll
+E:\latest\New folder\Inventory\UI\bin\tr-TR\AjaxControlToolkit.resources.dll
+E:\latest\New folder\Inventory\UI\bin\zh-CHS\AjaxControlToolkit.resources.dll
+E:\latest\New folder\Inventory\UI\bin\zh-CHT\AjaxControlToolkit.resources.dll
+E:\latest\New folder\Inventory\UI\obj\Debug\ResolveAssemblyReference.cache
+E:\latest\New folder\Inventory\UI\obj\Debug\RdlCompile.cache
+E:\latest\New folder\Inventory\UI\obj\Debug\RdlCompile.compiled
+E:\latest\New folder\Inventory\UI\obj\Debug\UI.dll
+E:\latest\New folder\Inventory\UI\obj\Debug\UI.pdb
+D:\Inventory\UI\bin\UI.dll
+D:\Inventory\UI\bin\UI.pdb
+D:\Inventory\UI\bin\ABLL.dll
+D:\Inventory\UI\bin\ADTO.dll
+D:\Inventory\UI\bin\AjaxControlToolkit.dll
+D:\Inventory\UI\bin\BLL.dll
+D:\Inventory\UI\bin\DTO.dll
+D:\Inventory\UI\bin\OnBarcode.Barcode.ASPNET.dll
+D:\Inventory\UI\bin\ADAL.dll
+D:\Inventory\UI\bin\DAL.dll
+D:\Inventory\UI\bin\Utility.dll
+D:\Inventory\UI\bin\log4net.dll
+D:\Inventory\UI\bin\AutoMapper.dll
+D:\Inventory\UI\bin\ABLL.pdb
+D:\Inventory\UI\bin\ADTO.pdb
+D:\Inventory\UI\bin\BLL.pdb
+D:\Inventory\UI\bin\DTO.pdb
+D:\Inventory\UI\bin\AjaxControlToolkit.pdb
+D:\Inventory\UI\bin\ADAL.pdb
+D:\Inventory\UI\bin\DAL.pdb
+D:\Inventory\UI\bin\Utility.pdb
+D:\Inventory\UI\bin\ar\AjaxControlToolkit.resources.dll
+D:\Inventory\UI\bin\cs\AjaxControlToolkit.resources.dll
+D:\Inventory\UI\bin\de\AjaxControlToolkit.resources.dll
+D:\Inventory\UI\bin\es\AjaxControlToolkit.resources.dll
+D:\Inventory\UI\bin\fr\AjaxControlToolkit.resources.dll
+D:\Inventory\UI\bin\he\AjaxControlToolkit.resources.dll
+D:\Inventory\UI\bin\hi\AjaxControlToolkit.resources.dll
+D:\Inventory\UI\bin\it\AjaxControlToolkit.resources.dll
+D:\Inventory\UI\bin\ja\AjaxControlToolkit.resources.dll
+D:\Inventory\UI\bin\ko\AjaxControlToolkit.resources.dll
+D:\Inventory\UI\bin\nl\AjaxControlToolkit.resources.dll
+D:\Inventory\UI\bin\pt\AjaxControlToolkit.resources.dll
+D:\Inventory\UI\bin\ru\AjaxControlToolkit.resources.dll
+D:\Inventory\UI\bin\tr-TR\AjaxControlToolkit.resources.dll
+D:\Inventory\UI\bin\zh-CHS\AjaxControlToolkit.resources.dll
+D:\Inventory\UI\bin\zh-CHT\AjaxControlToolkit.resources.dll
+D:\Inventory\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+D:\Inventory\UI\obj\Debug\RdlCompile.cache
+D:\Inventory\UI\obj\Debug\RdlCompile.compiled
+D:\Inventory\UI\obj\Debug\UI.dll
+D:\Inventory\UI\obj\Debug\UI.pdb
+D:\Raowa Club (BAR)\UI\bin\UI.dll
+D:\Raowa Club (BAR)\UI\bin\UI.pdb
+D:\Raowa Club (BAR)\UI\bin\ABLL.dll
+D:\Raowa Club (BAR)\UI\bin\ADTO.dll
+D:\Raowa Club (BAR)\UI\bin\AjaxControlToolkit.dll
+D:\Raowa Club (BAR)\UI\bin\BLL.dll
+D:\Raowa Club (BAR)\UI\bin\DTO.dll
+D:\Raowa Club (BAR)\UI\bin\OnBarcode.Barcode.ASPNET.dll
+D:\Raowa Club (BAR)\UI\bin\ADAL.dll
+D:\Raowa Club (BAR)\UI\bin\DAL.dll
+D:\Raowa Club (BAR)\UI\bin\Utility.dll
+D:\Raowa Club (BAR)\UI\bin\log4net.dll
+D:\Raowa Club (BAR)\UI\bin\AutoMapper.dll
+D:\Raowa Club (BAR)\UI\bin\ABLL.pdb
+D:\Raowa Club (BAR)\UI\bin\ADTO.pdb
+D:\Raowa Club (BAR)\UI\bin\BLL.pdb
+D:\Raowa Club (BAR)\UI\bin\DTO.pdb
+D:\Raowa Club (BAR)\UI\bin\AjaxControlToolkit.pdb
+D:\Raowa Club (BAR)\UI\bin\ADAL.pdb
+D:\Raowa Club (BAR)\UI\bin\DAL.pdb
+D:\Raowa Club (BAR)\UI\bin\Utility.pdb
+D:\Raowa Club (BAR)\UI\bin\ar\AjaxControlToolkit.resources.dll
+D:\Raowa Club (BAR)\UI\bin\cs\AjaxControlToolkit.resources.dll
+D:\Raowa Club (BAR)\UI\bin\de\AjaxControlToolkit.resources.dll
+D:\Raowa Club (BAR)\UI\bin\es\AjaxControlToolkit.resources.dll
+D:\Raowa Club (BAR)\UI\bin\fr\AjaxControlToolkit.resources.dll
+D:\Raowa Club (BAR)\UI\bin\he\AjaxControlToolkit.resources.dll
+D:\Raowa Club (BAR)\UI\bin\hi\AjaxControlToolkit.resources.dll
+D:\Raowa Club (BAR)\UI\bin\it\AjaxControlToolkit.resources.dll
+D:\Raowa Club (BAR)\UI\bin\ja\AjaxControlToolkit.resources.dll
+D:\Raowa Club (BAR)\UI\bin\ko\AjaxControlToolkit.resources.dll
+D:\Raowa Club (BAR)\UI\bin\nl\AjaxControlToolkit.resources.dll
+D:\Raowa Club (BAR)\UI\bin\pt\AjaxControlToolkit.resources.dll
+D:\Raowa Club (BAR)\UI\bin\ru\AjaxControlToolkit.resources.dll
+D:\Raowa Club (BAR)\UI\bin\tr-TR\AjaxControlToolkit.resources.dll
+D:\Raowa Club (BAR)\UI\bin\zh-CHS\AjaxControlToolkit.resources.dll
+D:\Raowa Club (BAR)\UI\bin\zh-CHT\AjaxControlToolkit.resources.dll
+D:\Raowa Club (BAR)\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+D:\Raowa Club (BAR)\UI\obj\Debug\RdlCompile.cache
+D:\Raowa Club (BAR)\UI\obj\Debug\RdlCompile.compiled
+D:\Raowa Club (BAR)\UI\obj\Debug\UI.dll
+D:\Raowa Club (BAR)\UI\obj\Debug\UI.pdb

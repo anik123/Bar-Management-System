@@ -1,0 +1,899 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="DBAccount" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+  <EntityContainer Name="InventoryContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AccBalanceSheetRpts" EntityType="DBAccount.AccBalanceSheetRpt" />
+    <EntitySet Name="AccBalanceSheetRpts1" EntityType="DBAccount.AccBalanceSheetRpt1" />
+    <EntitySet Name="AccCashFlowEntities" EntityType="DBAccount.AccCashFlowEntity" />
+    <EntitySet Name="AccCashFlowEntities1" EntityType="DBAccount.AccCashFlowEntity1" />
+    <EntitySet Name="AccCashFlowReports" EntityType="DBAccount.AccCashFlowReport" />
+    <EntitySet Name="AccCashFlowReports1" EntityType="DBAccount.AccCashFlowReport1" />
+    <EntitySet Name="AccCOAInfoes" EntityType="DBAccount.AccCOAInfo" />
+    <EntitySet Name="AccIncomeStatementRpts" EntityType="DBAccount.AccIncomeStatementRpt" />
+    <EntitySet Name="AccIncomeStatementRpts1" EntityType="DBAccount.AccIncomeStatementRpt1" />
+    <EntitySet Name="AccJournalEntries" EntityType="DBAccount.AccJournalEntry" />
+    <EntitySet Name="AccJournalEntries1" EntityType="DBAccount.AccJournalEntry1" />
+    <EntitySet Name="AccLedgers" EntityType="DBAccount.AccLedger" />
+    <EntitySet Name="AccLedgers1" EntityType="DBAccount.AccLedger1" />
+    <EntitySet Name="AccLiabilitiesRpts" EntityType="DBAccount.AccLiabilitiesRpt" />
+    <EntitySet Name="AccLiabilitiesRpts1" EntityType="DBAccount.AccLiabilitiesRpt1" />
+    <EntitySet Name="AccMainHeads" EntityType="DBAccount.AccMainHead" />
+    <EntitySet Name="AccMainVouchers" EntityType="DBAccount.AccMainVoucher" />
+    <EntitySet Name="AccSubCode1" EntityType="DBAccount.AccSubCode1" />
+    <EntitySet Name="AccSubCode2" EntityType="DBAccount.AccSubCode2" />
+    <EntitySet Name="AccSubVouchers" EntityType="DBAccount.AccSubVoucher" />
+    <EntitySet Name="DDLTests" EntityType="DBAccount.DDLTest" />
+    <EntitySet Name="EmpEducations" EntityType="DBAccount.EmpEducation" />
+    <EntitySet Name="EmpExperienceInfoes" EntityType="DBAccount.EmpExperienceInfo" />
+    <EntitySet Name="Employees" EntityType="DBAccount.Employee" />
+    <EntitySet Name="EmpSpecialists" EntityType="DBAccount.EmpSpecialist" />
+    <EntitySet Name="EmpTrainings" EntityType="DBAccount.EmpTraining" />
+    <EntitySet Name="EmpTypes" EntityType="DBAccount.EmpType" />
+    <EntitySet Name="Log_AccJournal" EntityType="DBAccount.Log_AccJournal" />
+    <EntitySet Name="PayRoles" EntityType="DBAccount.PayRole" />
+    <EntitySet Name="PayRoles1" EntityType="DBAccount.PayRole1" />
+    <EntitySet Name="PayUserRoles" EntityType="DBAccount.PayUserRole" />
+    <EntitySet Name="PayUserRoles1" EntityType="DBAccount.PayUserRole1" />
+    <AssociationSet Name="FK_AccBalanceSheetRpt_AccMainHeads" Association="DBAccount.FK_AccBalanceSheetRpt_AccMainHeads">
+      <End Role="AccMainHead" EntitySet="AccMainHeads" />
+      <End Role="AccBalanceSheetRpt" EntitySet="AccBalanceSheetRpts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccBalanceSheetRpt_AccSubCode1" Association="DBAccount.FK_AccBalanceSheetRpt_AccSubCode1">
+      <End Role="AccSubCode1" EntitySet="AccSubCode1" />
+      <End Role="AccBalanceSheetRpt" EntitySet="AccBalanceSheetRpts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CashFlowReport_CashFlowEntity" Association="DBAccount.FK_CashFlowReport_CashFlowEntity">
+      <End Role="AccCashFlowEntity1" EntitySet="AccCashFlowEntities1" />
+      <End Role="AccCashFlowReport" EntitySet="AccCashFlowReports" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccCashFlowReport_AccSubCode1" Association="DBAccount.FK_AccCashFlowReport_AccSubCode1">
+      <End Role="AccSubCode1" EntitySet="AccSubCode1" />
+      <End Role="AccCashFlowReport" EntitySet="AccCashFlowReports" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CashFlowReport_AccCOAInfoes" Association="DBAccount.FK_CashFlowReport_AccCOAInfoes">
+      <End Role="AccCOAInfo" EntitySet="AccCOAInfoes" />
+      <End Role="AccCashFlowReport" EntitySet="AccCashFlowReports" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccCOAInfo_AccSubCode2" Association="DBAccount.FK_AccCOAInfo_AccSubCode2">
+      <End Role="AccSubCode2" EntitySet="AccSubCode2" />
+      <End Role="AccCOAInfo" EntitySet="AccCOAInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccJournalEntry_AccCOAInfoes" Association="DBAccount.FK_AccJournalEntry_AccCOAInfoes">
+      <End Role="AccCOAInfo" EntitySet="AccCOAInfoes" />
+      <End Role="AccJournalEntry1" EntitySet="AccJournalEntries1" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccIncomeStatementRpt_AccMainHeads" Association="DBAccount.FK_AccIncomeStatementRpt_AccMainHeads">
+      <End Role="AccMainHead" EntitySet="AccMainHeads" />
+      <End Role="AccIncomeStatementRpt" EntitySet="AccIncomeStatementRpts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccJournalEntry_AccSubCode2" Association="DBAccount.FK_AccJournalEntry_AccSubCode2">
+      <End Role="AccSubCode2" EntitySet="AccSubCode2" />
+      <End Role="AccJournalEntry1" EntitySet="AccJournalEntries1" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccJournalEntry_AccSubVouchers" Association="DBAccount.FK_AccJournalEntry_AccSubVouchers">
+      <End Role="AccSubVoucher" EntitySet="AccSubVouchers" />
+      <End Role="AccJournalEntry1" EntitySet="AccJournalEntries1" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccLedger_AccJournalEntry" Association="DBAccount.FK_AccLedger_AccJournalEntry">
+      <End Role="AccJournalEntry1" EntitySet="AccJournalEntries1" />
+      <End Role="AccLedger" EntitySet="AccLedgers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccLiabilitiesRpt_AccMainHeads" Association="DBAccount.FK_AccLiabilitiesRpt_AccMainHeads">
+      <End Role="AccMainHead" EntitySet="AccMainHeads" />
+      <End Role="AccLiabilitiesRpt" EntitySet="AccLiabilitiesRpts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccSubCode1_AccMainHeads" Association="DBAccount.FK_AccSubCode1_AccMainHeads">
+      <End Role="AccMainHead" EntitySet="AccMainHeads" />
+      <End Role="AccSubCode1" EntitySet="AccSubCode1" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccSubCode2_AccMainHeads" Association="DBAccount.FK_AccSubCode2_AccMainHeads">
+      <End Role="AccMainHead" EntitySet="AccMainHeads" />
+      <End Role="AccSubCode2" EntitySet="AccSubCode2" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccSubCode2_AccSubCode1" Association="DBAccount.FK_AccSubCode2_AccSubCode1">
+      <End Role="AccSubCode1" EntitySet="AccSubCode1" />
+      <End Role="AccSubCode2" EntitySet="AccSubCode2" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EmpEducations_Employees" Association="DBAccount.FK_EmpEducations_Employees">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="EmpEducation" EntitySet="EmpEducations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EmpExperienceInfoes_Employees" Association="DBAccount.FK_EmpExperienceInfoes_Employees">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="EmpExperienceInfo" EntitySet="EmpExperienceInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EmpTrainings_Employees" Association="DBAccount.FK_EmpTrainings_Employees">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="EmpTraining" EntitySet="EmpTrainings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PayUserRole_Employees1" Association="DBAccount.FK_PayUserRole_Employees1">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="PayUserRole" EntitySet="PayUserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EmpSpecialists_EmpTypes" Association="DBAccount.FK_EmpSpecialists_EmpTypes">
+      <End Role="EmpType" EntitySet="EmpTypes" />
+      <End Role="EmpSpecialist" EntitySet="EmpSpecialists" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PayUserRole_PayRole" Association="DBAccount.FK_PayUserRole_PayRole">
+      <End Role="PayRole" EntitySet="PayRoles" />
+      <End Role="PayUserRole" EntitySet="PayUserRoles" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="AccBalanceSheetRpt">
+    <Key>
+      <PropertyRef Name="BalanceShtId" />
+    </Key>
+    <Property Type="Int32" Name="BalanceShtId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="MainHeadId" />
+    <Property Type="Int32" Name="SubCode1Id" />
+    <Property Type="String" Name="CreateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="String" Name="UpdateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Priority" />
+    <Property Type="String" Name="ActiveStatus" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="AccMainHead" Relationship="DBAccount.FK_AccBalanceSheetRpt_AccMainHeads" FromRole="AccBalanceSheetRpt" ToRole="AccMainHead" />
+    <NavigationProperty Name="AccSubCode1" Relationship="DBAccount.FK_AccBalanceSheetRpt_AccSubCode1" FromRole="AccBalanceSheetRpt" ToRole="AccSubCode1" />
+  </EntityType>
+  <EntityType Name="AccBalanceSheetRpt1">
+    <Key>
+      <PropertyRef Name="BalanceShtId" />
+    </Key>
+    <Property Type="Int32" Name="BalanceShtId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="MainHeadId" />
+    <Property Type="Int32" Name="SubCode1Id" />
+    <Property Type="String" Name="CreateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="String" Name="UpdateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Priority" />
+    <Property Type="String" Name="ActiveStatus" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="AccCashFlowEntity">
+    <Key>
+      <PropertyRef Name="CFEId" />
+    </Key>
+    <Property Type="Int32" Name="CFEId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="CFEName" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Priority" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="String" Name="CreateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="String" Name="UpdateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="AccCashFlowEntity1">
+    <Key>
+      <PropertyRef Name="CFEId" />
+    </Key>
+    <Property Type="Int32" Name="CFEId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="CFEName" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Priority" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="String" Name="CreateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="String" Name="UpdateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="AccCashFlowReports" Relationship="DBAccount.FK_CashFlowReport_CashFlowEntity" FromRole="AccCashFlowEntity1" ToRole="AccCashFlowReport" />
+  </EntityType>
+  <EntityType Name="AccCashFlowReport">
+    <Key>
+      <PropertyRef Name="CFRId" />
+    </Key>
+    <Property Type="Int32" Name="CFRId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="CFEId" />
+    <Property Type="String" Name="ActiveStatus" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="SubCode_1Id" />
+    <Property Type="Int32" Name="COAId" />
+    <Property Type="String" Name="CreateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="String" Name="UpdateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <NavigationProperty Name="AccCashFlowEntity" Relationship="DBAccount.FK_CashFlowReport_CashFlowEntity" FromRole="AccCashFlowReport" ToRole="AccCashFlowEntity1" />
+    <NavigationProperty Name="AccSubCode1" Relationship="DBAccount.FK_AccCashFlowReport_AccSubCode1" FromRole="AccCashFlowReport" ToRole="AccSubCode1" />
+    <NavigationProperty Name="AccCOAInfo" Relationship="DBAccount.FK_CashFlowReport_AccCOAInfoes" FromRole="AccCashFlowReport" ToRole="AccCOAInfo" />
+  </EntityType>
+  <EntityType Name="AccCashFlowReport1">
+    <Key>
+      <PropertyRef Name="CFRId" />
+    </Key>
+    <Property Type="Int32" Name="CFRId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="CFEId" />
+    <Property Type="String" Name="ActiveStatus" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="SubCode_1Id" />
+    <Property Type="Int32" Name="COAId" />
+    <Property Type="String" Name="CreateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="String" Name="UpdateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="UpdateDate" />
+  </EntityType>
+  <EntityType Name="AccCOAInfo">
+    <Key>
+      <PropertyRef Name="COAId" />
+    </Key>
+    <Property Type="Int32" Name="COAId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="COAACCId" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="AccountName" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Int64" Name="AID" />
+    <Property Type="Int32" Name="SubCode_2Id" />
+    <Property Type="Int64" Name="APPID" />
+    <Property Type="String" Name="Description" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Status" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="Double" Name="Balance" />
+    <Property Type="DateTime" Name="OpeningDate" />
+    <Property Type="String" Name="OpenBy" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="String" Name="UpdateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="AccCashFlowReports" Relationship="DBAccount.FK_CashFlowReport_AccCOAInfoes" FromRole="AccCOAInfo" ToRole="AccCashFlowReport" />
+    <NavigationProperty Name="AccSubCode2" Relationship="DBAccount.FK_AccCOAInfo_AccSubCode2" FromRole="AccCOAInfo" ToRole="AccSubCode2" />
+    <NavigationProperty Name="AccJournalEntries" Relationship="DBAccount.FK_AccJournalEntry_AccCOAInfoes" FromRole="AccCOAInfo" ToRole="AccJournalEntry1" />
+  </EntityType>
+  <EntityType Name="AccIncomeStatementRpt">
+    <Key>
+      <PropertyRef Name="InStaRptId" />
+    </Key>
+    <Property Type="Int32" Name="InStaRptId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="MainHeadId" />
+    <Property Type="Int32" Name="SubCode1Id" />
+    <Property Type="String" Name="CreateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="String" Name="UpdateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Priority" />
+    <Property Type="String" Name="ActiveStatus" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="AccMainHead" Relationship="DBAccount.FK_AccIncomeStatementRpt_AccMainHeads" FromRole="AccIncomeStatementRpt" ToRole="AccMainHead" />
+  </EntityType>
+  <EntityType Name="AccIncomeStatementRpt1">
+    <Key>
+      <PropertyRef Name="InStaRptId" />
+    </Key>
+    <Property Type="Int32" Name="InStaRptId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="MainHeadId" />
+    <Property Type="Int32" Name="SubCode1Id" />
+    <Property Type="String" Name="CreateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="String" Name="UpdateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Priority" />
+    <Property Type="String" Name="ActiveStatus" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="AccJournalEntry">
+    <Key>
+      <PropertyRef Name="JournalId" />
+    </Key>
+    <Property Type="Int32" Name="JournalId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="SubCode2Id" />
+    <Property Type="Int32" Name="COAId" />
+    <Property Type="Int32" Name="SubVoucherId" />
+    <Property Type="Int32" Name="TransectionNo" Nullable="false" />
+    <Property Type="String" Name="JournalType" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Double" Name="DRAmount" />
+    <Property Type="Double" Name="CRAmount" />
+    <Property Type="String" Name="VONO" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="MRNO" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="TransectionDate" />
+    <Property Type="String" Name="Remarks" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="PostLeadgerStatus" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="String" Name="CreateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UpdateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="UpdateDate" />
+  </EntityType>
+  <EntityType Name="AccJournalEntry1">
+    <Key>
+      <PropertyRef Name="JournalId" />
+    </Key>
+    <Property Type="Int32" Name="JournalId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="SubCode2Id" />
+    <Property Type="Int32" Name="COAId" />
+    <Property Type="Int32" Name="SubVoucherId" />
+    <Property Type="Int32" Name="TransectionNo" Nullable="false" />
+    <Property Type="String" Name="JournalType" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Double" Name="DRAmount" />
+    <Property Type="Double" Name="CRAmount" />
+    <Property Type="String" Name="VONO" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="MRNO" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="TransectionDate" />
+    <Property Type="String" Name="Remarks" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="PostLeadgerStatus" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="String" Name="CreateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UpdateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <NavigationProperty Name="AccCOAInfo" Relationship="DBAccount.FK_AccJournalEntry_AccCOAInfoes" FromRole="AccJournalEntry1" ToRole="AccCOAInfo" />
+    <NavigationProperty Name="AccSubCode2" Relationship="DBAccount.FK_AccJournalEntry_AccSubCode2" FromRole="AccJournalEntry1" ToRole="AccSubCode2" />
+    <NavigationProperty Name="AccSubVoucher" Relationship="DBAccount.FK_AccJournalEntry_AccSubVouchers" FromRole="AccJournalEntry1" ToRole="AccSubVoucher" />
+    <NavigationProperty Name="AccLedgers" Relationship="DBAccount.FK_AccLedger_AccJournalEntry" FromRole="AccJournalEntry1" ToRole="AccLedger" />
+  </EntityType>
+  <EntityType Name="AccLedger">
+    <Key>
+      <PropertyRef Name="LedgerId" />
+    </Key>
+    <Property Type="Int32" Name="LedgerId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="JournalId" />
+    <Property Type="Double" Name="OPBAL" />
+    <Property Type="Double" Name="DRAmount" />
+    <Property Type="Double" Name="CRAmount" />
+    <Property Type="Double" Name="CLBAL" />
+    <Property Type="String" Name="CreateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <NavigationProperty Name="AccJournalEntry" Relationship="DBAccount.FK_AccLedger_AccJournalEntry" FromRole="AccLedger" ToRole="AccJournalEntry1" />
+  </EntityType>
+  <EntityType Name="AccLedger1">
+    <Key>
+      <PropertyRef Name="LedgerId" />
+    </Key>
+    <Property Type="Int32" Name="LedgerId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="JournalId" />
+    <Property Type="Double" Name="OPBAL" />
+    <Property Type="Double" Name="DRAmount" />
+    <Property Type="Double" Name="CRAmount" />
+    <Property Type="Double" Name="CLBAL" />
+    <Property Type="String" Name="CreateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+  </EntityType>
+  <EntityType Name="AccLiabilitiesRpt">
+    <Key>
+      <PropertyRef Name="LiabRptId" />
+    </Key>
+    <Property Type="Int32" Name="LiabRptId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="MainHeadId" />
+    <Property Type="Int32" Name="SubCode1Id" />
+    <Property Type="String" Name="CreateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="String" Name="UpdateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Priority" />
+    <Property Type="String" Name="ActiveStatus" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="AccMainHead" Relationship="DBAccount.FK_AccLiabilitiesRpt_AccMainHeads" FromRole="AccLiabilitiesRpt" ToRole="AccMainHead" />
+  </EntityType>
+  <EntityType Name="AccLiabilitiesRpt1">
+    <Key>
+      <PropertyRef Name="LiabRptId" />
+    </Key>
+    <Property Type="Int32" Name="LiabRptId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="MainHeadId" />
+    <Property Type="Int32" Name="SubCode1Id" />
+    <Property Type="String" Name="CreateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="String" Name="UpdateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Priority" />
+    <Property Type="String" Name="ActiveStatus" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="AccMainHead">
+    <Key>
+      <PropertyRef Name="MainHeadId" />
+    </Key>
+    <Property Type="Int32" Name="MainHeadId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="MainHadeNum" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MainHeadName" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Description" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="String" Name="CreateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UpdateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Int32" Name="AID" />
+    <NavigationProperty Name="AccBalanceSheetRpts" Relationship="DBAccount.FK_AccBalanceSheetRpt_AccMainHeads" FromRole="AccMainHead" ToRole="AccBalanceSheetRpt" />
+    <NavigationProperty Name="AccIncomeStatementRpts" Relationship="DBAccount.FK_AccIncomeStatementRpt_AccMainHeads" FromRole="AccMainHead" ToRole="AccIncomeStatementRpt" />
+    <NavigationProperty Name="AccLiabilitiesRpts" Relationship="DBAccount.FK_AccLiabilitiesRpt_AccMainHeads" FromRole="AccMainHead" ToRole="AccLiabilitiesRpt" />
+    <NavigationProperty Name="AccSubCode1" Relationship="DBAccount.FK_AccSubCode1_AccMainHeads" FromRole="AccMainHead" ToRole="AccSubCode1" />
+    <NavigationProperty Name="AccSubCode2" Relationship="DBAccount.FK_AccSubCode2_AccMainHeads" FromRole="AccMainHead" ToRole="AccSubCode2" />
+  </EntityType>
+  <EntityType Name="AccMainVoucher">
+    <Key>
+      <PropertyRef Name="MainVoucherId" />
+    </Key>
+    <Property Type="Int32" Name="MainVoucherId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="MainVoucherCode" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MainVoucherName" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CreateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="String" Name="UpdateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="UpdateDate" />
+  </EntityType>
+  <EntityType Name="AccSubCode1">
+    <Key>
+      <PropertyRef Name="SubCode_1Id" />
+    </Key>
+    <Property Type="Int32" Name="SubCode_1Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="SubCode_1Num" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="SubCode_1Name" MaxLength="550" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="AID" />
+    <Property Type="String" Name="Description" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="MainHeadId" />
+    <Property Type="String" Name="CreateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="String" Name="UpdateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="Int32" Name="AssetType" />
+    <Property Type="Double" Name="Balance" />
+    <NavigationProperty Name="AccBalanceSheetRpts" Relationship="DBAccount.FK_AccBalanceSheetRpt_AccSubCode1" FromRole="AccSubCode1" ToRole="AccBalanceSheetRpt" />
+    <NavigationProperty Name="AccCashFlowReports" Relationship="DBAccount.FK_AccCashFlowReport_AccSubCode1" FromRole="AccSubCode1" ToRole="AccCashFlowReport" />
+    <NavigationProperty Name="AccMainHead" Relationship="DBAccount.FK_AccSubCode1_AccMainHeads" FromRole="AccSubCode1" ToRole="AccMainHead" />
+    <NavigationProperty Name="AccSubCode2" Relationship="DBAccount.FK_AccSubCode2_AccSubCode1" FromRole="AccSubCode1" ToRole="AccSubCode2" />
+  </EntityType>
+  <EntityType Name="AccSubCode2">
+    <Key>
+      <PropertyRef Name="SubCode2_Id" />
+    </Key>
+    <Property Type="Int32" Name="SubCode2_Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="SubCode2_Num" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="SubCode_2Name" MaxLength="550" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="AID" />
+    <Property Type="String" Name="Description" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="MainHeadId" />
+    <Property Type="Int32" Name="SubCode_1Id" />
+    <Property Type="Double" Name="Balance" />
+    <Property Type="Int32" Name="AssetType" />
+    <Property Type="String" Name="CreateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="String" Name="UpdateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="String" Name="Depreciation" MaxLength="550" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="AccCOAInfoes" Relationship="DBAccount.FK_AccCOAInfo_AccSubCode2" FromRole="AccSubCode2" ToRole="AccCOAInfo" />
+    <NavigationProperty Name="AccJournalEntries" Relationship="DBAccount.FK_AccJournalEntry_AccSubCode2" FromRole="AccSubCode2" ToRole="AccJournalEntry1" />
+    <NavigationProperty Name="AccMainHead" Relationship="DBAccount.FK_AccSubCode2_AccMainHeads" FromRole="AccSubCode2" ToRole="AccMainHead" />
+    <NavigationProperty Name="AccSubCode1" Relationship="DBAccount.FK_AccSubCode2_AccSubCode1" FromRole="AccSubCode2" ToRole="AccSubCode1" />
+  </EntityType>
+  <EntityType Name="AccSubVoucher">
+    <Key>
+      <PropertyRef Name="SubVoucherId" />
+    </Key>
+    <Property Type="Int32" Name="SubVoucherId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="SubVoucherCode" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SubVoucherName" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="MainVoucherId" />
+    <Property Type="String" Name="CreateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="String" Name="UpdateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <NavigationProperty Name="AccJournalEntries" Relationship="DBAccount.FK_AccJournalEntry_AccSubVouchers" FromRole="AccSubVoucher" ToRole="AccJournalEntry1" />
+  </EntityType>
+  <EntityType Name="DDLTest">
+    <Key>
+      <PropertyRef Name="DDLId" />
+    </Key>
+    <Property Type="Int32" Name="DDLId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="DDLName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="ParentId" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EmpEducation">
+    <Key>
+      <PropertyRef Name="EduId" />
+    </Key>
+    <Property Type="Int32" Name="EduId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="EmpId" />
+    <Property Type="String" Name="ResultType" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Division" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Cgpa" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="InstituteName" MaxLength="550" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Board" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PassingYear" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Eximination" MaxLength="550" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CreateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="Updatedate" />
+    <Property Type="String" Name="UpdateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Note" MaxLength="500" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Employee" Relationship="DBAccount.FK_EmpEducations_Employees" FromRole="EmpEducation" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="EmpExperienceInfo">
+    <Key>
+      <PropertyRef Name="ExperienceId" />
+    </Key>
+    <Property Type="Int32" Name="ExperienceId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="EmpId" />
+    <Property Type="String" Name="Disignation" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FromDate" />
+    <Property Type="DateTime" Name="ToDate" />
+    <Property Type="String" Name="OrganizationName" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Responsibility" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="String" Name="CreateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UpdateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="String" Name="Year" MaxLength="500" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Employee" Relationship="DBAccount.FK_EmpExperienceInfoes_Employees" FromRole="EmpExperienceInfo" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="EmpId" />
+    </Key>
+    <Property Type="Int32" Name="EmpId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="EmpName" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="SurName" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Gender" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Age" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="DOB" />
+    <Property Type="String" Name="Address" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Phone" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Mobile1" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Mobile2" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Email" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="JoinDate" />
+    <Property Type="String" Name="NationalID" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="CreateBy" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="String" Name="UpdateBy" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="String" Name="MotherName" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="FatherName" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PermanentAdd" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Nationality" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Merital" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Religion" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ImageName" MaxLength="550" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="EmpSpecilistId" Nullable="false" />
+    <Property Type="Int32" Name="EmpTypeId" Nullable="false" />
+    <Property Type="String" Name="JobType" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="JobStatus" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ReferenceBy" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="RefContactNum" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="FamilyContactNum" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="OtizmStatus" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="OtizmType" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UserName" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Password" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="EduStatus" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TariningStatus" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ExperienceStatus" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SalaryStatus" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LocationStatus" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="DiscountStatus" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="EmpEducations" Relationship="DBAccount.FK_EmpEducations_Employees" FromRole="Employee" ToRole="EmpEducation" />
+    <NavigationProperty Name="EmpExperienceInfoes" Relationship="DBAccount.FK_EmpExperienceInfoes_Employees" FromRole="Employee" ToRole="EmpExperienceInfo" />
+    <NavigationProperty Name="EmpTrainings" Relationship="DBAccount.FK_EmpTrainings_Employees" FromRole="Employee" ToRole="EmpTraining" />
+    <NavigationProperty Name="PayUserRoles" Relationship="DBAccount.FK_PayUserRole_Employees1" FromRole="Employee" ToRole="PayUserRole" />
+  </EntityType>
+  <EntityType Name="EmpSpecialist">
+    <Key>
+      <PropertyRef Name="EmpSpecilistId" />
+    </Key>
+    <Property Type="Int32" Name="EmpSpecilistId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Specialist" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="EmpTypeId" Nullable="false" />
+    <Property Type="String" Name="CreateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="String" Name="UpdateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <NavigationProperty Name="EmpType" Relationship="DBAccount.FK_EmpSpecialists_EmpTypes" FromRole="EmpSpecialist" ToRole="EmpType" />
+  </EntityType>
+  <EntityType Name="EmpTraining">
+    <Key>
+      <PropertyRef Name="TrainingId" />
+    </Key>
+    <Property Type="Int32" Name="TrainingId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="EmpId" />
+    <Property Type="String" Name="TrainingName" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TopicsCovered" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="InstituteName" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Location" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TrainingYear" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Duration" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="String" Name="CreateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UpdateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <NavigationProperty Name="Employee" Relationship="DBAccount.FK_EmpTrainings_Employees" FromRole="EmpTraining" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="EmpType">
+    <Key>
+      <PropertyRef Name="EmpTypeId" />
+    </Key>
+    <Property Type="Int32" Name="EmpTypeId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="TypeName" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="CreateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UpdateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <NavigationProperty Name="EmpSpecialists" Relationship="DBAccount.FK_EmpSpecialists_EmpTypes" FromRole="EmpType" ToRole="EmpSpecialist" />
+  </EntityType>
+  <EntityType Name="Log_AccJournal">
+    <Key>
+      <PropertyRef Name="LogJournalId" />
+    </Key>
+    <Property Type="Int32" Name="LogJournalId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="LogField" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="LogDate" />
+    <Property Type="String" Name="LogBy" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="PayRole">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Type="Int32" Name="RoleId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="RoleName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CreateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="String" Name="UpdateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <NavigationProperty Name="PayUserRoles" Relationship="DBAccount.FK_PayUserRole_PayRole" FromRole="PayRole" ToRole="PayUserRole" />
+  </EntityType>
+  <EntityType Name="PayRole1">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Type="Int32" Name="RoleId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="RoleName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CreateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="String" Name="UpdateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="UpdateDate" />
+  </EntityType>
+  <EntityType Name="PayUserRole">
+    <Key>
+      <PropertyRef Name="UserRoleId" />
+    </Key>
+    <Property Type="Int32" Name="UserRoleId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="EmpId" Nullable="false" />
+    <Property Type="Int32" Name="RoleId" Nullable="false" />
+    <Property Type="String" Name="CreateBy" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="String" Name="UpdateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <NavigationProperty Name="Employee" Relationship="DBAccount.FK_PayUserRole_Employees1" FromRole="PayUserRole" ToRole="Employee" />
+    <NavigationProperty Name="PayRole" Relationship="DBAccount.FK_PayUserRole_PayRole" FromRole="PayUserRole" ToRole="PayRole" />
+  </EntityType>
+  <EntityType Name="PayUserRole1">
+    <Key>
+      <PropertyRef Name="UserRoleId" />
+    </Key>
+    <Property Type="Int32" Name="UserRoleId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="EmpId" Nullable="false" />
+    <Property Type="Int32" Name="RoleId" Nullable="false" />
+    <Property Type="String" Name="CreateBy" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="CreateDate" />
+    <Property Type="String" Name="UpdateBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="UpdateDate" />
+  </EntityType>
+  <Association Name="FK_AccBalanceSheetRpt_AccMainHeads">
+    <End Type="DBAccount.AccMainHead" Role="AccMainHead" Multiplicity="0..1" />
+    <End Type="DBAccount.AccBalanceSheetRpt" Role="AccBalanceSheetRpt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccMainHead">
+        <PropertyRef Name="MainHeadId" />
+      </Principal>
+      <Dependent Role="AccBalanceSheetRpt">
+        <PropertyRef Name="MainHeadId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccBalanceSheetRpt_AccSubCode1">
+    <End Type="DBAccount.AccSubCode1" Role="AccSubCode1" Multiplicity="0..1" />
+    <End Type="DBAccount.AccBalanceSheetRpt" Role="AccBalanceSheetRpt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccSubCode1">
+        <PropertyRef Name="SubCode_1Id" />
+      </Principal>
+      <Dependent Role="AccBalanceSheetRpt">
+        <PropertyRef Name="SubCode1Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CashFlowReport_CashFlowEntity">
+    <End Type="DBAccount.AccCashFlowEntity1" Role="AccCashFlowEntity1" Multiplicity="0..1" />
+    <End Type="DBAccount.AccCashFlowReport" Role="AccCashFlowReport" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccCashFlowEntity1">
+        <PropertyRef Name="CFEId" />
+      </Principal>
+      <Dependent Role="AccCashFlowReport">
+        <PropertyRef Name="CFEId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccCashFlowReport_AccSubCode1">
+    <End Type="DBAccount.AccSubCode1" Role="AccSubCode1" Multiplicity="0..1" />
+    <End Type="DBAccount.AccCashFlowReport" Role="AccCashFlowReport" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccSubCode1">
+        <PropertyRef Name="SubCode_1Id" />
+      </Principal>
+      <Dependent Role="AccCashFlowReport">
+        <PropertyRef Name="SubCode_1Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CashFlowReport_AccCOAInfoes">
+    <End Type="DBAccount.AccCOAInfo" Role="AccCOAInfo" Multiplicity="0..1" />
+    <End Type="DBAccount.AccCashFlowReport" Role="AccCashFlowReport" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccCOAInfo">
+        <PropertyRef Name="COAId" />
+      </Principal>
+      <Dependent Role="AccCashFlowReport">
+        <PropertyRef Name="COAId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccCOAInfo_AccSubCode2">
+    <End Type="DBAccount.AccSubCode2" Role="AccSubCode2" Multiplicity="0..1" />
+    <End Type="DBAccount.AccCOAInfo" Role="AccCOAInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccSubCode2">
+        <PropertyRef Name="SubCode2_Id" />
+      </Principal>
+      <Dependent Role="AccCOAInfo">
+        <PropertyRef Name="SubCode_2Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccJournalEntry_AccCOAInfoes">
+    <End Type="DBAccount.AccCOAInfo" Role="AccCOAInfo" Multiplicity="0..1" />
+    <End Type="DBAccount.AccJournalEntry1" Role="AccJournalEntry1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccCOAInfo">
+        <PropertyRef Name="COAId" />
+      </Principal>
+      <Dependent Role="AccJournalEntry1">
+        <PropertyRef Name="COAId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccIncomeStatementRpt_AccMainHeads">
+    <End Type="DBAccount.AccMainHead" Role="AccMainHead" Multiplicity="0..1" />
+    <End Type="DBAccount.AccIncomeStatementRpt" Role="AccIncomeStatementRpt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccMainHead">
+        <PropertyRef Name="MainHeadId" />
+      </Principal>
+      <Dependent Role="AccIncomeStatementRpt">
+        <PropertyRef Name="MainHeadId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccJournalEntry_AccSubCode2">
+    <End Type="DBAccount.AccSubCode2" Role="AccSubCode2" Multiplicity="0..1" />
+    <End Type="DBAccount.AccJournalEntry1" Role="AccJournalEntry1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccSubCode2">
+        <PropertyRef Name="SubCode2_Id" />
+      </Principal>
+      <Dependent Role="AccJournalEntry1">
+        <PropertyRef Name="SubCode2Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccJournalEntry_AccSubVouchers">
+    <End Type="DBAccount.AccSubVoucher" Role="AccSubVoucher" Multiplicity="0..1" />
+    <End Type="DBAccount.AccJournalEntry1" Role="AccJournalEntry1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccSubVoucher">
+        <PropertyRef Name="SubVoucherId" />
+      </Principal>
+      <Dependent Role="AccJournalEntry1">
+        <PropertyRef Name="SubVoucherId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccLedger_AccJournalEntry">
+    <End Type="DBAccount.AccJournalEntry1" Role="AccJournalEntry1" Multiplicity="0..1" />
+    <End Type="DBAccount.AccLedger" Role="AccLedger" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccJournalEntry1">
+        <PropertyRef Name="JournalId" />
+      </Principal>
+      <Dependent Role="AccLedger">
+        <PropertyRef Name="JournalId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccLiabilitiesRpt_AccMainHeads">
+    <End Type="DBAccount.AccMainHead" Role="AccMainHead" Multiplicity="0..1" />
+    <End Type="DBAccount.AccLiabilitiesRpt" Role="AccLiabilitiesRpt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccMainHead">
+        <PropertyRef Name="MainHeadId" />
+      </Principal>
+      <Dependent Role="AccLiabilitiesRpt">
+        <PropertyRef Name="MainHeadId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccSubCode1_AccMainHeads">
+    <End Type="DBAccount.AccMainHead" Role="AccMainHead" Multiplicity="0..1" />
+    <End Type="DBAccount.AccSubCode1" Role="AccSubCode1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccMainHead">
+        <PropertyRef Name="MainHeadId" />
+      </Principal>
+      <Dependent Role="AccSubCode1">
+        <PropertyRef Name="MainHeadId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccSubCode2_AccMainHeads">
+    <End Type="DBAccount.AccMainHead" Role="AccMainHead" Multiplicity="0..1" />
+    <End Type="DBAccount.AccSubCode2" Role="AccSubCode2" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccMainHead">
+        <PropertyRef Name="MainHeadId" />
+      </Principal>
+      <Dependent Role="AccSubCode2">
+        <PropertyRef Name="MainHeadId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccSubCode2_AccSubCode1">
+    <End Type="DBAccount.AccSubCode1" Role="AccSubCode1" Multiplicity="0..1" />
+    <End Type="DBAccount.AccSubCode2" Role="AccSubCode2" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccSubCode1">
+        <PropertyRef Name="SubCode_1Id" />
+      </Principal>
+      <Dependent Role="AccSubCode2">
+        <PropertyRef Name="SubCode_1Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EmpEducations_Employees">
+    <End Type="DBAccount.Employee" Role="Employee" Multiplicity="0..1" />
+    <End Type="DBAccount.EmpEducation" Role="EmpEducation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmpId" />
+      </Principal>
+      <Dependent Role="EmpEducation">
+        <PropertyRef Name="EmpId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EmpExperienceInfoes_Employees">
+    <End Type="DBAccount.Employee" Role="Employee" Multiplicity="0..1" />
+    <End Type="DBAccount.EmpExperienceInfo" Role="EmpExperienceInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmpId" />
+      </Principal>
+      <Dependent Role="EmpExperienceInfo">
+        <PropertyRef Name="EmpId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EmpTrainings_Employees">
+    <End Type="DBAccount.Employee" Role="Employee" Multiplicity="0..1" />
+    <End Type="DBAccount.EmpTraining" Role="EmpTraining" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmpId" />
+      </Principal>
+      <Dependent Role="EmpTraining">
+        <PropertyRef Name="EmpId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PayUserRole_Employees1">
+    <End Type="DBAccount.Employee" Role="Employee" Multiplicity="1" />
+    <End Type="DBAccount.PayUserRole" Role="PayUserRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmpId" />
+      </Principal>
+      <Dependent Role="PayUserRole">
+        <PropertyRef Name="EmpId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EmpSpecialists_EmpTypes">
+    <End Type="DBAccount.EmpType" Role="EmpType" Multiplicity="1" />
+    <End Type="DBAccount.EmpSpecialist" Role="EmpSpecialist" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EmpType">
+        <PropertyRef Name="EmpTypeId" />
+      </Principal>
+      <Dependent Role="EmpSpecialist">
+        <PropertyRef Name="EmpTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PayUserRole_PayRole">
+    <End Type="DBAccount.PayRole" Role="PayRole" Multiplicity="1" />
+    <End Type="DBAccount.PayUserRole" Role="PayUserRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PayRole">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="PayUserRole">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

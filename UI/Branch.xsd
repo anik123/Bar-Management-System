@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Branch" targetNamespace="http://tempuri.org/Branch.xsd" xmlns:mstns="http://tempuri.org/Branch.xsd" xmlns="http://tempuri.org/Branch.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="InventoryConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="InventoryConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.InventoryConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="BranchStoreStatusTableAdapter" GeneratorDataComponentClassName="BranchStoreStatusTableAdapter" Name="BranchStoreStatus" UserDataComponentName="BranchStoreStatusTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="InventoryConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillByCompCategory" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetDataCompCategory" GeneratorSourceName="FillByCompCategory" GetMethodModifier="Public" GetMethodName="GetDataCompCategory" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetDataCompCategory" UserSourceName="FillByCompCategory">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        InvenStoreStatus.InvenStoreId, InvenStoreStatus.ProductId, InvenStoreStatus.BrProId, InvenStoreStatus.QuantityStore, Products.ProductName, 
+                         Products.ProductPurchasePrice, Products.ProductSalePrice, Categories.CategoryName, CompanyInfoes.CompName, Categories.CatId, CompanyInfoes.CompId, 
+                         InvenStoreStatus.QuantityPurchase, InvenStoreStatus.DateStored, InvenStoreStatus.DateUpdated, InvenStoreStatus.QuantityLastPurchase
+FROM            InvenStoreStatus INNER JOIN
+                         Products ON InvenStoreStatus.ProductId = Products.ProductId INNER JOIN
+                         CompanyInfoes ON Products.CompId = CompanyInfoes.CompId INNER JOIN
+                         Categories ON Products.CategoryId = Categories.CatId</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="InvenStoreId" DataSetColumn="InvenStoreId" />
+              <Mapping SourceColumn="ProductId" DataSetColumn="ProductId" />
+              <Mapping SourceColumn="BrProId" DataSetColumn="BrProId" />
+              <Mapping SourceColumn="QuantityStore" DataSetColumn="QuantityStore" />
+              <Mapping SourceColumn="ProductName" DataSetColumn="ProductName" />
+              <Mapping SourceColumn="ProductPurchasePrice" DataSetColumn="ProductPurchasePrice" />
+              <Mapping SourceColumn="ProductSalePrice" DataSetColumn="ProductSalePrice" />
+              <Mapping SourceColumn="CategoryName" DataSetColumn="CategoryName" />
+              <Mapping SourceColumn="CompName" DataSetColumn="CompName" />
+              <Mapping SourceColumn="CatId" DataSetColumn="CatId" />
+              <Mapping SourceColumn="CompId" DataSetColumn="CompId" />
+              <Mapping SourceColumn="QuantityPurchase" DataSetColumn="QuantityPurchase" />
+              <Mapping SourceColumn="DateStored" DataSetColumn="DateStored" />
+              <Mapping SourceColumn="DateUpdated" DataSetColumn="DateUpdated" />
+              <Mapping SourceColumn="QuantityLastPurchase" DataSetColumn="QuantityLastPurchase" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="InventoryConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillByCat" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataByCat" GeneratorSourceName="FillByCat" GetMethodModifier="Public" GetMethodName="GetDataByCat" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataByCat" UserSourceName="FillByCat">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        InvenStoreStatus.InvenStoreId, InvenStoreStatus.ProductId, InvenStoreStatus.BrProId, InvenStoreStatus.QuantityStore, Products.ProductName, 
+                         Products.ProductPurchasePrice, Products.ProductSalePrice, Categories.CategoryName, CompanyInfoes.CompName, Categories.CatId, CompanyInfoes.CompId
+FROM            InvenStoreStatus INNER JOIN
+                         Products ON InvenStoreStatus.ProductId = Products.ProductId INNER JOIN
+                         CompanyInfoes ON Products.CompId = CompanyInfoes.CompId INNER JOIN
+                         Categories ON Products.CategoryId = Categories.CatId
+WHERE        (Categories.CatId = @catid)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="catid" ColumnName="CatId" DataSourceName="Inventory.dbo.Categories" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@catid" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="CatId" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="InventoryConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillByCatCom" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataByCatCom" GeneratorSourceName="FillByCatCom" GetMethodModifier="Public" GetMethodName="GetDataByCatCom" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataByCatCom" UserSourceName="FillByCatCom">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        InvenStoreStatus.InvenStoreId, InvenStoreStatus.ProductId, InvenStoreStatus.BrProId, InvenStoreStatus.QuantityStore, Products.ProductName, 
+                         Products.ProductPurchasePrice, Products.ProductSalePrice, Categories.CategoryName, CompanyInfoes.CompName, Categories.CatId, CompanyInfoes.CompId
+FROM            InvenStoreStatus INNER JOIN
+                         Products ON InvenStoreStatus.ProductId = Products.ProductId INNER JOIN
+                         CompanyInfoes ON Products.CompId = CompanyInfoes.CompId INNER JOIN
+                         Categories ON Products.CategoryId = Categories.CatId
+WHERE        (InvenStoreStatus.BrProId = @bid) OR
+                         (CompanyInfoes.CompId = @comid) OR
+                         (Categories.CatId = @catid)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="bid" ColumnName="BrProId" DataSourceName="Inventory.dbo.InvenStoreStatus" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@bid" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="BrProId" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="comid" ColumnName="CompId" DataSourceName="Inventory.dbo.CompanyInfoes" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@comid" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="CompId" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="catid" ColumnName="CatId" DataSourceName="Inventory.dbo.Categories" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@catid" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="CatId" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="InventoryConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillByCom" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataByCom" GeneratorSourceName="FillByCom" GetMethodModifier="Public" GetMethodName="GetDataByCom" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataByCom" UserSourceName="FillByCom">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        InvenStoreStatus.InvenStoreId, InvenStoreStatus.ProductId, InvenStoreStatus.BrProId, InvenStoreStatus.QuantityStore, Products.ProductName, 
+                         Products.ProductPurchasePrice, Products.ProductSalePrice, Categories.CategoryName, CompanyInfoes.CompName, Categories.CatId, CompanyInfoes.CompId
+FROM            InvenStoreStatus INNER JOIN
+                         Products ON InvenStoreStatus.ProductId = Products.ProductId INNER JOIN
+                         CompanyInfoes ON Products.CompId = CompanyInfoes.CompId INNER JOIN
+                         Categories ON Products.CategoryId = Categories.CatId
+WHERE        (CompanyInfoes.CompId = @comid)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="comid" ColumnName="CompId" DataSourceName="Inventory.dbo.CompanyInfoes" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@comid" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="CompId" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="BranchSalesDetailsTableAdapter" GeneratorDataComponentClassName="BranchSalesDetailsTableAdapter" Name="BranchSalesDetails" UserDataComponentName="BranchSalesDetailsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="InventoryConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillBySalesRpt" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetDataBySalesRpt" GeneratorSourceName="FillBySalesRpt" GetMethodModifier="Public" GetMethodName="GetDataBySalesRpt" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetDataBySalesRpt" UserSourceName="FillBySalesRpt">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        InvenSaleDtls.Quantity, Products.ProductName, InvenSaleDtls.SalePrice, InvenSalePayments.TotalPrice, InvenSalePayments.Vat, InvenSalePayments.PaidAmount, 
+                         InvenSalePayments.DueAmount, InvenSalePayments.Discount, InvenSalesInfoes.CreateBy, InvenSalesInfoes.CreateDate, InvenSalePayments.SalId, 
+                         InvenSalesPaymentDtls.PaymentMode
+FROM            InvenSalesInfoes INNER JOIN
+                         InvenSalePayments ON InvenSalesInfoes.SalId = InvenSalePayments.SalId INNER JOIN
+                         InvenSaleDtls ON InvenSalesInfoes.SalId = InvenSaleDtls.SalId INNER JOIN
+                         Products ON InvenSaleDtls.ProductId = Products.ProductId INNER JOIN
+                         InvenSalesPaymentDtls ON InvenSalesInfoes.SalId = InvenSalesPaymentDtls.SalId</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Quantity" DataSetColumn="Quantity" />
+              <Mapping SourceColumn="ProductName" DataSetColumn="ProductName" />
+              <Mapping SourceColumn="SalePrice" DataSetColumn="SalePrice" />
+              <Mapping SourceColumn="TotalPrice" DataSetColumn="TotalPrice" />
+              <Mapping SourceColumn="Vat" DataSetColumn="Vat" />
+              <Mapping SourceColumn="PaidAmount" DataSetColumn="PaidAmount" />
+              <Mapping SourceColumn="DueAmount" DataSetColumn="DueAmount" />
+              <Mapping SourceColumn="Discount" DataSetColumn="Discount" />
+              <Mapping SourceColumn="SalId" DataSetColumn="SalId" />
+              <Mapping SourceColumn="CreateBy" DataSetColumn="CreateBy" />
+              <Mapping SourceColumn="CreateDate" DataSetColumn="CreateDate" />
+              <Mapping SourceColumn="PaymentMode" DataSetColumn="PaymentMode" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="InventoryConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillByDate" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBydate" GeneratorSourceName="FillByDate" GetMethodModifier="Public" GetMethodName="GetDataBydate" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBydate" UserSourceName="FillByDate">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        InvenSaleDtls.Quantity, Products.ProductName, InvenSaleDtls.SalePrice, InvenSalePayments.TotalPrice, InvenSalePayments.Vat, InvenSalePayments.PaidAmount, 
+                         InvenSalePayments.DueAmount, InvenSalePayments.Discount, InvenSalesInfoes.CreateBy, InvenSalesInfoes.CreateDate, InvenSalePayments.SalId, 
+                         InvenSalesPaymentDtls.PaymentMode
+FROM            InvenSalesInfoes INNER JOIN
+                         InvenSalePayments ON InvenSalesInfoes.SalId = InvenSalePayments.SalId INNER JOIN
+                         InvenSaleDtls ON InvenSalesInfoes.SalId = InvenSaleDtls.SalId INNER JOIN
+                         Products ON InvenSaleDtls.ProductId = Products.ProductId INNER JOIN
+                         InvenSalesPaymentDtls ON InvenSalesInfoes.SalId = InvenSalesPaymentDtls.SalId
+WHERE        (InvenSalesInfoes.CreateDate BETWEEN @d1 AND @d2)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="d1" ColumnName="CreateDate" DataSourceName="Inventory.dbo.InvenSalesInfoes" DataTypeServer="date" DbType="AnsiString" Direction="Input" ParameterName="@d1" Precision="0" ProviderType="Date" Scale="0" Size="3" SourceColumn="CreateDate" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="d2" ColumnName="CreateDate" DataSourceName="Inventory.dbo.InvenSalesInfoes" DataTypeServer="date" DbType="AnsiString" Direction="Input" ParameterName="@d2" Precision="0" ProviderType="Date" Scale="0" Size="3" SourceColumn="CreateDate" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="BranchReturnProductTableAdapter" GeneratorDataComponentClassName="BranchReturnProductTableAdapter" Name="BranchReturnProduct" UserDataComponentName="BranchReturnProductTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="InventoryConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillByReturnProduct" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetDataByReturnProduct" GeneratorSourceName="FillByReturnProduct" GetMethodModifier="Public" GetMethodName="GetDataByReturnProduct" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetDataByReturnProduct" UserSourceName="FillByReturnProduct">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        InvenBranchToCentralReturnDtl.reQty, InvenBranchToCentralReturnDtl.reDate, InvenBranchToCentralReturnDtl.reProAmount, InvenBranchToCentralReturnDtl.reBy, 
+                         Products.ProductName, InvenBranchProfile.BrProName, CompanyInfoes.CompName, Categories.CategoryName
+FROM            InvenBranchToCentralReturnDtl INNER JOIN
+                         Products ON InvenBranchToCentralReturnDtl.reProId = Products.ProductId INNER JOIN
+                         CompanyInfoes ON Products.CompId = CompanyInfoes.CompId INNER JOIN
+                         InvenBranchProfile ON InvenBranchToCentralReturnDtl.reProBranchId = InvenBranchProfile.BrProId INNER JOIN
+                         Categories ON Products.CategoryId = Categories.CatId</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="reQty" DataSetColumn="reQty" />
+              <Mapping SourceColumn="reDate" DataSetColumn="reDate" />
+              <Mapping SourceColumn="reProAmount" DataSetColumn="reProAmount" />
+              <Mapping SourceColumn="reBy" DataSetColumn="reBy" />
+              <Mapping SourceColumn="ProductName" DataSetColumn="ProductName" />
+              <Mapping SourceColumn="BrProName" DataSetColumn="BrProName" />
+              <Mapping SourceColumn="CompName" DataSetColumn="CompName" />
+              <Mapping SourceColumn="CategoryName" DataSetColumn="CategoryName" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Branch" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Branch" msprop:Generator_UserDSName="Branch">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="BranchStoreStatus" msprop:Generator_TableClassName="BranchStoreStatusDataTable" msprop:Generator_TableVarName="tableBranchStoreStatus" msprop:Generator_TablePropName="BranchStoreStatus" msprop:Generator_RowDeletingName="BranchStoreStatusRowDeleting" msprop:Generator_UserTableName="BranchStoreStatus" msprop:Generator_RowChangingName="BranchStoreStatusRowChanging" msprop:Generator_RowEvHandlerName="BranchStoreStatusRowChangeEventHandler" msprop:Generator_RowDeletedName="BranchStoreStatusRowDeleted" msprop:Generator_RowEvArgName="BranchStoreStatusRowChangeEvent" msprop:Generator_RowChangedName="BranchStoreStatusRowChanged" msprop:Generator_RowClassName="BranchStoreStatusRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="InvenStoreId" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnInvenStoreId" msprop:Generator_ColumnPropNameInRow="InvenStoreId" msprop:Generator_ColumnPropNameInTable="InvenStoreIdColumn" msprop:Generator_UserColumnName="InvenStoreId" type="xs:int" />
+              <xs:element name="ProductId" msprop:Generator_ColumnVarNameInTable="columnProductId" msprop:Generator_ColumnPropNameInRow="ProductId" msprop:Generator_ColumnPropNameInTable="ProductIdColumn" msprop:Generator_UserColumnName="ProductId" type="xs:int" minOccurs="0" />
+              <xs:element name="BrProId" msprop:Generator_ColumnVarNameInTable="columnBrProId" msprop:Generator_ColumnPropNameInRow="BrProId" msprop:Generator_ColumnPropNameInTable="BrProIdColumn" msprop:Generator_UserColumnName="BrProId" type="xs:int" minOccurs="0" />
+              <xs:element name="QuantityStore" msprop:Generator_ColumnVarNameInTable="columnQuantityStore" msprop:Generator_ColumnPropNameInRow="QuantityStore" msprop:Generator_ColumnPropNameInTable="QuantityStoreColumn" msprop:Generator_UserColumnName="QuantityStore" type="xs:int" minOccurs="0" />
+              <xs:element name="ProductName" msprop:Generator_ColumnVarNameInTable="columnProductName" msprop:Generator_ColumnPropNameInRow="ProductName" msprop:Generator_ColumnPropNameInTable="ProductNameColumn" msprop:Generator_UserColumnName="ProductName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProductPurchasePrice" msprop:Generator_ColumnVarNameInTable="columnProductPurchasePrice" msprop:Generator_ColumnPropNameInRow="ProductPurchasePrice" msprop:Generator_ColumnPropNameInTable="ProductPurchasePriceColumn" msprop:Generator_UserColumnName="ProductPurchasePrice" type="xs:double" minOccurs="0" />
+              <xs:element name="ProductSalePrice" msprop:Generator_ColumnVarNameInTable="columnProductSalePrice" msprop:Generator_ColumnPropNameInRow="ProductSalePrice" msprop:Generator_ColumnPropNameInTable="ProductSalePriceColumn" msprop:Generator_UserColumnName="ProductSalePrice" type="xs:double" minOccurs="0" />
+              <xs:element name="CategoryName" msprop:Generator_ColumnVarNameInTable="columnCategoryName" msprop:Generator_ColumnPropNameInRow="CategoryName" msprop:Generator_ColumnPropNameInTable="CategoryNameColumn" msprop:Generator_UserColumnName="CategoryName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CompName" msprop:Generator_ColumnVarNameInTable="columnCompName" msprop:Generator_ColumnPropNameInRow="CompName" msprop:Generator_ColumnPropNameInTable="CompNameColumn" msprop:Generator_UserColumnName="CompName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CatId" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnCatId" msprop:Generator_ColumnPropNameInRow="CatId" msprop:Generator_ColumnPropNameInTable="CatIdColumn" msprop:Generator_UserColumnName="CatId" type="xs:int" />
+              <xs:element name="CompId" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnCompId" msprop:Generator_ColumnPropNameInRow="CompId" msprop:Generator_ColumnPropNameInTable="CompIdColumn" msprop:Generator_UserColumnName="CompId" type="xs:int" />
+              <xs:element name="QuantityPurchase" msprop:Generator_ColumnVarNameInTable="columnQuantityPurchase" msprop:Generator_ColumnPropNameInRow="QuantityPurchase" msprop:Generator_ColumnPropNameInTable="QuantityPurchaseColumn" msprop:Generator_UserColumnName="QuantityPurchase" type="xs:int" minOccurs="0" />
+              <xs:element name="DateStored" msprop:Generator_ColumnVarNameInTable="columnDateStored" msprop:Generator_ColumnPropNameInRow="DateStored" msprop:Generator_ColumnPropNameInTable="DateStoredColumn" msprop:Generator_UserColumnName="DateStored" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DateUpdated" msprop:Generator_ColumnVarNameInTable="columnDateUpdated" msprop:Generator_ColumnPropNameInRow="DateUpdated" msprop:Generator_ColumnPropNameInTable="DateUpdatedColumn" msprop:Generator_UserColumnName="DateUpdated" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="QuantityLastPurchase" msprop:Generator_ColumnVarNameInTable="columnQuantityLastPurchase" msprop:Generator_ColumnPropNameInRow="QuantityLastPurchase" msprop:Generator_ColumnPropNameInTable="QuantityLastPurchaseColumn" msprop:Generator_UserColumnName="QuantityLastPurchase" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BranchSalesDetails" msprop:Generator_TableClassName="BranchSalesDetailsDataTable" msprop:Generator_TableVarName="tableBranchSalesDetails" msprop:Generator_TablePropName="BranchSalesDetails" msprop:Generator_RowDeletingName="BranchSalesDetailsRowDeleting" msprop:Generator_UserTableName="BranchSalesDetails" msprop:Generator_RowChangingName="BranchSalesDetailsRowChanging" msprop:Generator_RowEvHandlerName="BranchSalesDetailsRowChangeEventHandler" msprop:Generator_RowDeletedName="BranchSalesDetailsRowDeleted" msprop:Generator_RowEvArgName="BranchSalesDetailsRowChangeEvent" msprop:Generator_RowChangedName="BranchSalesDetailsRowChanged" msprop:Generator_RowClassName="BranchSalesDetailsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Quantity" msprop:Generator_ColumnVarNameInTable="columnQuantity" msprop:Generator_ColumnPropNameInRow="Quantity" msprop:Generator_ColumnPropNameInTable="QuantityColumn" msprop:Generator_UserColumnName="Quantity" type="xs:int" minOccurs="0" />
+              <xs:element name="ProductName" msprop:Generator_ColumnVarNameInTable="columnProductName" msprop:Generator_ColumnPropNameInRow="ProductName" msprop:Generator_ColumnPropNameInTable="ProductNameColumn" msprop:Generator_UserColumnName="ProductName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SalePrice" msprop:Generator_ColumnVarNameInTable="columnSalePrice" msprop:Generator_ColumnPropNameInRow="SalePrice" msprop:Generator_ColumnPropNameInTable="SalePriceColumn" msprop:Generator_UserColumnName="SalePrice" type="xs:double" minOccurs="0" />
+              <xs:element name="TotalPrice" msprop:Generator_ColumnVarNameInTable="columnTotalPrice" msprop:Generator_ColumnPropNameInRow="TotalPrice" msprop:Generator_ColumnPropNameInTable="TotalPriceColumn" msprop:Generator_UserColumnName="TotalPrice" type="xs:double" minOccurs="0" />
+              <xs:element name="Vat" msprop:Generator_ColumnVarNameInTable="columnVat" msprop:Generator_ColumnPropNameInRow="Vat" msprop:Generator_ColumnPropNameInTable="VatColumn" msprop:Generator_UserColumnName="Vat" type="xs:double" minOccurs="0" />
+              <xs:element name="PaidAmount" msprop:Generator_ColumnVarNameInTable="columnPaidAmount" msprop:Generator_ColumnPropNameInRow="PaidAmount" msprop:Generator_ColumnPropNameInTable="PaidAmountColumn" msprop:Generator_UserColumnName="PaidAmount" type="xs:double" minOccurs="0" />
+              <xs:element name="DueAmount" msprop:Generator_ColumnVarNameInTable="columnDueAmount" msprop:Generator_ColumnPropNameInRow="DueAmount" msprop:Generator_ColumnPropNameInTable="DueAmountColumn" msprop:Generator_UserColumnName="DueAmount" type="xs:double" minOccurs="0" />
+              <xs:element name="Discount" msprop:Generator_ColumnVarNameInTable="columnDiscount" msprop:Generator_ColumnPropNameInRow="Discount" msprop:Generator_ColumnPropNameInTable="DiscountColumn" msprop:Generator_UserColumnName="Discount" type="xs:double" minOccurs="0" />
+              <xs:element name="SalId" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnSalId" msprop:Generator_ColumnPropNameInRow="SalId" msprop:Generator_ColumnPropNameInTable="SalIdColumn" msprop:Generator_UserColumnName="SalId" type="xs:int" />
+              <xs:element name="CreateBy" msprop:Generator_ColumnVarNameInTable="columnCreateBy" msprop:Generator_ColumnPropNameInRow="CreateBy" msprop:Generator_ColumnPropNameInTable="CreateByColumn" msprop:Generator_UserColumnName="CreateBy">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CreateDate" msprop:Generator_ColumnVarNameInTable="columnCreateDate" msprop:Generator_ColumnPropNameInRow="CreateDate" msprop:Generator_ColumnPropNameInTable="CreateDateColumn" msprop:Generator_UserColumnName="CreateDate" type="xs:dateTime" />
+              <xs:element name="PaymentMode" msprop:Generator_ColumnVarNameInTable="columnPaymentMode" msprop:Generator_ColumnPropNameInRow="PaymentMode" msprop:Generator_ColumnPropNameInTable="PaymentModeColumn" msprop:Generator_UserColumnName="PaymentMode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BranchReturnProduct" msprop:Generator_TableClassName="BranchReturnProductDataTable" msprop:Generator_TableVarName="tableBranchReturnProduct" msprop:Generator_TablePropName="BranchReturnProduct" msprop:Generator_RowDeletingName="BranchReturnProductRowDeleting" msprop:Generator_UserTableName="BranchReturnProduct" msprop:Generator_RowChangingName="BranchReturnProductRowChanging" msprop:Generator_RowEvHandlerName="BranchReturnProductRowChangeEventHandler" msprop:Generator_RowDeletedName="BranchReturnProductRowDeleted" msprop:Generator_RowEvArgName="BranchReturnProductRowChangeEvent" msprop:Generator_RowChangedName="BranchReturnProductRowChanged" msprop:Generator_RowClassName="BranchReturnProductRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="reQty" msprop:Generator_ColumnVarNameInTable="columnreQty" msprop:Generator_ColumnPropNameInRow="reQty" msprop:Generator_ColumnPropNameInTable="reQtyColumn" msprop:Generator_UserColumnName="reQty" type="xs:int" minOccurs="0" />
+              <xs:element name="reDate" msprop:Generator_ColumnVarNameInTable="columnreDate" msprop:Generator_ColumnPropNameInRow="reDate" msprop:Generator_ColumnPropNameInTable="reDateColumn" msprop:Generator_UserColumnName="reDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="reProAmount" msprop:Generator_ColumnVarNameInTable="columnreProAmount" msprop:Generator_ColumnPropNameInRow="reProAmount" msprop:Generator_ColumnPropNameInTable="reProAmountColumn" msprop:Generator_UserColumnName="reProAmount" type="xs:int" minOccurs="0" />
+              <xs:element name="reBy" msprop:Generator_ColumnVarNameInTable="columnreBy" msprop:Generator_ColumnPropNameInRow="reBy" msprop:Generator_ColumnPropNameInTable="reByColumn" msprop:Generator_UserColumnName="reBy" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProductName" msprop:Generator_ColumnVarNameInTable="columnProductName" msprop:Generator_ColumnPropNameInRow="ProductName" msprop:Generator_ColumnPropNameInTable="ProductNameColumn" msprop:Generator_UserColumnName="ProductName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BrProName" msprop:Generator_ColumnVarNameInTable="columnBrProName" msprop:Generator_ColumnPropNameInRow="BrProName" msprop:Generator_ColumnPropNameInTable="BrProNameColumn" msprop:Generator_UserColumnName="BrProName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="550" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CompName" msprop:Generator_ColumnVarNameInTable="columnCompName" msprop:Generator_ColumnPropNameInRow="CompName" msprop:Generator_ColumnPropNameInTable="CompNameColumn" msprop:Generator_UserColumnName="CompName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CategoryName" msprop:Generator_ColumnVarNameInTable="columnCategoryName" msprop:Generator_ColumnPropNameInRow="CategoryName" msprop:Generator_ColumnPropNameInTable="CategoryNameColumn" msprop:Generator_UserColumnName="CategoryName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:BranchStoreStatus" />
+      <xs:field xpath="mstns:InvenStoreId" />
+    </xs:unique>
+    <xs:unique name="BranchSalesDetails_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:BranchSalesDetails" />
+      <xs:field xpath="mstns:SalId" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

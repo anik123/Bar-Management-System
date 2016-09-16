@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0C77C466-C72F-487F-9607-CE3BC9A2B336}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ADTO</RootNamespace>
+    <AssemblyName>ADTO</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BalanceSheetRptDTO.cs" />
+    <Compile Include="CashFlowReportDTO.cs" />
+    <Compile Include="CashFolwEntityDTO.cs" />
+    <Compile Include="COAInfoDTO.cs" />
+    <Compile Include="EmpBasicInfoDTO.cs" />
+    <Compile Include="EmpEducationDTO.cs" />
+    <Compile Include="EmpSpcialistDTO.cs" />
+    <Compile Include="EmpTrainingDTO.cs" />
+    <Compile Include="EmpTypeDTO.cs" />
+    <Compile Include="ExperienceDTO.cs" />
+    <Compile Include="IncomeStatementRptDTO.cs" />
+    <Compile Include="JournalDTO.cs" />
+    <Compile Include="LedgerDTO.cs" />
+    <Compile Include="LiabilitiesRptDTO.cs" />
+    <Compile Include="Log_AccJournalDTO.cs" />
+    <Compile Include="MainHeadDTO.cs" />
+    <Compile Include="MainVoucherDTO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoleDTO.cs" />
+    <Compile Include="SubCode_1DTO.cs" />
+    <Compile Include="SubCode_2DTO.cs" />
+    <Compile Include="SubVoucherDTO.cs" />
+    <Compile Include="TransDetailsDTO.cs" />
+    <Compile Include="TransitemDTO.cs" />
+    <Compile Include="UserRoleDTO.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

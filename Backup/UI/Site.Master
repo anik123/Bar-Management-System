@@ -1,0 +1,124 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="UI.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    Inventory Managment System
+                </h1>
+            </div>
+            <div class="loginDisplay">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" id="HeadLoginStatus" runat="server">Log In</a>
+                        ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Welcome <span class="bold">
+                            <asp:LoginName ID="HeadLoginName" runat="server" />
+                        </span>! [
+                        <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out"
+                            LogoutPageUrl="~/" />
+                        ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false"
+                    IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem Text="Admin Panel">
+                            <asp:MenuItem NavigateUrl="~/CompProfile/CompProfileInfoUI.aspx" Text="Company Profile" />
+                            <asp:MenuItem NavigateUrl="~/CompProfile/BranchProfileInfoUI.aspx" Text="Branch" />
+                            <asp:MenuItem NavigateUrl="~/AccSysManagment/Employee/EmployeeType.aspx" Text="Employee Type" />
+                            <asp:MenuItem NavigateUrl="~/AccSysManagment/Employee/EmployeeInfo.aspx" Text="Employee Info" />
+                            <asp:MenuItem NavigateUrl="~/AccSysManagment/Employee/EmpRoleAssign.aspx" Text="Employee Role Assign" />
+                            <asp:MenuItem NavigateUrl="~/AccSysManagment/Employee/LogFile/Log_EmpPayInofUI.aspx"
+                                Text="PayRoll Log File" />
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Account ">
+                            <asp:MenuItem NavigateUrl="~/AccSysManagment/SetupFile/AccountHead.aspx" Text="Account Head" />
+                            <asp:MenuItem NavigateUrl="~/AccSysManagment/SetupFile/COAInfoUI.aspx" Text="COA Entry" />
+                            <asp:MenuItem NavigateUrl="~/AccSysManagment/SetupFile/VoucherUI.aspx" Text="Voucher" />
+                            <asp:MenuItem NavigateUrl="~/AccSysManagment/Accounting/JournalEntryNew.aspx" Text="Journal Entry" />
+                            <asp:MenuItem NavigateUrl="~/AccSysManagment/Accounting/UpdateJournal.aspx" Text="Journal Update" />
+                            <asp:MenuItem NavigateUrl="~/AccSysManagment/SetupFile/ReportSetUpFile.aspx" Text="Report Configaration File" />
+                            <asp:MenuItem NavigateUrl="~/AccSysManagment/AccountingReport/AccountingReportUI.aspx"
+                                Text="Report" />
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Product">
+                            <asp:MenuItem NavigateUrl="~/Admin/CompanyInfoUI.aspx" Text="Company Info" />
+                            <asp:MenuItem NavigateUrl="~/Admin/ProductCategoryUI].aspx" Text="Category" />
+                            <asp:MenuItem NavigateUrl="~/Admin/ProductUnitUI.aspx" Text="Unit" />
+                            <asp:MenuItem NavigateUrl="~/Admin/ProductUI.aspx" Text="Product" />
+                            <%--  <asp:MenuItem NavigateUrl="~/Admin/ProduceReorderLevelIntializationUI.aspx" Text="Product Reorder" />
+                            --%>
+                            <asp:MenuItem NavigateUrl="~/Admin/BranchWiseReorder_Purchase_PriceUI.aspx" Text="Reorder Product Branch Wise" />
+                            <asp:MenuItem NavigateUrl="~/Admin/Log_InvenReorder_Branch_WiseUI_Reorder.aspx" Text="Reorder Product Change Log" />
+                            <asp:MenuItem NavigateUrl="~/Admin/BankAccountUI.aspx" Text="Bank Account" />
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Expense">
+                            <asp:MenuItem NavigateUrl="~/Admin/ExpenseHeadUI.aspx" Text="Expense Head" />
+                            <asp:MenuItem NavigateUrl="~/Admin/ExpenseUI.aspx" Text="Expense Entry" />
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Shop">
+                            <asp:MenuItem NavigateUrl="~/Shop/UnderStockProduct.aspx" Text="Under Stock" />
+                            <asp:MenuItem NavigateUrl="~/Shop/PurchaseRequisition.aspx" Text="Branch Requisition" />
+                            <asp:MenuItem NavigateUrl="~/Shop/BranchSalesRpt.aspx" Text="Sales Manually" />
+                            <asp:MenuItem NavigateUrl="~/Shop/BranchSalesUsingBarCode.aspx" Text="Sales Barcode" />
+                            <asp:MenuItem NavigateUrl="~/Shop/BranchChangeProductUI.aspx" Text="Change Product" />
+                            <asp:MenuItem NavigateUrl="~/Shop/BranchReturnUI.aspx" Text="Return To Central" />
+                            <asp:MenuItem NavigateUrl="~/Shop/ShopToPartyReturnView.aspx" Text="Branch Return View" />
+                            <asp:MenuItem NavigateUrl="~/Shop/BranchSalesAmountView.aspx" Text="Sales Statement" />
+                            <asp:MenuItem NavigateUrl="~/Shop/ShopReportUI.aspx" Text="Report" />
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Manager">
+                            <asp:MenuItem NavigateUrl="~/Manager/CentarlUnderStock.aspx" Text="Central Under Stock" />
+                            <asp:MenuItem NavigateUrl="~/Manager/PurchaseRequisitionCentralUI.aspx" Text="Purchase Requisition" />
+                            <asp:MenuItem NavigateUrl="~/Manager/PurchaseOrderCentrealUI.aspx" Text="Purchase Order" />
+                            <asp:MenuItem NavigateUrl="~/Manager/InvenCentralPurchse.aspx" Text="Purchase/StockIn" />
+                            <asp:MenuItem NavigateUrl="~/Manager/PurchasePaymentCentralUI.aspx" Text="Purchase Payment" />
+                            <asp:MenuItem NavigateUrl="~/Manager/PurchasePaymentDueUI.aspx" Text="Purchase Due Payment" />
+                            <asp:MenuItem NavigateUrl="~/Manager/CentralAllPurchaseView.aspx" Text="All Purchase View" />
+                            <asp:MenuItem NavigateUrl="~/Manager/BranchChallanUI.aspx" Text="Challan To Branch" />
+                            <asp:MenuItem NavigateUrl="~/Manager/CentralAllChallenViewUI.aspx" Text="Challan view BranchWise " />
+                            <asp:MenuItem NavigateUrl="~/Manager/BranchReturnProductReciveUI.aspx" Text="Branch Return Recive" />
+                            <asp:MenuItem NavigateUrl="~/Manager/CentralProductReturnToParty.aspx" Text="Central To Party Return" />
+                            <asp:MenuItem NavigateUrl="~/Manager/CentralToPartyReturnView.aspx" Text="Central To Party Return View" />
+                            <asp:MenuItem NavigateUrl="~/Manager/PurchaseStatementUI.aspx" Text="Purchase Statement" />
+                            <asp:MenuItem NavigateUrl="~/Manager/SalesDetailsBranchWise.aspx" Text="Sales Details" />
+                            <asp:MenuItem NavigateUrl="~/Manager/PurchaseStatementUI.aspx" Text="Export Ledger" />
+                            <asp:MenuItem NavigateUrl="~/Manager/CentralReportUI.aspx" Text="Report" />
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Company Transection">
+                            <asp:MenuItem NavigateUrl="~/BranchCollection/CompanyTakaTransectionUI.aspx" Text="Collection Entry" />
+                            <asp:MenuItem NavigateUrl="~/BranchCollection/Report/CollectionReportUI.aspx" Text=" Transection Report" />
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/ReportSetUpFile/ReportSetUpFileUI.aspx" Text="Report" />
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main">
+            <ajaxtoolkit:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+            </ajaxtoolkit:ToolkitScriptManager>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,9 @@
+D:\Raowa Club (BAR)\Utility\bin\Release\Utility.dll
+D:\Raowa Club (BAR)\Utility\bin\Release\Utility.pdb
+D:\Raowa Club (BAR)\Utility\bin\Release\AutoMapper.dll
+D:\Raowa Club (BAR)\Utility\bin\Release\log4net.dll
+D:\Raowa Club (BAR)\Utility\bin\Release\Ninject.dll
+D:\Raowa Club (BAR)\Utility\bin\Release\NMock2.dll
+D:\Raowa Club (BAR)\Utility\bin\Release\nunit.framework.dll
+D:\Raowa Club (BAR)\Utility\obj\Release\Utility.dll
+D:\Raowa Club (BAR)\Utility\obj\Release\Utility.pdb

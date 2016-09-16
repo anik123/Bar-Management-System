@@ -1,0 +1,1179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="InventoryRaowaModelStoreContainer" CdmEntityContainer="InventoryContainer">
+    <EntitySetMapping Name="AccBalanceSheetRpts">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.AccBalanceSheetRpt">
+        <MappingFragment StoreEntitySet="AccBalanceSheetRpt">
+          <ScalarProperty Name="ActiveStatus" ColumnName="ActiveStatus" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="SubCode1Id" ColumnName="SubCode1Id" />
+          <ScalarProperty Name="MainHeadId" ColumnName="MainHeadId" />
+          <ScalarProperty Name="BalanceShtId" ColumnName="BalanceShtId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccCashFlowEntities">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.AccCashFlowEntity">
+        <MappingFragment StoreEntitySet="AccCashFlowEntity">
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="CFEName" ColumnName="CFEName" />
+          <ScalarProperty Name="CFEId" ColumnName="CFEId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccCashFlowReports">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.AccCashFlowReport">
+        <MappingFragment StoreEntitySet="AccCashFlowReport">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="COAId" ColumnName="COAId" />
+          <ScalarProperty Name="SubCode_1Id" ColumnName="SubCode_1Id" />
+          <ScalarProperty Name="ActiveStatus" ColumnName="ActiveStatus" />
+          <ScalarProperty Name="CFEId" ColumnName="CFEId" />
+          <ScalarProperty Name="CFRId" ColumnName="CFRId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccCOAInfoes">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.AccCOAInfo">
+        <MappingFragment StoreEntitySet="AccCOAInfoes">
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="OpenBy" ColumnName="OpenBy" />
+          <ScalarProperty Name="OpeningDate" ColumnName="OpeningDate" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="APPID" ColumnName="APPID" />
+          <ScalarProperty Name="SubCode_2Id" ColumnName="SubCode_2Id" />
+          <ScalarProperty Name="AID" ColumnName="AID" />
+          <ScalarProperty Name="AccountName" ColumnName="AccountName" />
+          <ScalarProperty Name="COAACCId" ColumnName="COAACCId" />
+          <ScalarProperty Name="COAId" ColumnName="COAId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccIncomeStatementRpts">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.AccIncomeStatementRpt">
+        <MappingFragment StoreEntitySet="AccIncomeStatementRpt">
+          <ScalarProperty Name="ActiveStatus" ColumnName="ActiveStatus" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="SubCode1Id" ColumnName="SubCode1Id" />
+          <ScalarProperty Name="MainHeadId" ColumnName="MainHeadId" />
+          <ScalarProperty Name="InStaRptId" ColumnName="InStaRptId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccJournalEntries">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.AccJournalEntry">
+        <MappingFragment StoreEntitySet="AccJournalEntry">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="PostLeadgerStatus" ColumnName="PostLeadgerStatus" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="ReferenceEntity" ColumnName="ReferenceEntity" />
+          <ScalarProperty Name="TransectionDate" ColumnName="TransectionDate" />
+          <ScalarProperty Name="MRNO" ColumnName="MRNO" />
+          <ScalarProperty Name="VONO" ColumnName="VONO" />
+          <ScalarProperty Name="CRAmount" ColumnName="CRAmount" />
+          <ScalarProperty Name="DRAmount" ColumnName="DRAmount" />
+          <ScalarProperty Name="JournalType" ColumnName="JournalType" />
+          <ScalarProperty Name="TransectionNo" ColumnName="TransectionNo" />
+          <ScalarProperty Name="SubVoucherId" ColumnName="SubVoucherId" />
+          <ScalarProperty Name="COAId" ColumnName="COAId" />
+          <ScalarProperty Name="SubCode2Id" ColumnName="SubCode2Id" />
+          <ScalarProperty Name="JournalId" ColumnName="JournalId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccLedgers">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.AccLedger">
+        <MappingFragment StoreEntitySet="AccLedger">
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CLBAL" ColumnName="CLBAL" />
+          <ScalarProperty Name="CRAmount" ColumnName="CRAmount" />
+          <ScalarProperty Name="DRAmount" ColumnName="DRAmount" />
+          <ScalarProperty Name="OPBAL" ColumnName="OPBAL" />
+          <ScalarProperty Name="JournalId" ColumnName="JournalId" />
+          <ScalarProperty Name="LedgerId" ColumnName="LedgerId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccLiabilitiesRpts">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.AccLiabilitiesRpt">
+        <MappingFragment StoreEntitySet="AccLiabilitiesRpt">
+          <ScalarProperty Name="ActiveStatus" ColumnName="ActiveStatus" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="SubCode1Id" ColumnName="SubCode1Id" />
+          <ScalarProperty Name="MainHeadId" ColumnName="MainHeadId" />
+          <ScalarProperty Name="LiabRptId" ColumnName="LiabRptId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccMainHeads">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.AccMainHead">
+        <MappingFragment StoreEntitySet="AccMainHeads">
+          <ScalarProperty Name="AID" ColumnName="AID" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="MainHeadName" ColumnName="MainHeadName" />
+          <ScalarProperty Name="MainHadeNum" ColumnName="MainHadeNum" />
+          <ScalarProperty Name="MainHeadId" ColumnName="MainHeadId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccMainVouchers">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.AccMainVoucher">
+        <MappingFragment StoreEntitySet="AccMainVouchers">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="MainVoucherName" ColumnName="MainVoucherName" />
+          <ScalarProperty Name="MainVoucherCode" ColumnName="MainVoucherCode" />
+          <ScalarProperty Name="MainVoucherId" ColumnName="MainVoucherId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccSubCode1">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.AccSubCode1">
+        <MappingFragment StoreEntitySet="AccSubCode1">
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="AssetType" ColumnName="AssetType" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="MainHeadId" ColumnName="MainHeadId" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="AID" ColumnName="AID" />
+          <ScalarProperty Name="SubCode_1Name" ColumnName="SubCode_1Name" />
+          <ScalarProperty Name="SubCode_1Num" ColumnName="SubCode_1Num" />
+          <ScalarProperty Name="SubCode_1Id" ColumnName="SubCode_1Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccSubCode2">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.AccSubCode2">
+        <MappingFragment StoreEntitySet="AccSubCode2">
+          <ScalarProperty Name="Depreciation" ColumnName="Depreciation" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="AssetType" ColumnName="AssetType" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="SubCode_1Id" ColumnName="SubCode_1Id" />
+          <ScalarProperty Name="MainHeadId" ColumnName="MainHeadId" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="AID" ColumnName="AID" />
+          <ScalarProperty Name="SubCode_2Name" ColumnName="SubCode_2Name" />
+          <ScalarProperty Name="SubCode2_Num" ColumnName="SubCode2_Num" />
+          <ScalarProperty Name="SubCode2_Id" ColumnName="SubCode2_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccSubVouchers">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.AccSubVoucher">
+        <MappingFragment StoreEntitySet="AccSubVouchers">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="MainVoucherId" ColumnName="MainVoucherId" />
+          <ScalarProperty Name="SubVoucherName" ColumnName="SubVoucherName" />
+          <ScalarProperty Name="SubVoucherCode" ColumnName="SubVoucherCode" />
+          <ScalarProperty Name="SubVoucherId" ColumnName="SubVoucherId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccTranItems">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.AccTranItem">
+        <MappingFragment StoreEntitySet="AccTranItem">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="TranName" ColumnName="TranName" />
+          <ScalarProperty Name="TranId" ColumnName="TranId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccTransDetails">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.AccTransDetail">
+        <MappingFragment StoreEntitySet="AccTransDetails">
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CrSubVoucherId" ColumnName="CrSubVoucherId" />
+          <ScalarProperty Name="CRSubCoId2" ColumnName="CRSubCoId2" />
+          <ScalarProperty Name="CRCOAId" ColumnName="CRCOAId" />
+          <ScalarProperty Name="DrSubVoucherId" ColumnName="DrSubVoucherId" />
+          <ScalarProperty Name="DRSubCoId2" ColumnName="DRSubCoId2" />
+          <ScalarProperty Name="DRCOAId" ColumnName="DRCOAId" />
+          <ScalarProperty Name="TranId" ColumnName="TranId" />
+          <ScalarProperty Name="AccTransDtlId" ColumnName="AccTransDtlId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.Category">
+        <MappingFragment StoreEntitySet="Categories">
+          <ScalarProperty Name="ComId" ColumnName="ComId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="CatId" ColumnName="CatId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CocktailInfoes">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.CocktailInfo">
+        <MappingFragment StoreEntitySet="CocktailInfo">
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="ItemProId" ColumnName="ItemProId" />
+          <ScalarProperty Name="CocktaiProId" ColumnName="CocktaiProId" />
+          <ScalarProperty Name="CocktaiInfoId" ColumnName="CocktaiInfoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CompanyInfoes">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.CompanyInfo">
+        <MappingFragment StoreEntitySet="CompanyInfoes">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CompStatus" ColumnName="CompStatus" />
+          <ScalarProperty Name="Website" ColumnName="Website" />
+          <ScalarProperty Name="CompPresentAdd" ColumnName="CompPresentAdd" />
+          <ScalarProperty Name="CompDes" ColumnName="CompDes" />
+          <ScalarProperty Name="CompEmail" ColumnName="CompEmail" />
+          <ScalarProperty Name="CompMobile2" ColumnName="CompMobile2" />
+          <ScalarProperty Name="CompMobile1" ColumnName="CompMobile1" />
+          <ScalarProperty Name="CompPhone" ColumnName="CompPhone" />
+          <ScalarProperty Name="CompPermanantAdd" ColumnName="CompPermanantAdd" />
+          <ScalarProperty Name="CompName_BarCode" ColumnName="CompName_BarCode" />
+          <ScalarProperty Name="CompName" ColumnName="CompName" />
+          <ScalarProperty Name="CompId" ColumnName="CompId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmpEducations">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.EmpEducation">
+        <MappingFragment StoreEntitySet="EmpEducations">
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="Updatedate" ColumnName="Updatedate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="Eximination" ColumnName="Eximination" />
+          <ScalarProperty Name="PassingYear" ColumnName="PassingYear" />
+          <ScalarProperty Name="Board" ColumnName="Board" />
+          <ScalarProperty Name="InstituteName" ColumnName="InstituteName" />
+          <ScalarProperty Name="Cgpa" ColumnName="Cgpa" />
+          <ScalarProperty Name="Division" ColumnName="Division" />
+          <ScalarProperty Name="ResultType" ColumnName="ResultType" />
+          <ScalarProperty Name="EmpId" ColumnName="EmpId" />
+          <ScalarProperty Name="EduId" ColumnName="EduId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmpExperienceInfoes">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.EmpExperienceInfo">
+        <MappingFragment StoreEntitySet="EmpExperienceInfoes">
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="Responsibility" ColumnName="Responsibility" />
+          <ScalarProperty Name="OrganizationName" ColumnName="OrganizationName" />
+          <ScalarProperty Name="ToDate" ColumnName="ToDate" />
+          <ScalarProperty Name="FromDate" ColumnName="FromDate" />
+          <ScalarProperty Name="Disignation" ColumnName="Disignation" />
+          <ScalarProperty Name="EmpId" ColumnName="EmpId" />
+          <ScalarProperty Name="ExperienceId" ColumnName="ExperienceId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.Employee">
+        <MappingFragment StoreEntitySet="Employees">
+          <ScalarProperty Name="DiscountStatus" ColumnName="DiscountStatus" />
+          <ScalarProperty Name="LocationStatus" ColumnName="LocationStatus" />
+          <ScalarProperty Name="SalaryStatus" ColumnName="SalaryStatus" />
+          <ScalarProperty Name="ExperienceStatus" ColumnName="ExperienceStatus" />
+          <ScalarProperty Name="TariningStatus" ColumnName="TariningStatus" />
+          <ScalarProperty Name="EduStatus" ColumnName="EduStatus" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="OtizmType" ColumnName="OtizmType" />
+          <ScalarProperty Name="OtizmStatus" ColumnName="OtizmStatus" />
+          <ScalarProperty Name="FamilyContactNum" ColumnName="FamilyContactNum" />
+          <ScalarProperty Name="RefContactNum" ColumnName="RefContactNum" />
+          <ScalarProperty Name="ReferenceBy" ColumnName="ReferenceBy" />
+          <ScalarProperty Name="JobStatus" ColumnName="JobStatus" />
+          <ScalarProperty Name="JobType" ColumnName="JobType" />
+          <ScalarProperty Name="EmpTypeId" ColumnName="EmpTypeId" />
+          <ScalarProperty Name="EmpSpecilistId" ColumnName="EmpSpecilistId" />
+          <ScalarProperty Name="BrProId" ColumnName="BrProId" />
+          <ScalarProperty Name="ImageName" ColumnName="ImageName" />
+          <ScalarProperty Name="Religion" ColumnName="Religion" />
+          <ScalarProperty Name="Merital" ColumnName="Merital" />
+          <ScalarProperty Name="Nationality" ColumnName="Nationality" />
+          <ScalarProperty Name="PermanentAdd" ColumnName="PermanentAdd" />
+          <ScalarProperty Name="FatherName" ColumnName="FatherName" />
+          <ScalarProperty Name="MotherName" ColumnName="MotherName" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="NationalID" ColumnName="NationalID" />
+          <ScalarProperty Name="JoinDate" ColumnName="JoinDate" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Mobile2" ColumnName="Mobile2" />
+          <ScalarProperty Name="Mobile1" ColumnName="Mobile1" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="SurName" ColumnName="SurName" />
+          <ScalarProperty Name="EmpName" ColumnName="EmpName" />
+          <ScalarProperty Name="EmpId" ColumnName="EmpId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmpSpecialists">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.EmpSpecialist">
+        <MappingFragment StoreEntitySet="EmpSpecialists">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="EmpTypeId" ColumnName="EmpTypeId" />
+          <ScalarProperty Name="Specialist" ColumnName="Specialist" />
+          <ScalarProperty Name="EmpSpecilistId" ColumnName="EmpSpecilistId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmpTrainings">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.EmpTraining">
+        <MappingFragment StoreEntitySet="EmpTrainings">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="Duration" ColumnName="Duration" />
+          <ScalarProperty Name="TrainingYear" ColumnName="TrainingYear" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="InstituteName" ColumnName="InstituteName" />
+          <ScalarProperty Name="TopicsCovered" ColumnName="TopicsCovered" />
+          <ScalarProperty Name="TrainingName" ColumnName="TrainingName" />
+          <ScalarProperty Name="EmpId" ColumnName="EmpId" />
+          <ScalarProperty Name="TrainingId" ColumnName="TrainingId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmpTypes">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.EmpType">
+        <MappingFragment StoreEntitySet="EmpTypes">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="TypeName" ColumnName="TypeName" />
+          <ScalarProperty Name="EmpTypeId" ColumnName="EmpTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExpenseHeads">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.ExpenseHead">
+        <MappingFragment StoreEntitySet="ExpenseHeads">
+          <ScalarProperty Name="HeadName" ColumnName="HeadName" />
+          <ScalarProperty Name="ExHeadId" ColumnName="ExHeadId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Expenses">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.Expens">
+        <MappingFragment StoreEntitySet="Expenses">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="ExHeadId" ColumnName="ExHeadId" />
+          <ScalarProperty Name="ExpanseId" ColumnName="ExpanseId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvenBranchProfiles">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.InvenBranchProfile">
+        <MappingFragment StoreEntitySet="InvenBranchProfile">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="BrDescription" ColumnName="BrDescription" />
+          <ScalarProperty Name="BrWebsite" ColumnName="BrWebsite" />
+          <ScalarProperty Name="BrEmail" ColumnName="BrEmail" />
+          <ScalarProperty Name="BrMobile2" ColumnName="BrMobile2" />
+          <ScalarProperty Name="BrMobile1" ColumnName="BrMobile1" />
+          <ScalarProperty Name="BrPhone" ColumnName="BrPhone" />
+          <ScalarProperty Name="BrAddress" ColumnName="BrAddress" />
+          <ScalarProperty Name="BrProName" ColumnName="BrProName" />
+          <ScalarProperty Name="CompProId" ColumnName="CompProId" />
+          <ScalarProperty Name="BrProId" ColumnName="BrProId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvenBranchReturns">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.InvenBranchReturn">
+        <MappingFragment StoreEntitySet="InvenBranchReturn">
+          <ScalarProperty Name="CentralToPartyStatus" ColumnName="CentralToPartyStatus" />
+          <ScalarProperty Name="ReciveDate" ColumnName="ReciveDate" />
+          <ScalarProperty Name="ReciveBy" ColumnName="ReciveBy" />
+          <ScalarProperty Name="ReturnReciveStatus" ColumnName="ReturnReciveStatus" />
+          <ScalarProperty Name="ReturnNo" ColumnName="ReturnNo" />
+          <ScalarProperty Name="ReturnDate" ColumnName="ReturnDate" />
+          <ScalarProperty Name="ReturnBy" ColumnName="ReturnBy" />
+          <ScalarProperty Name="ChangeDtlId" ColumnName="ChangeDtlId" />
+          <ScalarProperty Name="BranchReturnId" ColumnName="BranchReturnId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvenBranchToCentralReturnDtls">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.InvenBranchToCentralReturnDtl">
+        <MappingFragment StoreEntitySet="InvenBranchToCentralReturnDtl">
+          <ScalarProperty Name="reBy" ColumnName="reBy" />
+          <ScalarProperty Name="reProBranchId" ColumnName="reProBranchId" />
+          <ScalarProperty Name="reProAmount" ColumnName="reProAmount" />
+          <ScalarProperty Name="reProId" ColumnName="reProId" />
+          <ScalarProperty Name="reCompId" ColumnName="reCompId" />
+          <ScalarProperty Name="reDate" ColumnName="reDate" />
+          <ScalarProperty Name="reQty" ColumnName="reQty" />
+          <ScalarProperty Name="branchReId" ColumnName="branchReId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvenCenteralStoreStatus">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.InvenCenteralStoreStatu">
+        <MappingFragment StoreEntitySet="InvenCenteralStoreStatus">
+          <ScalarProperty Name="QuantityPurchase" ColumnName="QuantityPurchase" />
+          <ScalarProperty Name="QuantityLastPurchase" ColumnName="QuantityLastPurchase" />
+          <ScalarProperty Name="DateStored" ColumnName="DateStored" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="CompanyId" ColumnName="CompanyId" />
+          <ScalarProperty Name="BranchId" ColumnName="BranchId" />
+          <ScalarProperty Name="QuantityStore" ColumnName="QuantityStore" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="CentralStoreId" ColumnName="CentralStoreId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvenCentralChallanDtls">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.InvenCentralChallanDtl">
+        <MappingFragment StoreEntitySet="InvenCentralChallanDtl">
+          <ScalarProperty Name="ChallanPrice" ColumnName="ChallanPrice" />
+          <ScalarProperty Name="ChallanQuantity" ColumnName="ChallanQuantity" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="ChallanId" ColumnName="ChallanId" />
+          <ScalarProperty Name="ChallanDtlId" ColumnName="ChallanDtlId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvenCentralChallanInfoes">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.InvenCentralChallanInfo">
+        <MappingFragment StoreEntitySet="InvenCentralChallanInfo">
+          <ScalarProperty Name="BrProId" ColumnName="BrProId" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="ChallanBy" ColumnName="ChallanBy" />
+          <ScalarProperty Name="ChallanDate" ColumnName="ChallanDate" />
+          <ScalarProperty Name="PurReqNo" ColumnName="PurReqNo" />
+          <ScalarProperty Name="ChallanId" ColumnName="ChallanId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvenCentralPurchaseDtls">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.InvenCentralPurchaseDtl">
+        <MappingFragment StoreEntitySet="InvenCentralPurchaseDtls">
+          <ScalarProperty Name="ExpirySalesStatus" ColumnName="ExpirySalesStatus" />
+          <ScalarProperty Name="BatchNo" ColumnName="BatchNo" />
+          <ScalarProperty Name="ExpriyDate" ColumnName="ExpriyDate" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="PurId" ColumnName="PurId" />
+          <ScalarProperty Name="PurchasePrice" ColumnName="PurchasePrice" />
+          <ScalarProperty Name="PurchaseDtlID" ColumnName="PurchaseDtlID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvenCentralPurchaseInfoes">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.InvenCentralPurchaseInfo">
+        <MappingFragment StoreEntitySet="InvenCentralPurchaseInfoes">
+          <ScalarProperty Name="PurOrderNo" ColumnName="PurOrderNo" />
+          <ScalarProperty Name="SalesManName" ColumnName="SalesManName" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="PurDes" ColumnName="PurDes" />
+          <ScalarProperty Name="PurId" ColumnName="PurId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvenCentralPurchcasePaymentDtls">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.InvenCentralPurchcasePaymentDtl">
+        <MappingFragment StoreEntitySet="InvenCentralPurchcasePaymentDtls">
+          <ScalarProperty Name="LCNumber" ColumnName="LCNumber" />
+          <ScalarProperty Name="AccountInfoId" ColumnName="AccountInfoId" />
+          <ScalarProperty Name="IssDate" ColumnName="IssDate" />
+          <ScalarProperty Name="ChequeDate" ColumnName="ChequeDate" />
+          <ScalarProperty Name="ChequeNo" ColumnName="ChequeNo" />
+          <ScalarProperty Name="PaymentBy" ColumnName="PaymentBy" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="TotalPrice" ColumnName="TotalPrice" />
+          <ScalarProperty Name="DueAmount" ColumnName="DueAmount" />
+          <ScalarProperty Name="PaidAmount" ColumnName="PaidAmount" />
+          <ScalarProperty Name="PaymentMode" ColumnName="PaymentMode" />
+          <ScalarProperty Name="PurPaymentId" ColumnName="PurPaymentId" />
+          <ScalarProperty Name="PurPayDtlId" ColumnName="PurPayDtlId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvenCentralPurchcasePayments">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.InvenCentralPurchcasePayment">
+        <MappingFragment StoreEntitySet="InvenCentralPurchcasePayments">
+          <ScalarProperty Name="CompId" ColumnName="CompId" />
+          <ScalarProperty Name="FirstPaymentStatus" ColumnName="FirstPaymentStatus" />
+          <ScalarProperty Name="PurId" ColumnName="PurId" />
+          <ScalarProperty Name="TotalPrice" ColumnName="TotalPrice" />
+          <ScalarProperty Name="DueAmount" ColumnName="DueAmount" />
+          <ScalarProperty Name="PaidAmount" ColumnName="PaidAmount" />
+          <ScalarProperty Name="PurPaymentId" ColumnName="PurPaymentId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvenCentralPurRequisitions">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.InvenCentralPurRequisition">
+        <MappingFragment StoreEntitySet="InvenCentralPurRequisition">
+          <ScalarProperty Name="PurReqId" ColumnName="PurReqId" />
+          <ScalarProperty Name="PurReqStatus" ColumnName="PurReqStatus" />
+          <ScalarProperty Name="RequisitionDate" ColumnName="RequisitionDate" />
+          <ScalarProperty Name="RequisitionBy" ColumnName="RequisitionBy" />
+          <ScalarProperty Name="RequisitionNo" ColumnName="RequisitionNo" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="CenPurReqId" ColumnName="CenPurReqId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvenCentralReturns">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.InvenCentralReturn">
+        <MappingFragment StoreEntitySet="InvenCentralReturn">
+          <ScalarProperty Name="ReturnNo" ColumnName="ReturnNo" />
+          <ScalarProperty Name="ReturnDate" ColumnName="ReturnDate" />
+          <ScalarProperty Name="ReturnBy" ColumnName="ReturnBy" />
+          <ScalarProperty Name="BranchReturnId" ColumnName="BranchReturnId" />
+          <ScalarProperty Name="CentralReturnId" ColumnName="CentralReturnId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvenCentralToPartyReturnDtls">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.InvenCentralToPartyReturnDtl">
+        <MappingFragment StoreEntitySet="InvenCentralToPartyReturnDtl">
+          <ScalarProperty Name="reBy" ColumnName="reBy" />
+          <ScalarProperty Name="reDate" ColumnName="reDate" />
+          <ScalarProperty Name="reProBranchId" ColumnName="reProBranchId" />
+          <ScalarProperty Name="reCompId" ColumnName="reCompId" />
+          <ScalarProperty Name="reProId" ColumnName="reProId" />
+          <ScalarProperty Name="reProAmount" ColumnName="reProAmount" />
+          <ScalarProperty Name="reQty" ColumnName="reQty" />
+          <ScalarProperty Name="centralReId" ColumnName="centralReId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvenCentrealPurOrders">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.InvenCentrealPurOrder">
+        <MappingFragment StoreEntitySet="InvenCentrealPurOrder">
+          <ScalarProperty Name="PurReqId" ColumnName="PurReqId" />
+          <ScalarProperty Name="PurChallanStatus" ColumnName="PurChallanStatus" />
+          <ScalarProperty Name="PurOrderStatus" ColumnName="PurOrderStatus" />
+          <ScalarProperty Name="PurOrderDate" ColumnName="PurOrderDate" />
+          <ScalarProperty Name="PurOrderBy" ColumnName="PurOrderBy" />
+          <ScalarProperty Name="PurOrderNO" ColumnName="PurOrderNO" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="CentralPurOrderId" ColumnName="CentralPurOrderId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvenChangeDtls">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.InvenChangeDtl">
+        <MappingFragment StoreEntitySet="InvenChangeDtls">
+          <ScalarProperty Name="CentranlReturnStatus" ColumnName="CentranlReturnStatus" />
+          <ScalarProperty Name="TransectionType" ColumnName="TransectionType" />
+          <ScalarProperty Name="Caused" ColumnName="Caused" />
+          <ScalarProperty Name="SaleDtlId" ColumnName="SaleDtlId" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="ChangeId" ColumnName="ChangeId" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="SalePrice" ColumnName="SalePrice" />
+          <ScalarProperty Name="ChangeDtlId" ColumnName="ChangeDtlId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvenChangeInfoes">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.InvenChangeInfo">
+        <MappingFragment StoreEntitySet="InvenChangeInfoes">
+          <ScalarProperty Name="CusRemarks" ColumnName="CusRemarks" />
+          <ScalarProperty Name="CusContactAdd" ColumnName="CusContactAdd" />
+          <ScalarProperty Name="CusMobileNo" ColumnName="CusMobileNo" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="BrProId" ColumnName="BrProId" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="ChangeId" ColumnName="ChangeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvenChangePaymentDtls">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.InvenChangePaymentDtl">
+        <MappingFragment StoreEntitySet="InvenChangePaymentDtls">
+          <ScalarProperty Name="HolderName" ColumnName="HolderName" />
+          <ScalarProperty Name="ApprCode" ColumnName="ApprCode" />
+          <ScalarProperty Name="BankName" ColumnName="BankName" />
+          <ScalarProperty Name="CardNo" ColumnName="CardNo" />
+          <ScalarProperty Name="PaymentBy" ColumnName="PaymentBy" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="PaidAmount" ColumnName="PaidAmount" />
+          <ScalarProperty Name="PaymentMode" ColumnName="PaymentMode" />
+          <ScalarProperty Name="ChangeId" ColumnName="ChangeId" />
+          <ScalarProperty Name="ChangePayDtlId" ColumnName="ChangePayDtlId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvenChangePayments">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.InvenChangePayment">
+        <MappingFragment StoreEntitySet="InvenChangePayments">
+          <ScalarProperty Name="DiscountDescription" ColumnName="DiscountDescription" />
+          <ScalarProperty Name="Vat" ColumnName="Vat" />
+          <ScalarProperty Name="ChangeId" ColumnName="ChangeId" />
+          <ScalarProperty Name="TotalPrice" ColumnName="TotalPrice" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+          <ScalarProperty Name="DueAmount" ColumnName="DueAmount" />
+          <ScalarProperty Name="PaidAmount" ColumnName="PaidAmount" />
+          <ScalarProperty Name="ChangePaymentId" ColumnName="ChangePaymentId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvenCompProfileInfoes">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.InvenCompProfileInfo">
+        <MappingFragment StoreEntitySet="InvenCompProfileInfo">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CompDescription" ColumnName="CompDescription" />
+          <ScalarProperty Name="CompWebsite" ColumnName="CompWebsite" />
+          <ScalarProperty Name="CompEmail" ColumnName="CompEmail" />
+          <ScalarProperty Name="CompMobile2" ColumnName="CompMobile2" />
+          <ScalarProperty Name="CompMobile1" ColumnName="CompMobile1" />
+          <ScalarProperty Name="CompPhone" ColumnName="CompPhone" />
+          <ScalarProperty Name="CompAddress" ColumnName="CompAddress" />
+          <ScalarProperty Name="CompProName" ColumnName="CompProName" />
+          <ScalarProperty Name="CompProId" ColumnName="CompProId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvenPerRequisitions">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.InvenPerRequisition">
+        <MappingFragment StoreEntitySet="InvenPerRequisition">
+          <ScalarProperty Name="BrProId" ColumnName="BrProId" />
+          <ScalarProperty Name="PurReqStatus" ColumnName="PurReqStatus" />
+          <ScalarProperty Name="RequisitionDate" ColumnName="RequisitionDate" />
+          <ScalarProperty Name="RequisitionBy" ColumnName="RequisitionBy" />
+          <ScalarProperty Name="RequisitionNo" ColumnName="RequisitionNo" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="PurReqId" ColumnName="PurReqId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvenPurOrders">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.InvenPurOrder">
+        <MappingFragment StoreEntitySet="InvenPurOrder">
+          <ScalarProperty Name="PurOrderStatus" ColumnName="PurOrderStatus" />
+          <ScalarProperty Name="PurOrderDate" ColumnName="PurOrderDate" />
+          <ScalarProperty Name="PurOrderBy" ColumnName="PurOrderBy" />
+          <ScalarProperty Name="PurOrderNO" ColumnName="PurOrderNO" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="BrProId" ColumnName="BrProId" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="InvenPurOrderId" ColumnName="InvenPurOrderId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvenReorders">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.InvenReorder">
+        <MappingFragment StoreEntitySet="InvenReorder">
+          <ScalarProperty Name="SalePrice" ColumnName="SalePrice" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="Createdate" ColumnName="Createdate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="PurRequisitonStatus" ColumnName="PurRequisitonStatus" />
+          <ScalarProperty Name="RateOfInterest" ColumnName="RateOfInterest" />
+          <ScalarProperty Name="ReorderValue" ColumnName="ReorderValue" />
+          <ScalarProperty Name="BrProId" ColumnName="BrProId" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="ReorderId" ColumnName="ReorderId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvenSaleDtls">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.InvenSaleDtl">
+        <MappingFragment StoreEntitySet="InvenSaleDtls">
+          <ScalarProperty Name="SalesDate" ColumnName="SalesDate" />
+          <ScalarProperty Name="TransectionType" ColumnName="TransectionType" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="SalId" ColumnName="SalId" />
+          <ScalarProperty Name="SaleType" ColumnName="SaleType" />
+          <ScalarProperty Name="OffQuantity" ColumnName="OffQuantity" />
+          <ScalarProperty Name="BarQuantity" ColumnName="BarQuantity" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="SalePrice" ColumnName="SalePrice" />
+          <ScalarProperty Name="SaleDtlId" ColumnName="SaleDtlId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvenSalePayments">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.InvenSalePayment">
+        <MappingFragment StoreEntitySet="InvenSalePayments">
+          <ScalarProperty Name="DiscountDescription" ColumnName="DiscountDescription" />
+          <ScalarProperty Name="Vat" ColumnName="Vat" />
+          <ScalarProperty Name="SalId" ColumnName="SalId" />
+          <ScalarProperty Name="TotalPrice" ColumnName="TotalPrice" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+          <ScalarProperty Name="DueAmount" ColumnName="DueAmount" />
+          <ScalarProperty Name="PaidAmount" ColumnName="PaidAmount" />
+          <ScalarProperty Name="SalePaymentId" ColumnName="SalePaymentId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvenSalesInfoes">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.InvenSalesInfo">
+        <MappingFragment StoreEntitySet="InvenSalesInfoes">
+          <ScalarProperty Name="CusRemarks" ColumnName="CusRemarks" />
+          <ScalarProperty Name="CusContactAdd" ColumnName="CusContactAdd" />
+          <ScalarProperty Name="CusMobileNo" ColumnName="CusMobileNo" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="BrProId" ColumnName="BrProId" />
+          <ScalarProperty Name="MemberId" ColumnName="MemberId" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="SalId" ColumnName="SalId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvenSalesPaymentDtls">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.InvenSalesPaymentDtl">
+        <MappingFragment StoreEntitySet="InvenSalesPaymentDtls">
+          <ScalarProperty Name="HolderName" ColumnName="HolderName" />
+          <ScalarProperty Name="ApprCode" ColumnName="ApprCode" />
+          <ScalarProperty Name="BankName" ColumnName="BankName" />
+          <ScalarProperty Name="CardNo" ColumnName="CardNo" />
+          <ScalarProperty Name="PaymentBy" ColumnName="PaymentBy" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="PaidAmount" ColumnName="PaidAmount" />
+          <ScalarProperty Name="PaymentMode" ColumnName="PaymentMode" />
+          <ScalarProperty Name="SalId" ColumnName="SalId" />
+          <ScalarProperty Name="SalePayDtlId" ColumnName="SalePayDtlId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvenSaleXtraInfoes">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.InvenSaleXtraInfo">
+        <MappingFragment StoreEntitySet="InvenSaleXtraInfo">
+          <ScalarProperty Name="BekaryBill" ColumnName="BekaryBill" />
+          <ScalarProperty Name="RestuarentBill" ColumnName="RestuarentBill" />
+          <ScalarProperty Name="CateringBill" ColumnName="CateringBill" />
+          <ScalarProperty Name="SalId" ColumnName="SalId" />
+          <ScalarProperty Name="SaleXtraInfoId" ColumnName="SaleXtraInfoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvenStoreStatus">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.InvenStoreStatu">
+        <MappingFragment StoreEntitySet="InvenStoreStatus">
+          <ScalarProperty Name="QuantityLastPurchase" ColumnName="QuantityLastPurchase" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateStored" ColumnName="DateStored" />
+          <ScalarProperty Name="QuantityPurchase" ColumnName="QuantityPurchase" />
+          <ScalarProperty Name="QuantityStore" ColumnName="QuantityStore" />
+          <ScalarProperty Name="BrProId" ColumnName="BrProId" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="InvenStoreId" ColumnName="InvenStoreId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvenTempSales">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.InvenTempSale">
+        <MappingFragment StoreEntitySet="InvenTempSale">
+          <ScalarProperty Name="SaleType" ColumnName="SaleType" />
+          <ScalarProperty Name="UnitPrize" ColumnName="UnitPrize" />
+          <ScalarProperty Name="PegSize" ColumnName="PegSize" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="SubCategory" ColumnName="SubCategory" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="MemberId" ColumnName="MemberId" />
+          <ScalarProperty Name="TempId" ColumnName="TempId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Log_AccJournal">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.Log_AccJournal">
+        <MappingFragment StoreEntitySet="Log_AccJournal">
+          <ScalarProperty Name="LogBy" ColumnName="LogBy" />
+          <ScalarProperty Name="LogDate" ColumnName="LogDate" />
+          <ScalarProperty Name="LogField" ColumnName="LogField" />
+          <ScalarProperty Name="LogJournalId" ColumnName="LogJournalId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Log_InvenReorder">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.Log_InvenReorder">
+        <MappingFragment StoreEntitySet="Log_InvenReorder">
+          <ScalarProperty Name="LogBy" ColumnName="LogBy" />
+          <ScalarProperty Name="LogDate" ColumnName="LogDate" />
+          <ScalarProperty Name="LogField" ColumnName="LogField" />
+          <ScalarProperty Name="LogInvenReorderId" ColumnName="LogInvenReorderId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Log_PayEmpInfo">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.Log_PayEmpInfo">
+        <MappingFragment StoreEntitySet="Log_PayEmpInfo">
+          <ScalarProperty Name="LogDate" ColumnName="LogDate" />
+          <ScalarProperty Name="LogBy" ColumnName="LogBy" />
+          <ScalarProperty Name="LogField" ColumnName="LogField" />
+          <ScalarProperty Name="LogPayEmpInfoId" ColumnName="LogPayEmpInfoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Log_PayuserRole">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.Log_PayuserRole">
+        <MappingFragment StoreEntitySet="Log_PayuserRole">
+          <ScalarProperty Name="LogDate" ColumnName="LogDate" />
+          <ScalarProperty Name="LogBy" ColumnName="LogBy" />
+          <ScalarProperty Name="LogField" ColumnName="LogField" />
+          <ScalarProperty Name="LogFilePayUserRoleId" ColumnName="LogFilePayUserRoleId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Members">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.Member">
+        <MappingFragment StoreEntitySet="Member">
+          <ScalarProperty Name="MemType" ColumnName="MemType" />
+          <ScalarProperty Name="ContactNo" ColumnName="ContactNo" />
+          <ScalarProperty Name="Exservice" ColumnName="Exservice" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="MemberNo" ColumnName="MemberNo" />
+          <ScalarProperty Name="MemberId" ColumnName="MemberId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PageObjectRoles">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.PageObjectRole">
+        <MappingFragment StoreEntitySet="PageObjectRoles">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="PageObjectId" ColumnName="PageObjectId" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="PageObjAccId" ColumnName="PageObjAccId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PageObjects">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.PageObject">
+        <MappingFragment StoreEntitySet="PageObjects">
+          <ScalarProperty Name="PageMethodeName" ColumnName="PageMethodeName" />
+          <ScalarProperty Name="PagePath" ColumnName="PagePath" />
+          <ScalarProperty Name="PageName" ColumnName="PageName" />
+          <ScalarProperty Name="PageTypeName" ColumnName="PageTypeName" />
+          <ScalarProperty Name="PageObjectId" ColumnName="PageObjectId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PayAccountTypeInfoes">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.PayAccountTypeInfo">
+        <MappingFragment StoreEntitySet="PayAccountTypeInfoes">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="AccountTypeName" ColumnName="AccountTypeName" />
+          <ScalarProperty Name="AccountTypeId" ColumnName="AccountTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PayAssets">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.PayAsset">
+        <MappingFragment StoreEntitySet="PayAsset">
+          <ScalarProperty Name="BankAmount_Current" ColumnName="BankAmount_Current" />
+          <ScalarProperty Name="CashAmount_Current" ColumnName="CashAmount_Current" />
+          <ScalarProperty Name="AssetId" ColumnName="AssetId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PayBankAccountInfoes">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.PayBankAccountInfo">
+        <MappingFragment StoreEntitySet="PayBankAccountInfoes">
+          <ScalarProperty Name="BrProId" ColumnName="BrProId" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="ActivationSatus" ColumnName="ActivationSatus" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="AccountNum" ColumnName="AccountNum" />
+          <ScalarProperty Name="AccountName" ColumnName="AccountName" />
+          <ScalarProperty Name="AccountTypeId" ColumnName="AccountTypeId" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="BankId" ColumnName="BankId" />
+          <ScalarProperty Name="BranchName" ColumnName="BranchName" />
+          <ScalarProperty Name="AccountInfoId" ColumnName="AccountInfoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PayBankInfoes">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.PayBankInfo">
+        <MappingFragment StoreEntitySet="PayBankInfoes">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="BankName" ColumnName="BankName" />
+          <ScalarProperty Name="BankId" ColumnName="BankId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PayBankTransectionDtlInfoes">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.PayBankTransectionDtlInfo">
+        <MappingFragment StoreEntitySet="PayBankTransectionDtlInfoes">
+          <ScalarProperty Name="CollectionDate" ColumnName="CollectionDate" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="PaymentBy" ColumnName="PaymentBy" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="Amount_EachTransection" ColumnName="Amount_EachTransection" />
+          <ScalarProperty Name="BrProId" ColumnName="BrProId" />
+          <ScalarProperty Name="AccountInfoId" ColumnName="AccountInfoId" />
+          <ScalarProperty Name="TransectionDtlId" ColumnName="TransectionDtlId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PayBankTransectionInfoes">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.PayBankTransectionInfo">
+        <MappingFragment StoreEntitySet="PayBankTransectionInfoes">
+          <ScalarProperty Name="BankAmount" ColumnName="BankAmount" />
+          <ScalarProperty Name="AccountInfoId" ColumnName="AccountInfoId" />
+          <ScalarProperty Name="BankTransectionId" ColumnName="BankTransectionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PayCompanyCashEntries">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.PayCompanyCashEntry">
+        <MappingFragment StoreEntitySet="PayCompanyCashEntries">
+          <ScalarProperty Name="CollectionDate" ColumnName="CollectionDate" />
+          <ScalarProperty Name="Month" ColumnName="Month" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="CrateDate" ColumnName="CrateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CashAmount" ColumnName="CashAmount" />
+          <ScalarProperty Name="BrProId" ColumnName="BrProId" />
+          <ScalarProperty Name="CashId" ColumnName="CashId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PayRoles">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.PayRole">
+        <MappingFragment StoreEntitySet="PayRole">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PayUserRoles">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.PayUserRole">
+        <MappingFragment StoreEntitySet="PayUserRole">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="EmpId" ColumnName="EmpId" />
+          <ScalarProperty Name="UserRoleId" ColumnName="UserRoleId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.Product">
+        <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="ProductReOrderStatus" ColumnName="ProductReOrderStatus" />
+          <ScalarProperty Name="ProductSalePrice" ColumnName="ProductSalePrice" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="ReorderInsertStatus" ColumnName="ReorderInsertStatus" />
+          <ScalarProperty Name="CenterReorderValue" ColumnName="CenterReorderValue" />
+          <ScalarProperty Name="ProductPurchasePrice" ColumnName="ProductPurchasePrice" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="CompId" ColumnName="CompId" />
+          <ScalarProperty Name="UnitId" ColumnName="UnitId" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PurchaseDtls">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.PurchaseDtl">
+        <MappingFragment StoreEntitySet="PurchaseDtls">
+          <ScalarProperty Name="ProductSalePrice" ColumnName="ProductSalePrice" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="PurId" ColumnName="PurId" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="PurchasePrice" ColumnName="PurchasePrice" />
+          <ScalarProperty Name="PurchaseDtlID" ColumnName="PurchaseDtlID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PurchaseInfoes">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.PurchaseInfo">
+        <MappingFragment StoreEntitySet="PurchaseInfoes">
+          <ScalarProperty Name="DONO" ColumnName="DONO" />
+          <ScalarProperty Name="CompId" ColumnName="CompId" />
+          <ScalarProperty Name="SalesManName" ColumnName="SalesManName" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="PurDes" ColumnName="PurDes" />
+          <ScalarProperty Name="PurId" ColumnName="PurId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PurchcasePaymentDtls">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.PurchcasePaymentDtl">
+        <MappingFragment StoreEntitySet="PurchcasePaymentDtl">
+          <ScalarProperty Name="LCNumber" ColumnName="LCNumber" />
+          <ScalarProperty Name="AccountInfoId" ColumnName="AccountInfoId" />
+          <ScalarProperty Name="IssDate" ColumnName="IssDate" />
+          <ScalarProperty Name="ChequeDate" ColumnName="ChequeDate" />
+          <ScalarProperty Name="ChequeNo" ColumnName="ChequeNo" />
+          <ScalarProperty Name="PaymentBy" ColumnName="PaymentBy" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="PurId" ColumnName="PurId" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="TotalPrice" ColumnName="TotalPrice" />
+          <ScalarProperty Name="DueAmount" ColumnName="DueAmount" />
+          <ScalarProperty Name="PaidAmount" ColumnName="PaidAmount" />
+          <ScalarProperty Name="PaymentMode" ColumnName="PaymentMode" />
+          <ScalarProperty Name="PurPayDtlId" ColumnName="PurPayDtlId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PurchcasePayments">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.PurchcasePayment">
+        <MappingFragment StoreEntitySet="PurchcasePayments">
+          <ScalarProperty Name="LCNumber" ColumnName="LCNumber" />
+          <ScalarProperty Name="AccountInfoId" ColumnName="AccountInfoId" />
+          <ScalarProperty Name="IssDate" ColumnName="IssDate" />
+          <ScalarProperty Name="ChequeDate" ColumnName="ChequeDate" />
+          <ScalarProperty Name="ChequeNo" ColumnName="ChequeNo" />
+          <ScalarProperty Name="PaymentBy" ColumnName="PaymentBy" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="PurId" ColumnName="PurId" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="TotalPrice" ColumnName="TotalPrice" />
+          <ScalarProperty Name="DueAmount" ColumnName="DueAmount" />
+          <ScalarProperty Name="PaidAmount" ColumnName="PaidAmount" />
+          <ScalarProperty Name="PaymentMode" ColumnName="PaymentMode" />
+          <ScalarProperty Name="PurPaymentId" ColumnName="PurPaymentId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="definition" ColumnName="definition" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Units">
+      <EntityTypeMapping TypeName="InventoryRaowaModel.Unit">
+        <MappingFragment StoreEntitySet="Units">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="UnitName" ColumnName="UnitName" />
+          <ScalarProperty Name="UnitId" ColumnName="UnitId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

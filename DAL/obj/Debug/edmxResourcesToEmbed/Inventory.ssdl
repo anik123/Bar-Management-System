@@ -1,0 +1,2735 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="InventoryRaowaModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="InventoryRaowaModelStoreContainer">
+    <EntitySet Name="AccBalanceSheetRpt" EntityType="InventoryRaowaModel.Store.AccBalanceSheetRpt" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccCashFlowEntity" EntityType="InventoryRaowaModel.Store.AccCashFlowEntity" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccCashFlowReport" EntityType="InventoryRaowaModel.Store.AccCashFlowReport" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccCOAInfoes" EntityType="InventoryRaowaModel.Store.AccCOAInfoes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccIncomeStatementRpt" EntityType="InventoryRaowaModel.Store.AccIncomeStatementRpt" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccJournalEntry" EntityType="InventoryRaowaModel.Store.AccJournalEntry" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccLedger" EntityType="InventoryRaowaModel.Store.AccLedger" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccLiabilitiesRpt" EntityType="InventoryRaowaModel.Store.AccLiabilitiesRpt" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccMainHeads" EntityType="InventoryRaowaModel.Store.AccMainHeads" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccMainVouchers" EntityType="InventoryRaowaModel.Store.AccMainVouchers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccSubCode1" EntityType="InventoryRaowaModel.Store.AccSubCode1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccSubCode2" EntityType="InventoryRaowaModel.Store.AccSubCode2" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccSubVouchers" EntityType="InventoryRaowaModel.Store.AccSubVouchers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccTranItem" EntityType="InventoryRaowaModel.Store.AccTranItem" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccTransDetails" EntityType="InventoryRaowaModel.Store.AccTransDetails" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Categories" EntityType="InventoryRaowaModel.Store.Categories" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CocktailInfo" EntityType="InventoryRaowaModel.Store.CocktailInfo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CompanyInfoes" EntityType="InventoryRaowaModel.Store.CompanyInfoes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="EmpEducations" EntityType="InventoryRaowaModel.Store.EmpEducations" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="EmpExperienceInfoes" EntityType="InventoryRaowaModel.Store.EmpExperienceInfoes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Employees" EntityType="InventoryRaowaModel.Store.Employees" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="EmpSpecialists" EntityType="InventoryRaowaModel.Store.EmpSpecialists" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="EmpTrainings" EntityType="InventoryRaowaModel.Store.EmpTrainings" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="EmpTypes" EntityType="InventoryRaowaModel.Store.EmpTypes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ExpenseHeads" EntityType="InventoryRaowaModel.Store.ExpenseHeads" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Expenses" EntityType="InventoryRaowaModel.Store.Expenses" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenBranchProfile" EntityType="InventoryRaowaModel.Store.InvenBranchProfile" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenBranchReturn" EntityType="InventoryRaowaModel.Store.InvenBranchReturn" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenBranchToCentralReturnDtl" EntityType="InventoryRaowaModel.Store.InvenBranchToCentralReturnDtl" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenCenteralStoreStatus" EntityType="InventoryRaowaModel.Store.InvenCenteralStoreStatus" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenCentralChallanDtl" EntityType="InventoryRaowaModel.Store.InvenCentralChallanDtl" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenCentralChallanInfo" EntityType="InventoryRaowaModel.Store.InvenCentralChallanInfo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenCentralPurchaseDtls" EntityType="InventoryRaowaModel.Store.InvenCentralPurchaseDtls" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenCentralPurchaseInfoes" EntityType="InventoryRaowaModel.Store.InvenCentralPurchaseInfoes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenCentralPurchcasePaymentDtls" EntityType="InventoryRaowaModel.Store.InvenCentralPurchcasePaymentDtls" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenCentralPurchcasePayments" EntityType="InventoryRaowaModel.Store.InvenCentralPurchcasePayments" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenCentralPurRequisition" EntityType="InventoryRaowaModel.Store.InvenCentralPurRequisition" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenCentralReturn" EntityType="InventoryRaowaModel.Store.InvenCentralReturn" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenCentralToPartyReturnDtl" EntityType="InventoryRaowaModel.Store.InvenCentralToPartyReturnDtl" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenCentrealPurOrder" EntityType="InventoryRaowaModel.Store.InvenCentrealPurOrder" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenChangeDtls" EntityType="InventoryRaowaModel.Store.InvenChangeDtls" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenChangeInfoes" EntityType="InventoryRaowaModel.Store.InvenChangeInfoes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenChangePaymentDtls" EntityType="InventoryRaowaModel.Store.InvenChangePaymentDtls" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenChangePayments" EntityType="InventoryRaowaModel.Store.InvenChangePayments" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenCompProfileInfo" EntityType="InventoryRaowaModel.Store.InvenCompProfileInfo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenPerRequisition" EntityType="InventoryRaowaModel.Store.InvenPerRequisition" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenPurOrder" EntityType="InventoryRaowaModel.Store.InvenPurOrder" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenReorder" EntityType="InventoryRaowaModel.Store.InvenReorder" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenSaleDtls" EntityType="InventoryRaowaModel.Store.InvenSaleDtls" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenSalePayments" EntityType="InventoryRaowaModel.Store.InvenSalePayments" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenSalesDetail" EntityType="InventoryRaowaModel.Store.InvenSalesDetail" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenSalesInfoes" EntityType="InventoryRaowaModel.Store.InvenSalesInfoes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenSalesInput" EntityType="InventoryRaowaModel.Store.InvenSalesInput" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenSalesPaymentDtls" EntityType="InventoryRaowaModel.Store.InvenSalesPaymentDtls" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenSaleXtraInfo" EntityType="InventoryRaowaModel.Store.InvenSaleXtraInfo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenStoreStatus" EntityType="InventoryRaowaModel.Store.InvenStoreStatus" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvenTempSale" EntityType="InventoryRaowaModel.Store.InvenTempSale" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Log_AccJournal" EntityType="InventoryRaowaModel.Store.Log_AccJournal" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Log_InvenReorder" EntityType="InventoryRaowaModel.Store.Log_InvenReorder" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Log_PayEmpInfo" EntityType="InventoryRaowaModel.Store.Log_PayEmpInfo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Log_PayuserRole" EntityType="InventoryRaowaModel.Store.Log_PayuserRole" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Member" EntityType="InventoryRaowaModel.Store.Member" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PageObjectRoles" EntityType="InventoryRaowaModel.Store.PageObjectRoles" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PageObjects" EntityType="InventoryRaowaModel.Store.PageObjects" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PayAccountTypeInfoes" EntityType="InventoryRaowaModel.Store.PayAccountTypeInfoes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PayAsset" EntityType="InventoryRaowaModel.Store.PayAsset" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PayBankAccountInfoes" EntityType="InventoryRaowaModel.Store.PayBankAccountInfoes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PayBankInfoes" EntityType="InventoryRaowaModel.Store.PayBankInfoes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PayBankTransectionDtlInfoes" EntityType="InventoryRaowaModel.Store.PayBankTransectionDtlInfoes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PayBankTransectionInfoes" EntityType="InventoryRaowaModel.Store.PayBankTransectionInfoes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PayCompanyCashEntries" EntityType="InventoryRaowaModel.Store.PayCompanyCashEntries" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PayRole" EntityType="InventoryRaowaModel.Store.PayRole" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PayUserRole" EntityType="InventoryRaowaModel.Store.PayUserRole" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Products" EntityType="InventoryRaowaModel.Store.Products" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PurchaseDtls" EntityType="InventoryRaowaModel.Store.PurchaseDtls" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PurchaseInfoes" EntityType="InventoryRaowaModel.Store.PurchaseInfoes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PurchcasePaymentDtl" EntityType="InventoryRaowaModel.Store.PurchcasePaymentDtl" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PurchcasePayments" EntityType="InventoryRaowaModel.Store.PurchcasePayments" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sysdiagrams" EntityType="InventoryRaowaModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Units" EntityType="InventoryRaowaModel.Store.Units" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_AccBalanceSheetRpt_AccMainHeads" Association="InventoryRaowaModel.Store.FK_AccBalanceSheetRpt_AccMainHeads">
+      <End Role="AccMainHeads" EntitySet="AccMainHeads" />
+      <End Role="AccBalanceSheetRpt" EntitySet="AccBalanceSheetRpt" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccBalanceSheetRpt_AccSubCode1" Association="InventoryRaowaModel.Store.FK_AccBalanceSheetRpt_AccSubCode1">
+      <End Role="AccSubCode1" EntitySet="AccSubCode1" />
+      <End Role="AccBalanceSheetRpt" EntitySet="AccBalanceSheetRpt" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccCashFlowReport_AccSubCode1" Association="InventoryRaowaModel.Store.FK_AccCashFlowReport_AccSubCode1">
+      <End Role="AccSubCode1" EntitySet="AccSubCode1" />
+      <End Role="AccCashFlowReport" EntitySet="AccCashFlowReport" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccCOAInfo_AccSubCode2" Association="InventoryRaowaModel.Store.FK_AccCOAInfo_AccSubCode2">
+      <End Role="AccSubCode2" EntitySet="AccSubCode2" />
+      <End Role="AccCOAInfoes" EntitySet="AccCOAInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccIncomeStatementRpt_AccMainHeads" Association="InventoryRaowaModel.Store.FK_AccIncomeStatementRpt_AccMainHeads">
+      <End Role="AccMainHeads" EntitySet="AccMainHeads" />
+      <End Role="AccIncomeStatementRpt" EntitySet="AccIncomeStatementRpt" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccJournalEntry_AccCOAInfoes" Association="InventoryRaowaModel.Store.FK_AccJournalEntry_AccCOAInfoes">
+      <End Role="AccCOAInfoes" EntitySet="AccCOAInfoes" />
+      <End Role="AccJournalEntry" EntitySet="AccJournalEntry" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccJournalEntry_AccSubCode2" Association="InventoryRaowaModel.Store.FK_AccJournalEntry_AccSubCode2">
+      <End Role="AccSubCode2" EntitySet="AccSubCode2" />
+      <End Role="AccJournalEntry" EntitySet="AccJournalEntry" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccJournalEntry_AccSubVouchers" Association="InventoryRaowaModel.Store.FK_AccJournalEntry_AccSubVouchers">
+      <End Role="AccSubVouchers" EntitySet="AccSubVouchers" />
+      <End Role="AccJournalEntry" EntitySet="AccJournalEntry" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccLedger_AccJournalEntry" Association="InventoryRaowaModel.Store.FK_AccLedger_AccJournalEntry">
+      <End Role="AccJournalEntry" EntitySet="AccJournalEntry" />
+      <End Role="AccLedger" EntitySet="AccLedger" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccLiabilitiesRpt_AccMainHeads" Association="InventoryRaowaModel.Store.FK_AccLiabilitiesRpt_AccMainHeads">
+      <End Role="AccMainHeads" EntitySet="AccMainHeads" />
+      <End Role="AccLiabilitiesRpt" EntitySet="AccLiabilitiesRpt" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccSubCode1_AccMainHeads" Association="InventoryRaowaModel.Store.FK_AccSubCode1_AccMainHeads">
+      <End Role="AccMainHeads" EntitySet="AccMainHeads" />
+      <End Role="AccSubCode1" EntitySet="AccSubCode1" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccSubCode2_AccMainHeads" Association="InventoryRaowaModel.Store.FK_AccSubCode2_AccMainHeads">
+      <End Role="AccMainHeads" EntitySet="AccMainHeads" />
+      <End Role="AccSubCode2" EntitySet="AccSubCode2" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccSubCode2_AccSubCode1" Association="InventoryRaowaModel.Store.FK_AccSubCode2_AccSubCode1">
+      <End Role="AccSubCode1" EntitySet="AccSubCode1" />
+      <End Role="AccSubCode2" EntitySet="AccSubCode2" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccSubVoucher_AccMainVoucher" Association="InventoryRaowaModel.Store.FK_AccSubVoucher_AccMainVoucher">
+      <End Role="AccMainVouchers" EntitySet="AccMainVouchers" />
+      <End Role="AccSubVouchers" EntitySet="AccSubVouchers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccSubVouchers_AccMainVouchers" Association="InventoryRaowaModel.Store.FK_AccSubVouchers_AccMainVouchers">
+      <End Role="AccMainVouchers" EntitySet="AccMainVouchers" />
+      <End Role="AccSubVouchers" EntitySet="AccSubVouchers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccTransDetails_AccCOAInfoes" Association="InventoryRaowaModel.Store.FK_AccTransDetails_AccCOAInfoes">
+      <End Role="AccCOAInfoes" EntitySet="AccCOAInfoes" />
+      <End Role="AccTransDetails" EntitySet="AccTransDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccTransDetails_AccCOAInfoes1" Association="InventoryRaowaModel.Store.FK_AccTransDetails_AccCOAInfoes1">
+      <End Role="AccCOAInfoes" EntitySet="AccCOAInfoes" />
+      <End Role="AccTransDetails" EntitySet="AccTransDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccTransDetails_AccSubCode2" Association="InventoryRaowaModel.Store.FK_AccTransDetails_AccSubCode2">
+      <End Role="AccSubCode2" EntitySet="AccSubCode2" />
+      <End Role="AccTransDetails" EntitySet="AccTransDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccTransDetails_AccSubCode21" Association="InventoryRaowaModel.Store.FK_AccTransDetails_AccSubCode21">
+      <End Role="AccSubCode2" EntitySet="AccSubCode2" />
+      <End Role="AccTransDetails" EntitySet="AccTransDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccTransDetails_AccSubVouchers" Association="InventoryRaowaModel.Store.FK_AccTransDetails_AccSubVouchers">
+      <End Role="AccSubVouchers" EntitySet="AccSubVouchers" />
+      <End Role="AccTransDetails" EntitySet="AccTransDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccTransDetails_AccSubVouchers1" Association="InventoryRaowaModel.Store.FK_AccTransDetails_AccSubVouchers1">
+      <End Role="AccSubVouchers" EntitySet="AccSubVouchers" />
+      <End Role="AccTransDetails" EntitySet="AccTransDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccTransDetails_AccTranItem" Association="InventoryRaowaModel.Store.FK_AccTransDetails_AccTranItem">
+      <End Role="AccTranItem" EntitySet="AccTranItem" />
+      <End Role="AccTransDetails" EntitySet="AccTransDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CashFlowReport_AccCOAInfoes" Association="InventoryRaowaModel.Store.FK_CashFlowReport_AccCOAInfoes">
+      <End Role="AccCOAInfoes" EntitySet="AccCOAInfoes" />
+      <End Role="AccCashFlowReport" EntitySet="AccCashFlowReport" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CashFlowReport_CashFlowEntity" Association="InventoryRaowaModel.Store.FK_CashFlowReport_CashFlowEntity">
+      <End Role="AccCashFlowEntity" EntitySet="AccCashFlowEntity" />
+      <End Role="AccCashFlowReport" EntitySet="AccCashFlowReport" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Category_Products" Association="InventoryRaowaModel.Store.FK_Category_Products">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CompanyInfo_Products" Association="InventoryRaowaModel.Store.FK_CompanyInfo_Products">
+      <End Role="CompanyInfoes" EntitySet="CompanyInfoes" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EmpEducations_Employees" Association="InventoryRaowaModel.Store.FK_EmpEducations_Employees">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="EmpEducations" EntitySet="EmpEducations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EmpExperienceInfoes_Employees" Association="InventoryRaowaModel.Store.FK_EmpExperienceInfoes_Employees">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="EmpExperienceInfoes" EntitySet="EmpExperienceInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employees_EmpSpecialists" Association="InventoryRaowaModel.Store.FK_Employees_EmpSpecialists">
+      <End Role="EmpSpecialists" EntitySet="EmpSpecialists" />
+      <End Role="Employees" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employees_EmpTypes" Association="InventoryRaowaModel.Store.FK_Employees_EmpTypes">
+      <End Role="EmpTypes" EntitySet="EmpTypes" />
+      <End Role="Employees" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employees_InvenBranchProfile" Association="InventoryRaowaModel.Store.FK_Employees_InvenBranchProfile">
+      <End Role="InvenBranchProfile" EntitySet="InvenBranchProfile" />
+      <End Role="Employees" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EmpSpecialists_EmpTypes" Association="InventoryRaowaModel.Store.FK_EmpSpecialists_EmpTypes">
+      <End Role="EmpTypes" EntitySet="EmpTypes" />
+      <End Role="EmpSpecialists" EntitySet="EmpSpecialists" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EmpTrainings_Employees" Association="InventoryRaowaModel.Store.FK_EmpTrainings_Employees">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="EmpTrainings" EntitySet="EmpTrainings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Expenses_ExpenseHeads" Association="InventoryRaowaModel.Store.FK_Expenses_ExpenseHeads">
+      <End Role="ExpenseHeads" EntitySet="ExpenseHeads" />
+      <End Role="Expenses" EntitySet="Expenses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenBranchProfile_InvenCompProfileInfo" Association="InventoryRaowaModel.Store.FK_InvenBranchProfile_InvenCompProfileInfo">
+      <End Role="InvenCompProfileInfo" EntitySet="InvenCompProfileInfo" />
+      <End Role="InvenBranchProfile" EntitySet="InvenBranchProfile" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenBranchToCentralReturnDtl_InvenBranchProfile" Association="InventoryRaowaModel.Store.FK_InvenBranchToCentralReturnDtl_InvenBranchProfile">
+      <End Role="InvenBranchProfile" EntitySet="InvenBranchProfile" />
+      <End Role="InvenBranchToCentralReturnDtl" EntitySet="InvenBranchToCentralReturnDtl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenBranchToCentralReturnDtl_Products" Association="InventoryRaowaModel.Store.FK_InvenBranchToCentralReturnDtl_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="InvenBranchToCentralReturnDtl" EntitySet="InvenBranchToCentralReturnDtl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenCenteralStoreStatus_Products" Association="InventoryRaowaModel.Store.FK_InvenCenteralStoreStatus_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="InvenCenteralStoreStatus" EntitySet="InvenCenteralStoreStatus" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenCentralChallanDtl_InvenCentralChallanInfo" Association="InventoryRaowaModel.Store.FK_InvenCentralChallanDtl_InvenCentralChallanInfo">
+      <End Role="InvenCentralChallanInfo" EntitySet="InvenCentralChallanInfo" />
+      <End Role="InvenCentralChallanDtl" EntitySet="InvenCentralChallanDtl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenCentralChallanDtl_Products" Association="InventoryRaowaModel.Store.FK_InvenCentralChallanDtl_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="InvenCentralChallanDtl" EntitySet="InvenCentralChallanDtl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenCentralChallanInfo_InvenBranchProfile" Association="InventoryRaowaModel.Store.FK_InvenCentralChallanInfo_InvenBranchProfile">
+      <End Role="InvenBranchProfile" EntitySet="InvenBranchProfile" />
+      <End Role="InvenCentralChallanInfo" EntitySet="InvenCentralChallanInfo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenCentralPurchaseDtls_InvenCentralPurchaseInfoes" Association="InventoryRaowaModel.Store.FK_InvenCentralPurchaseDtls_InvenCentralPurchaseInfoes">
+      <End Role="InvenCentralPurchaseInfoes" EntitySet="InvenCentralPurchaseInfoes" />
+      <End Role="InvenCentralPurchaseDtls" EntitySet="InvenCentralPurchaseDtls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenCentralPurchaseDtls_Products1" Association="InventoryRaowaModel.Store.FK_InvenCentralPurchaseDtls_Products1">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="InvenCentralPurchaseDtls" EntitySet="InvenCentralPurchaseDtls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenCentralPurchcasePaymentDtls_InvenCentralPurchcasePayments" Association="InventoryRaowaModel.Store.FK_InvenCentralPurchcasePaymentDtls_InvenCentralPurchcasePayments">
+      <End Role="InvenCentralPurchcasePayments" EntitySet="InvenCentralPurchcasePayments" />
+      <End Role="InvenCentralPurchcasePaymentDtls" EntitySet="InvenCentralPurchcasePaymentDtls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenCentralPurchcasePaymentDtls_PayBankAccountInfoes" Association="InventoryRaowaModel.Store.FK_InvenCentralPurchcasePaymentDtls_PayBankAccountInfoes">
+      <End Role="PayBankAccountInfoes" EntitySet="PayBankAccountInfoes" />
+      <End Role="InvenCentralPurchcasePaymentDtls" EntitySet="InvenCentralPurchcasePaymentDtls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenCentralPurchcasePayments_CompanyInfoes" Association="InventoryRaowaModel.Store.FK_InvenCentralPurchcasePayments_CompanyInfoes">
+      <End Role="CompanyInfoes" EntitySet="CompanyInfoes" />
+      <End Role="InvenCentralPurchcasePayments" EntitySet="InvenCentralPurchcasePayments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenCentralPurchcasePayments_InvenCentralPurchaseInfoes" Association="InventoryRaowaModel.Store.FK_InvenCentralPurchcasePayments_InvenCentralPurchaseInfoes">
+      <End Role="InvenCentralPurchaseInfoes" EntitySet="InvenCentralPurchaseInfoes" />
+      <End Role="InvenCentralPurchcasePayments" EntitySet="InvenCentralPurchcasePayments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenCentralPurRequisition_Products" Association="InventoryRaowaModel.Store.FK_InvenCentralPurRequisition_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="InvenCentralPurRequisition" EntitySet="InvenCentralPurRequisition" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenCentralReturn_InvenBranchReturn" Association="InventoryRaowaModel.Store.FK_InvenCentralReturn_InvenBranchReturn">
+      <End Role="InvenBranchReturn" EntitySet="InvenBranchReturn" />
+      <End Role="InvenCentralReturn" EntitySet="InvenCentralReturn" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenCentralToPartyReturnDtl_InvenBranchProfile" Association="InventoryRaowaModel.Store.FK_InvenCentralToPartyReturnDtl_InvenBranchProfile">
+      <End Role="InvenBranchProfile" EntitySet="InvenBranchProfile" />
+      <End Role="InvenCentralToPartyReturnDtl" EntitySet="InvenCentralToPartyReturnDtl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenCentralToPartyReturnDtl_Products" Association="InventoryRaowaModel.Store.FK_InvenCentralToPartyReturnDtl_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="InvenCentralToPartyReturnDtl" EntitySet="InvenCentralToPartyReturnDtl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenCentrealPurOrder_Products" Association="InventoryRaowaModel.Store.FK_InvenCentrealPurOrder_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="InvenCentrealPurOrder" EntitySet="InvenCentrealPurOrder" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenChangeDtls_InvenChangeInfoes" Association="InventoryRaowaModel.Store.FK_InvenChangeDtls_InvenChangeInfoes">
+      <End Role="InvenChangeInfoes" EntitySet="InvenChangeInfoes" />
+      <End Role="InvenChangeDtls" EntitySet="InvenChangeDtls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenChangeDtls_InvenSaleDtls" Association="InventoryRaowaModel.Store.FK_InvenChangeDtls_InvenSaleDtls">
+      <End Role="InvenSaleDtls" EntitySet="InvenSaleDtls" />
+      <End Role="InvenChangeDtls" EntitySet="InvenChangeDtls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenChangeDtls_Products" Association="InventoryRaowaModel.Store.FK_InvenChangeDtls_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="InvenChangeDtls" EntitySet="InvenChangeDtls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenChangeInfoes_InvenBranchProfile" Association="InventoryRaowaModel.Store.FK_InvenChangeInfoes_InvenBranchProfile">
+      <End Role="InvenBranchProfile" EntitySet="InvenBranchProfile" />
+      <End Role="InvenChangeInfoes" EntitySet="InvenChangeInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenChangePaymentDtls_InvenChangeInfoes" Association="InventoryRaowaModel.Store.FK_InvenChangePaymentDtls_InvenChangeInfoes">
+      <End Role="InvenChangeInfoes" EntitySet="InvenChangeInfoes" />
+      <End Role="InvenChangePaymentDtls" EntitySet="InvenChangePaymentDtls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenChangePayments_InvenChangeInfoes" Association="InventoryRaowaModel.Store.FK_InvenChangePayments_InvenChangeInfoes">
+      <End Role="InvenChangeInfoes" EntitySet="InvenChangeInfoes" />
+      <End Role="InvenChangePayments" EntitySet="InvenChangePayments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenPerRequisition_InvenBranchProfile" Association="InventoryRaowaModel.Store.FK_InvenPerRequisition_InvenBranchProfile">
+      <End Role="InvenBranchProfile" EntitySet="InvenBranchProfile" />
+      <End Role="InvenPerRequisition" EntitySet="InvenPerRequisition" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenPerRequisition_Products" Association="InventoryRaowaModel.Store.FK_InvenPerRequisition_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="InvenPerRequisition" EntitySet="InvenPerRequisition" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenPurOrder_InvenBranchProfile" Association="InventoryRaowaModel.Store.FK_InvenPurOrder_InvenBranchProfile">
+      <End Role="InvenBranchProfile" EntitySet="InvenBranchProfile" />
+      <End Role="InvenPurOrder" EntitySet="InvenPurOrder" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenPurOrder_Products" Association="InventoryRaowaModel.Store.FK_InvenPurOrder_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="InvenPurOrder" EntitySet="InvenPurOrder" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenReorder_InvenBranchProfile" Association="InventoryRaowaModel.Store.FK_InvenReorder_InvenBranchProfile">
+      <End Role="InvenBranchProfile" EntitySet="InvenBranchProfile" />
+      <End Role="InvenReorder" EntitySet="InvenReorder" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenReorder_Products" Association="InventoryRaowaModel.Store.FK_InvenReorder_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="InvenReorder" EntitySet="InvenReorder" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenSaleDtls_InvenSalesInfoes" Association="InventoryRaowaModel.Store.FK_InvenSaleDtls_InvenSalesInfoes">
+      <End Role="InvenSalesInfoes" EntitySet="InvenSalesInfoes" />
+      <End Role="InvenSaleDtls" EntitySet="InvenSaleDtls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenSaleDtls_Products" Association="InventoryRaowaModel.Store.FK_InvenSaleDtls_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="InvenSaleDtls" EntitySet="InvenSaleDtls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenSalePayments_InvenSalesInfoes" Association="InventoryRaowaModel.Store.FK_InvenSalePayments_InvenSalesInfoes">
+      <End Role="InvenSalesInfoes" EntitySet="InvenSalesInfoes" />
+      <End Role="InvenSalePayments" EntitySet="InvenSalePayments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenSalesDetail_Product" Association="InventoryRaowaModel.Store.FK_InvenSalesDetail_Product">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="InvenSalesDetail" EntitySet="InvenSalesDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenSalesInfoes_InvenSalesInfoes" Association="InventoryRaowaModel.Store.FK_InvenSalesInfoes_InvenSalesInfoes">
+      <End Role="InvenBranchProfile" EntitySet="InvenBranchProfile" />
+      <End Role="InvenSalesInfoes" EntitySet="InvenSalesInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenSalesInfoes_Member" Association="InventoryRaowaModel.Store.FK_InvenSalesInfoes_Member">
+      <End Role="Member" EntitySet="Member" />
+      <End Role="InvenSalesInfoes" EntitySet="InvenSalesInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenSalesPaymentDtls_InvenSalesInfoes" Association="InventoryRaowaModel.Store.FK_InvenSalesPaymentDtls_InvenSalesInfoes">
+      <End Role="InvenSalesInfoes" EntitySet="InvenSalesInfoes" />
+      <End Role="InvenSalesPaymentDtls" EntitySet="InvenSalesPaymentDtls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenSaleXtraInfo_InvenSalesInfoes" Association="InventoryRaowaModel.Store.FK_InvenSaleXtraInfo_InvenSalesInfoes">
+      <End Role="InvenSalesInfoes" EntitySet="InvenSalesInfoes" />
+      <End Role="InvenSaleXtraInfo" EntitySet="InvenSaleXtraInfo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenStoreStatus_InvenBranchProfile" Association="InventoryRaowaModel.Store.FK_InvenStoreStatus_InvenBranchProfile">
+      <End Role="InvenBranchProfile" EntitySet="InvenBranchProfile" />
+      <End Role="InvenStoreStatus" EntitySet="InvenStoreStatus" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InvenStoreStatus_Products" Association="InventoryRaowaModel.Store.FK_InvenStoreStatus_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="InvenStoreStatus" EntitySet="InvenStoreStatus" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PageObjectRole_PageObject" Association="InventoryRaowaModel.Store.FK_PageObjectRole_PageObject">
+      <End Role="PageObjects" EntitySet="PageObjects" />
+      <End Role="PageObjectRoles" EntitySet="PageObjectRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PageObjectRoles_PayRole" Association="InventoryRaowaModel.Store.FK_PageObjectRoles_PayRole">
+      <End Role="PayRole" EntitySet="PayRole" />
+      <End Role="PageObjectRoles" EntitySet="PageObjectRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PayBankAccountInfoes_InvenBranchProfile" Association="InventoryRaowaModel.Store.FK_PayBankAccountInfoes_InvenBranchProfile">
+      <End Role="InvenBranchProfile" EntitySet="InvenBranchProfile" />
+      <End Role="PayBankAccountInfoes" EntitySet="PayBankAccountInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PayBankAccountInfoes_PayAccountTypeInfoes" Association="InventoryRaowaModel.Store.FK_PayBankAccountInfoes_PayAccountTypeInfoes">
+      <End Role="PayAccountTypeInfoes" EntitySet="PayAccountTypeInfoes" />
+      <End Role="PayBankAccountInfoes" EntitySet="PayBankAccountInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PayBankAccountInfoes_PayBankInfoes" Association="InventoryRaowaModel.Store.FK_PayBankAccountInfoes_PayBankInfoes">
+      <End Role="PayBankInfoes" EntitySet="PayBankInfoes" />
+      <End Role="PayBankAccountInfoes" EntitySet="PayBankAccountInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PayBankTransectionDtlInfo_PayBankTransectionInfo" Association="InventoryRaowaModel.Store.FK_PayBankTransectionDtlInfo_PayBankTransectionInfo">
+      <End Role="PayBankAccountInfoes" EntitySet="PayBankAccountInfoes" />
+      <End Role="PayBankTransectionDtlInfoes" EntitySet="PayBankTransectionDtlInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PayBankTransectionDtlInfoes_InvenBranchProfile" Association="InventoryRaowaModel.Store.FK_PayBankTransectionDtlInfoes_InvenBranchProfile">
+      <End Role="InvenBranchProfile" EntitySet="InvenBranchProfile" />
+      <End Role="PayBankTransectionDtlInfoes" EntitySet="PayBankTransectionDtlInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PayBankTransectionInfo_PayBankAccountInfo" Association="InventoryRaowaModel.Store.FK_PayBankTransectionInfo_PayBankAccountInfo">
+      <End Role="PayBankAccountInfoes" EntitySet="PayBankAccountInfoes" />
+      <End Role="PayBankTransectionInfoes" EntitySet="PayBankTransectionInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PayCompanyCashEntries_InvenBranchProfile" Association="InventoryRaowaModel.Store.FK_PayCompanyCashEntries_InvenBranchProfile">
+      <End Role="InvenBranchProfile" EntitySet="InvenBranchProfile" />
+      <End Role="PayCompanyCashEntries" EntitySet="PayCompanyCashEntries" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PayUserRole_Employees" Association="InventoryRaowaModel.Store.FK_PayUserRole_Employees">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="PayUserRole" EntitySet="PayUserRole" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PayUserRole_PayRole" Association="InventoryRaowaModel.Store.FK_PayUserRole_PayRole">
+      <End Role="PayRole" EntitySet="PayRole" />
+      <End Role="PayUserRole" EntitySet="PayUserRole" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PurchaseDtls_Products" Association="InventoryRaowaModel.Store.FK_PurchaseDtls_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="PurchaseDtls" EntitySet="PurchaseDtls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PurchaseDtls_PurchaseInfoes" Association="InventoryRaowaModel.Store.FK_PurchaseDtls_PurchaseInfoes">
+      <End Role="PurchaseInfoes" EntitySet="PurchaseInfoes" />
+      <End Role="PurchaseDtls" EntitySet="PurchaseDtls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PurchaseInfoes_CompanyInfoes" Association="InventoryRaowaModel.Store.FK_PurchaseInfoes_CompanyInfoes">
+      <End Role="CompanyInfoes" EntitySet="CompanyInfoes" />
+      <End Role="PurchaseInfoes" EntitySet="PurchaseInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PurchcasePaymentDtl_PayBankAccountInfoes" Association="InventoryRaowaModel.Store.FK_PurchcasePaymentDtl_PayBankAccountInfoes">
+      <End Role="PayBankAccountInfoes" EntitySet="PayBankAccountInfoes" />
+      <End Role="PurchcasePaymentDtl" EntitySet="PurchcasePaymentDtl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PurchcasePaymentDtl_PurchaseInfoes" Association="InventoryRaowaModel.Store.FK_PurchcasePaymentDtl_PurchaseInfoes">
+      <End Role="PurchaseInfoes" EntitySet="PurchaseInfoes" />
+      <End Role="PurchcasePaymentDtl" EntitySet="PurchcasePaymentDtl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PurchcasePayments_PayBankAccountInfoes" Association="InventoryRaowaModel.Store.FK_PurchcasePayments_PayBankAccountInfoes">
+      <End Role="PayBankAccountInfoes" EntitySet="PayBankAccountInfoes" />
+      <End Role="PurchcasePayments" EntitySet="PurchcasePayments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PurchcasePayments_PurchaseInfoes" Association="InventoryRaowaModel.Store.FK_PurchcasePayments_PurchaseInfoes">
+      <End Role="PurchaseInfoes" EntitySet="PurchaseInfoes" />
+      <End Role="PurchcasePayments" EntitySet="PurchcasePayments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Unit_Products" Association="InventoryRaowaModel.Store.FK_Unit_Products">
+      <End Role="Units" EntitySet="Units" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="AccBalanceSheetRpt">
+    <Key>
+      <PropertyRef Name="BalanceShtId" />
+    </Key>
+    <Property Name="BalanceShtId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MainHeadId" Type="int" />
+    <Property Name="SubCode1Id" Type="int" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="Priority" Type="int" />
+    <Property Name="ActiveStatus" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="AccCashFlowEntity">
+    <Key>
+      <PropertyRef Name="CFEId" />
+    </Key>
+    <Property Name="CFEId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CFEName" Type="varchar(max)" />
+    <Property Name="Priority" Type="int" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="AccCashFlowReport">
+    <Key>
+      <PropertyRef Name="CFRId" />
+    </Key>
+    <Property Name="CFRId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CFEId" Type="int" />
+    <Property Name="ActiveStatus" Type="varchar" MaxLength="50" />
+    <Property Name="SubCode_1Id" Type="int" />
+    <Property Name="COAId" Type="int" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="AccCOAInfoes">
+    <Key>
+      <PropertyRef Name="COAId" />
+    </Key>
+    <Property Name="COAId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="COAACCId" Type="nvarchar(max)" />
+    <Property Name="AccountName" Type="nvarchar(max)" />
+    <Property Name="AID" Type="bigint" />
+    <Property Name="SubCode_2Id" Type="int" />
+    <Property Name="APPID" Type="bigint" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="Status" Type="nchar" MaxLength="10" />
+    <Property Name="Balance" Type="float" />
+    <Property Name="OpeningDate" Type="datetime" />
+    <Property Name="OpenBy" Type="nchar" MaxLength="10" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="AccIncomeStatementRpt">
+    <Key>
+      <PropertyRef Name="InStaRptId" />
+    </Key>
+    <Property Name="InStaRptId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MainHeadId" Type="int" />
+    <Property Name="SubCode1Id" Type="int" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="Priority" Type="int" />
+    <Property Name="ActiveStatus" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="AccJournalEntry">
+    <Key>
+      <PropertyRef Name="JournalId" />
+    </Key>
+    <Property Name="JournalId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SubCode2Id" Type="int" />
+    <Property Name="COAId" Type="int" />
+    <Property Name="SubVoucherId" Type="int" />
+    <Property Name="TransectionNo" Type="int" Nullable="false" />
+    <Property Name="JournalType" Type="nvarchar(max)" />
+    <Property Name="DRAmount" Type="float" />
+    <Property Name="CRAmount" Type="float" />
+    <Property Name="VONO" Type="nvarchar(max)" />
+    <Property Name="MRNO" Type="nvarchar(max)" />
+    <Property Name="TransectionDate" Type="date" />
+    <Property Name="ReferenceEntity" Type="varchar" MaxLength="50" />
+    <Property Name="Remarks" Type="nvarchar(max)" />
+    <Property Name="PostLeadgerStatus" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="AccLedger">
+    <Key>
+      <PropertyRef Name="LedgerId" />
+    </Key>
+    <Property Name="LedgerId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="JournalId" Type="int" />
+    <Property Name="OPBAL" Type="float" />
+    <Property Name="DRAmount" Type="float" />
+    <Property Name="CRAmount" Type="float" />
+    <Property Name="CLBAL" Type="float" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="date" />
+  </EntityType>
+  <EntityType Name="AccLiabilitiesRpt">
+    <Key>
+      <PropertyRef Name="LiabRptId" />
+    </Key>
+    <Property Name="LiabRptId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MainHeadId" Type="int" />
+    <Property Name="SubCode1Id" Type="int" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="Priority" Type="int" />
+    <Property Name="ActiveStatus" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="AccMainHeads">
+    <Key>
+      <PropertyRef Name="MainHeadId" />
+    </Key>
+    <Property Name="MainHeadId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MainHadeNum" Type="varchar" MaxLength="50" />
+    <Property Name="MainHeadName" Type="varchar" MaxLength="150" />
+    <Property Name="Description" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="AID" Type="int" />
+  </EntityType>
+  <EntityType Name="AccMainVouchers">
+    <Key>
+      <PropertyRef Name="MainVoucherId" />
+    </Key>
+    <Property Name="MainVoucherId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MainVoucherCode" Type="varchar" MaxLength="50" />
+    <Property Name="MainVoucherName" Type="varchar" MaxLength="150" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="AccSubCode1">
+    <Key>
+      <PropertyRef Name="SubCode_1Id" />
+    </Key>
+    <Property Name="SubCode_1Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SubCode_1Num" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="SubCode_1Name" Type="nvarchar" MaxLength="550" />
+    <Property Name="AID" Type="int" />
+    <Property Name="Description" Type="nvarchar" MaxLength="500" />
+    <Property Name="MainHeadId" Type="int" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="AssetType" Type="int" />
+    <Property Name="Balance" Type="float" />
+  </EntityType>
+  <EntityType Name="AccSubCode2">
+    <Key>
+      <PropertyRef Name="SubCode2_Id" />
+    </Key>
+    <Property Name="SubCode2_Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SubCode2_Num" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="SubCode_2Name" Type="varchar" MaxLength="550" />
+    <Property Name="AID" Type="int" />
+    <Property Name="Description" Type="varchar" MaxLength="500" />
+    <Property Name="MainHeadId" Type="int" />
+    <Property Name="SubCode_1Id" Type="int" />
+    <Property Name="Balance" Type="float" />
+    <Property Name="AssetType" Type="int" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="Depreciation" Type="varchar" MaxLength="550" />
+  </EntityType>
+  <EntityType Name="AccSubVouchers">
+    <Key>
+      <PropertyRef Name="SubVoucherId" />
+    </Key>
+    <Property Name="SubVoucherId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SubVoucherCode" Type="varchar" MaxLength="50" />
+    <Property Name="SubVoucherName" Type="varchar" MaxLength="250" />
+    <Property Name="MainVoucherId" Type="int" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="AccTranItem">
+    <Key>
+      <PropertyRef Name="TranId" />
+    </Key>
+    <Property Name="TranId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TranName" Type="varchar(max)" Nullable="false" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="AccTransDetails">
+    <Key>
+      <PropertyRef Name="AccTransDtlId" />
+    </Key>
+    <Property Name="AccTransDtlId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TranId" Type="int" Nullable="false" />
+    <Property Name="DRCOAId" Type="int" Nullable="false" />
+    <Property Name="DRSubCoId2" Type="int" Nullable="false" />
+    <Property Name="DrSubVoucherId" Type="int" Nullable="false" />
+    <Property Name="CRCOAId" Type="int" Nullable="false" />
+    <Property Name="CRSubCoId2" Type="int" Nullable="false" />
+    <Property Name="CrSubVoucherId" Type="int" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Categories">
+    <Key>
+      <PropertyRef Name="CatId" />
+    </Key>
+    <Property Name="CatId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="ComId" Type="int" />
+  </EntityType>
+  <EntityType Name="CocktailInfo">
+    <Key>
+      <PropertyRef Name="CocktaiInfoId" />
+    </Key>
+    <Property Name="CocktaiInfoId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CocktaiProId" Type="int" />
+    <Property Name="ItemProId" Type="int" />
+    <Property Name="Quantity" Type="float" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="CompanyInfoes">
+    <Key>
+      <PropertyRef Name="CompId" />
+    </Key>
+    <Property Name="CompId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CompName" Type="nvarchar(max)" />
+    <Property Name="CompName_BarCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="CompPermanantAdd" Type="nvarchar(max)" />
+    <Property Name="CompPhone" Type="nvarchar(max)" />
+    <Property Name="CompMobile1" Type="nvarchar(max)" />
+    <Property Name="CompMobile2" Type="nvarchar(max)" />
+    <Property Name="CompEmail" Type="nvarchar(max)" />
+    <Property Name="CompDes" Type="nvarchar(max)" />
+    <Property Name="CompPresentAdd" Type="nvarchar(max)" />
+    <Property Name="Website" Type="nvarchar(max)" />
+    <Property Name="CompStatus" Type="varchar" MaxLength="50" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="EmpEducations">
+    <Key>
+      <PropertyRef Name="EduId" />
+    </Key>
+    <Property Name="EduId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="EmpId" Type="int" />
+    <Property Name="ResultType" Type="varchar" MaxLength="50" />
+    <Property Name="Division" Type="varchar" MaxLength="50" />
+    <Property Name="Cgpa" Type="varchar" MaxLength="50" />
+    <Property Name="InstituteName" Type="varchar" MaxLength="550" />
+    <Property Name="Board" Type="varchar" MaxLength="50" />
+    <Property Name="PassingYear" Type="varchar" MaxLength="50" />
+    <Property Name="Eximination" Type="varchar" MaxLength="550" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="Updatedate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="Note" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="EmpExperienceInfoes">
+    <Key>
+      <PropertyRef Name="ExperienceId" />
+    </Key>
+    <Property Name="ExperienceId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="EmpId" Type="int" />
+    <Property Name="Disignation" Type="varchar" MaxLength="50" />
+    <Property Name="FromDate" Type="datetime" />
+    <Property Name="ToDate" Type="datetime" />
+    <Property Name="OrganizationName" Type="varchar" MaxLength="500" />
+    <Property Name="Responsibility" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="Year" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="Employees">
+    <Key>
+      <PropertyRef Name="EmpId" />
+    </Key>
+    <Property Name="EmpId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="EmpName" Type="nvarchar(max)" />
+    <Property Name="SurName" Type="nvarchar(max)" />
+    <Property Name="Gender" Type="nvarchar(max)" />
+    <Property Name="Age" Type="nvarchar(max)" />
+    <Property Name="DOB" Type="date" />
+    <Property Name="Address" Type="nvarchar(max)" />
+    <Property Name="Phone" Type="nvarchar(max)" />
+    <Property Name="Mobile1" Type="nvarchar(max)" />
+    <Property Name="Mobile2" Type="nvarchar(max)" />
+    <Property Name="Email" Type="nvarchar(max)" />
+    <Property Name="JoinDate" Type="date" />
+    <Property Name="NationalID" Type="nvarchar(max)" />
+    <Property Name="CreateBy" Type="nvarchar(max)" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="nvarchar(max)" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="MotherName" Type="varchar" MaxLength="250" />
+    <Property Name="FatherName" Type="varchar" MaxLength="250" />
+    <Property Name="PermanentAdd" Type="varchar" MaxLength="500" />
+    <Property Name="Nationality" Type="varchar" MaxLength="50" />
+    <Property Name="Merital" Type="varchar" MaxLength="50" />
+    <Property Name="Religion" Type="varchar" MaxLength="50" />
+    <Property Name="ImageName" Type="varchar" MaxLength="550" />
+    <Property Name="BrProId" Type="int" />
+    <Property Name="EmpSpecilistId" Type="int" Nullable="false" />
+    <Property Name="EmpTypeId" Type="int" Nullable="false" />
+    <Property Name="JobType" Type="varchar" MaxLength="50" />
+    <Property Name="JobStatus" Type="varchar" MaxLength="50" />
+    <Property Name="ReferenceBy" Type="varchar" MaxLength="250" />
+    <Property Name="RefContactNum" Type="varchar" MaxLength="50" />
+    <Property Name="FamilyContactNum" Type="varchar" MaxLength="50" />
+    <Property Name="OtizmStatus" Type="varchar" MaxLength="50" />
+    <Property Name="OtizmType" Type="varchar" MaxLength="500" />
+    <Property Name="UserName" Type="varchar" MaxLength="250" />
+    <Property Name="Password" Type="varchar" MaxLength="100" />
+    <Property Name="EduStatus" Type="varchar" MaxLength="50" />
+    <Property Name="TariningStatus" Type="varchar" MaxLength="50" />
+    <Property Name="ExperienceStatus" Type="varchar" MaxLength="50" />
+    <Property Name="SalaryStatus" Type="varchar" MaxLength="50" />
+    <Property Name="LocationStatus" Type="varchar" MaxLength="50" />
+    <Property Name="DiscountStatus" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="EmpSpecialists">
+    <Key>
+      <PropertyRef Name="EmpSpecilistId" />
+    </Key>
+    <Property Name="EmpSpecilistId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Specialist" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="EmpTypeId" Type="int" Nullable="false" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="EmpTrainings">
+    <Key>
+      <PropertyRef Name="TrainingId" />
+    </Key>
+    <Property Name="TrainingId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="EmpId" Type="int" />
+    <Property Name="TrainingName" Type="varchar" MaxLength="500" />
+    <Property Name="TopicsCovered" Type="varchar" MaxLength="500" />
+    <Property Name="InstituteName" Type="varchar" MaxLength="500" />
+    <Property Name="Location" Type="varchar" MaxLength="500" />
+    <Property Name="TrainingYear" Type="varchar" MaxLength="50" />
+    <Property Name="Duration" Type="varchar" MaxLength="150" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="EmpTypes">
+    <Key>
+      <PropertyRef Name="EmpTypeId" />
+    </Key>
+    <Property Name="EmpTypeId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TypeName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="ExpenseHeads">
+    <Key>
+      <PropertyRef Name="ExHeadId" />
+    </Key>
+    <Property Name="ExHeadId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HeadName" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Expenses">
+    <Key>
+      <PropertyRef Name="ExpanseId" />
+    </Key>
+    <Property Name="ExpanseId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ExHeadId" Type="int" Nullable="false" />
+    <Property Name="Amount" Type="float" Nullable="false" />
+    <Property Name="Remarks" Type="nvarchar(max)" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="CreateBy" Type="nvarchar(max)" />
+    <Property Name="UpdateBy" Type="nvarchar(max)" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="InvenBranchProfile">
+    <Key>
+      <PropertyRef Name="BrProId" />
+    </Key>
+    <Property Name="BrProId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CompProId" Type="int" Nullable="false" />
+    <Property Name="BrProName" Type="varchar" MaxLength="550" />
+    <Property Name="BrAddress" Type="nvarchar(max)" />
+    <Property Name="BrPhone" Type="nvarchar(max)" />
+    <Property Name="BrMobile1" Type="varchar" MaxLength="50" />
+    <Property Name="BrMobile2" Type="varchar" MaxLength="50" />
+    <Property Name="BrEmail" Type="nvarchar" MaxLength="50" />
+    <Property Name="BrWebsite" Type="nvarchar(max)" />
+    <Property Name="BrDescription" Type="nvarchar(max)" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="InvenBranchReturn">
+    <Key>
+      <PropertyRef Name="BranchReturnId" />
+    </Key>
+    <Property Name="BranchReturnId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ChangeDtlId" Type="int" />
+    <Property Name="ReturnBy" Type="varchar" MaxLength="50" />
+    <Property Name="ReturnDate" Type="date" Nullable="false" />
+    <Property Name="ReturnNo" Type="int" Nullable="false" />
+    <Property Name="ReturnReciveStatus" Type="varchar" MaxLength="50" />
+    <Property Name="ReciveBy" Type="varchar" MaxLength="50" />
+    <Property Name="ReciveDate" Type="date" />
+    <Property Name="CentralToPartyStatus" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="InvenBranchToCentralReturnDtl">
+    <Key>
+      <PropertyRef Name="branchReId" />
+    </Key>
+    <Property Name="branchReId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="reQty" Type="int" />
+    <Property Name="reDate" Type="date" />
+    <Property Name="reCompId" Type="int" />
+    <Property Name="reProId" Type="int" />
+    <Property Name="reProAmount" Type="int" />
+    <Property Name="reProBranchId" Type="int" />
+    <Property Name="reBy" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="InvenCenteralStoreStatus">
+    <Key>
+      <PropertyRef Name="CentralStoreId" />
+    </Key>
+    <Property Name="CentralStoreId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="int" />
+    <Property Name="QuantityStore" Type="float" />
+    <Property Name="BranchId" Type="int" />
+    <Property Name="CompanyId" Type="int" />
+    <Property Name="DateUpdated" Type="date" />
+    <Property Name="DateStored" Type="date" />
+    <Property Name="QuantityLastPurchase" Type="float" />
+    <Property Name="QuantityPurchase" Type="float" />
+  </EntityType>
+  <EntityType Name="InvenCentralChallanDtl">
+    <Key>
+      <PropertyRef Name="ChallanDtlId" />
+    </Key>
+    <Property Name="ChallanDtlId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ChallanId" Type="int" />
+    <Property Name="ProductId" Type="int" />
+    <Property Name="ChallanQuantity" Type="int" />
+    <Property Name="ChallanPrice" Type="float" />
+  </EntityType>
+  <EntityType Name="InvenCentralChallanInfo">
+    <Key>
+      <PropertyRef Name="ChallanId" />
+    </Key>
+    <Property Name="ChallanId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PurReqNo" Type="int" />
+    <Property Name="ChallanDate" Type="date" />
+    <Property Name="ChallanBy" Type="varchar" MaxLength="50" />
+    <Property Name="Note" Type="varchar" MaxLength="550" />
+    <Property Name="BrProId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="InvenCentralPurchaseDtls">
+    <Key>
+      <PropertyRef Name="PurchaseDtlID" />
+    </Key>
+    <Property Name="PurchaseDtlID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PurchasePrice" Type="float" />
+    <Property Name="PurId" Type="int" />
+    <Property Name="Quantity" Type="float" />
+    <Property Name="ProductId" Type="int" Nullable="false" />
+    <Property Name="ExpriyDate" Type="datetime" />
+    <Property Name="BatchNo" Type="varchar" MaxLength="50" />
+    <Property Name="ExpirySalesStatus" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="InvenCentralPurchaseInfoes">
+    <Key>
+      <PropertyRef Name="PurId" />
+    </Key>
+    <Property Name="PurId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PurDes" Type="varchar" MaxLength="550" />
+    <Property Name="CreateBy" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CreateDate" Type="date" Nullable="false" />
+    <Property Name="SalesManName" Type="varchar" MaxLength="50" />
+    <Property Name="PurOrderNo" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="InvenCentralPurchcasePaymentDtls">
+    <Key>
+      <PropertyRef Name="PurPayDtlId" />
+    </Key>
+    <Property Name="PurPayDtlId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PurPaymentId" Type="int" />
+    <Property Name="PaymentMode" Type="varchar" MaxLength="50" />
+    <Property Name="PaidAmount" Type="float" />
+    <Property Name="DueAmount" Type="float" />
+    <Property Name="TotalPrice" Type="float" />
+    <Property Name="Note" Type="nvarchar(max)" />
+    <Property Name="PaymentDate" Type="datetime" />
+    <Property Name="PaymentBy" Type="varchar" MaxLength="50" />
+    <Property Name="ChequeNo" Type="varchar" MaxLength="500" />
+    <Property Name="ChequeDate" Type="datetime" />
+    <Property Name="IssDate" Type="datetime" />
+    <Property Name="AccountInfoId" Type="int" />
+    <Property Name="LCNumber" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="InvenCentralPurchcasePayments">
+    <Key>
+      <PropertyRef Name="PurPaymentId" />
+    </Key>
+    <Property Name="PurPaymentId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PaidAmount" Type="float" />
+    <Property Name="DueAmount" Type="float" />
+    <Property Name="TotalPrice" Type="float" />
+    <Property Name="PurId" Type="int" Nullable="false" />
+    <Property Name="FirstPaymentStatus" Type="nchar" MaxLength="10" />
+    <Property Name="CompId" Type="int" />
+  </EntityType>
+  <EntityType Name="InvenCentralPurRequisition">
+    <Key>
+      <PropertyRef Name="CenPurReqId" />
+    </Key>
+    <Property Name="CenPurReqId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="int" Nullable="false" />
+    <Property Name="Quantity" Type="int" />
+    <Property Name="UnitPrice" Type="float" />
+    <Property Name="Priority" Type="varchar" MaxLength="50" />
+    <Property Name="RequisitionNo" Type="int" Nullable="false" />
+    <Property Name="RequisitionBy" Type="varchar" MaxLength="50" />
+    <Property Name="RequisitionDate" Type="date" />
+    <Property Name="PurReqStatus" Type="varchar" MaxLength="50" />
+    <Property Name="PurReqId" Type="int" />
+  </EntityType>
+  <EntityType Name="InvenCentralReturn">
+    <Key>
+      <PropertyRef Name="CentralReturnId" />
+    </Key>
+    <Property Name="CentralReturnId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="BranchReturnId" Type="int" />
+    <Property Name="ReturnBy" Type="varchar" MaxLength="50" />
+    <Property Name="ReturnDate" Type="date" Nullable="false" />
+    <Property Name="ReturnNo" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="InvenCentralToPartyReturnDtl">
+    <Key>
+      <PropertyRef Name="centralReId" />
+    </Key>
+    <Property Name="centralReId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="reQty" Type="int" />
+    <Property Name="reProAmount" Type="int" />
+    <Property Name="reProId" Type="int" />
+    <Property Name="reCompId" Type="int" />
+    <Property Name="reProBranchId" Type="int" />
+    <Property Name="reDate" Type="date" />
+    <Property Name="reBy" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="InvenCentrealPurOrder">
+    <Key>
+      <PropertyRef Name="CentralPurOrderId" />
+    </Key>
+    <Property Name="CentralPurOrderId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="int" Nullable="false" />
+    <Property Name="Quantity" Type="int" />
+    <Property Name="UnitPrice" Type="float" />
+    <Property Name="Priority" Type="varchar" MaxLength="50" />
+    <Property Name="PurOrderNO" Type="int" Nullable="false" />
+    <Property Name="PurOrderBy" Type="varchar" MaxLength="50" />
+    <Property Name="PurOrderDate" Type="date" />
+    <Property Name="PurOrderStatus" Type="varchar" MaxLength="50" />
+    <Property Name="PurChallanStatus" Type="varchar" MaxLength="50" />
+    <Property Name="PurReqId" Type="int" />
+  </EntityType>
+  <EntityType Name="InvenChangeDtls">
+    <Key>
+      <PropertyRef Name="ChangeDtlId" />
+    </Key>
+    <Property Name="ChangeDtlId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SalePrice" Type="float" />
+    <Property Name="Quantity" Type="int" />
+    <Property Name="ChangeId" Type="int" />
+    <Property Name="ProductId" Type="int" Nullable="false" />
+    <Property Name="SaleDtlId" Type="int" />
+    <Property Name="Caused" Type="varchar" MaxLength="550" />
+    <Property Name="TransectionType" Type="varchar" MaxLength="50" />
+    <Property Name="CentranlReturnStatus" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="InvenChangeInfoes">
+    <Key>
+      <PropertyRef Name="ChangeId" />
+    </Key>
+    <Property Name="ChangeId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CreateBy" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="CreateDate" Type="date" Nullable="false" />
+    <Property Name="BrProId" Type="int" />
+    <Property Name="CustomerName" Type="varchar" MaxLength="150" />
+    <Property Name="CusMobileNo" Type="varchar" MaxLength="50" />
+    <Property Name="CusContactAdd" Type="varchar" MaxLength="550" />
+    <Property Name="CusRemarks" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="InvenChangePaymentDtls">
+    <Key>
+      <PropertyRef Name="ChangePayDtlId" />
+    </Key>
+    <Property Name="ChangePayDtlId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ChangeId" Type="int" />
+    <Property Name="PaymentMode" Type="varchar" MaxLength="50" />
+    <Property Name="PaidAmount" Type="float" />
+    <Property Name="Note" Type="nvarchar(max)" />
+    <Property Name="PaymentDate" Type="datetime" />
+    <Property Name="PaymentBy" Type="varchar" MaxLength="50" />
+    <Property Name="CardNo" Type="varchar" MaxLength="50" />
+    <Property Name="BankName" Type="varchar" MaxLength="50" />
+    <Property Name="ApprCode" Type="varchar" MaxLength="50" />
+    <Property Name="HolderName" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="InvenChangePayments">
+    <Key>
+      <PropertyRef Name="ChangePaymentId" />
+    </Key>
+    <Property Name="ChangePaymentId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PaidAmount" Type="float" />
+    <Property Name="DueAmount" Type="float" />
+    <Property Name="Discount" Type="float" />
+    <Property Name="TotalPrice" Type="float" />
+    <Property Name="ChangeId" Type="int" Nullable="false" />
+    <Property Name="Vat" Type="float" />
+    <Property Name="DiscountDescription" Type="varchar" MaxLength="850" />
+  </EntityType>
+  <EntityType Name="InvenCompProfileInfo">
+    <Key>
+      <PropertyRef Name="CompProId" />
+    </Key>
+    <Property Name="CompProId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CompProName" Type="varchar" MaxLength="550" />
+    <Property Name="CompAddress" Type="nvarchar(max)" />
+    <Property Name="CompPhone" Type="nvarchar(max)" />
+    <Property Name="CompMobile1" Type="varchar" MaxLength="50" />
+    <Property Name="CompMobile2" Type="varchar" MaxLength="50" />
+    <Property Name="CompEmail" Type="nvarchar" MaxLength="50" />
+    <Property Name="CompWebsite" Type="nvarchar(max)" />
+    <Property Name="CompDescription" Type="nvarchar(max)" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="InvenPerRequisition">
+    <Key>
+      <PropertyRef Name="PurReqId" />
+    </Key>
+    <Property Name="PurReqId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="int" Nullable="false" />
+    <Property Name="Quantity" Type="int" />
+    <Property Name="UnitPrice" Type="float" />
+    <Property Name="Priority" Type="varchar" MaxLength="50" />
+    <Property Name="RequisitionNo" Type="int" Nullable="false" />
+    <Property Name="RequisitionBy" Type="varchar" MaxLength="50" />
+    <Property Name="RequisitionDate" Type="date" />
+    <Property Name="PurReqStatus" Type="varchar" MaxLength="50" />
+    <Property Name="BrProId" Type="int" />
+  </EntityType>
+  <EntityType Name="InvenPurOrder">
+    <Key>
+      <PropertyRef Name="InvenPurOrderId" />
+    </Key>
+    <Property Name="InvenPurOrderId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="int" Nullable="false" />
+    <Property Name="BrProId" Type="int" Nullable="false" />
+    <Property Name="Quantity" Type="int" />
+    <Property Name="UnitPrice" Type="float" />
+    <Property Name="Priority" Type="varchar" MaxLength="50" />
+    <Property Name="PurOrderNO" Type="int" Nullable="false" />
+    <Property Name="PurOrderBy" Type="varchar" MaxLength="50" />
+    <Property Name="PurOrderDate" Type="date" />
+    <Property Name="PurOrderStatus" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="InvenReorder">
+    <Key>
+      <PropertyRef Name="ReorderId" />
+    </Key>
+    <Property Name="ReorderId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="int" Nullable="false" />
+    <Property Name="BrProId" Type="int" Nullable="false" />
+    <Property Name="ReorderValue" Type="int" />
+    <Property Name="RateOfInterest" Type="float" />
+    <Property Name="PurRequisitonStatus" Type="varchar" MaxLength="50" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="Createdate" Type="date" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="SalePrice" Type="int" />
+  </EntityType>
+  <EntityType Name="InvenSaleDtls">
+    <Key>
+      <PropertyRef Name="SaleDtlId" />
+    </Key>
+    <Property Name="SaleDtlId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SalePrice" Type="float" />
+    <Property Name="Quantity" Type="float" />
+    <Property Name="BarQuantity" Type="float" />
+    <Property Name="OffQuantity" Type="float" />
+    <Property Name="SaleType" Type="varchar" MaxLength="50" />
+    <Property Name="SalId" Type="int" />
+    <Property Name="ProductId" Type="int" Nullable="false" />
+    <Property Name="TransectionType" Type="varchar" MaxLength="50" />
+    <Property Name="SalesDate" Type="date" />
+    <Property Name="BarPrice" Type="float" />
+    <Property Name="OffPrice" Type="float" />
+  </EntityType>
+  <EntityType Name="InvenSalePayments">
+    <Key>
+      <PropertyRef Name="SalePaymentId" />
+    </Key>
+    <Property Name="SalePaymentId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PaidAmount" Type="float" />
+    <Property Name="DueAmount" Type="float" />
+    <Property Name="Discount" Type="float" />
+    <Property Name="TotalPrice" Type="float" />
+    <Property Name="SalId" Type="int" Nullable="false" />
+    <Property Name="Vat" Type="float" />
+    <Property Name="DiscountDescription" Type="varchar" MaxLength="850" />
+  </EntityType>
+  <EntityType Name="InvenSalesDetail">
+    <Key>
+      <PropertyRef Name="DtlId" />
+    </Key>
+    <Property Name="DtlId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="int" Nullable="false" />
+    <Property Name="TotalQuantity" Type="float" />
+    <Property Name="UsedQuantity" Type="float" />
+    <Property Name="RemainingQuantity" Type="float" />
+    <Property Name="TodayStock" Type="float" />
+    <Property Name="CreatedDate" Type="date" />
+  </EntityType>
+  <EntityType Name="InvenSalesInfoes">
+    <Key>
+      <PropertyRef Name="SalId" />
+    </Key>
+    <Property Name="SalId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CreateBy" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="CreateDate" Type="date" Nullable="false" />
+    <Property Name="MemberId" Type="int" />
+    <Property Name="BrProId" Type="int" />
+    <Property Name="CustomerName" Type="varchar" MaxLength="150" />
+    <Property Name="CusMobileNo" Type="varchar" MaxLength="50" />
+    <Property Name="CusContactAdd" Type="varchar" MaxLength="550" />
+    <Property Name="CusRemarks" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="InvenSalesInput">
+    <Key>
+      <PropertyRef Name="InputId" />
+    </Key>
+    <Property Name="InputId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="GuestCharge" Type="float" />
+    <Property Name="Card" Type="float" />
+    <Property Name="ExtraBill" Type="float" />
+    <Property Name="GuestChagePlus" Type="float" />
+    <Property Name="TotalAmount" Type="float" />
+    <Property Name="CreatedDate" Type="date" />
+  </EntityType>
+  <EntityType Name="InvenSalesPaymentDtls">
+    <Key>
+      <PropertyRef Name="SalePayDtlId" />
+    </Key>
+    <Property Name="SalePayDtlId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SalId" Type="int" />
+    <Property Name="PaymentMode" Type="varchar" MaxLength="50" />
+    <Property Name="PaidAmount" Type="float" />
+    <Property Name="Note" Type="nvarchar(max)" />
+    <Property Name="PaymentDate" Type="datetime" />
+    <Property Name="PaymentBy" Type="varchar" MaxLength="50" />
+    <Property Name="CardNo" Type="varchar" MaxLength="50" />
+    <Property Name="BankName" Type="varchar" MaxLength="50" />
+    <Property Name="ApprCode" Type="varchar" MaxLength="50" />
+    <Property Name="HolderName" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="InvenSaleXtraInfo">
+    <Key>
+      <PropertyRef Name="SaleXtraInfoId" />
+    </Key>
+    <Property Name="SaleXtraInfoId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SalId" Type="int" />
+    <Property Name="CateringBill" Type="float" />
+    <Property Name="RestuarentBill" Type="float" />
+    <Property Name="BekaryBill" Type="float" />
+  </EntityType>
+  <EntityType Name="InvenStoreStatus">
+    <Key>
+      <PropertyRef Name="InvenStoreId" />
+    </Key>
+    <Property Name="InvenStoreId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="int" />
+    <Property Name="BrProId" Type="int" />
+    <Property Name="QuantityStore" Type="int" />
+    <Property Name="QuantityPurchase" Type="int" />
+    <Property Name="DateStored" Type="date" />
+    <Property Name="DateUpdated" Type="date" />
+    <Property Name="QuantityLastPurchase" Type="int" />
+  </EntityType>
+  <EntityType Name="InvenTempSale">
+    <Key>
+      <PropertyRef Name="TempId" />
+    </Key>
+    <Property Name="TempId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MemberId" Type="int" />
+    <Property Name="Category" Type="varchar(max)" />
+    <Property Name="SubCategory" Type="varchar(max)" />
+    <Property Name="ProductId" Type="int" />
+    <Property Name="Unit" Type="float" />
+    <Property Name="PegSize" Type="float" />
+    <Property Name="UnitPrize" Type="float" />
+    <Property Name="SaleType" Type="varchar(max)" />
+    <Property Name="CreateDate" Type="date" />
+  </EntityType>
+  <EntityType Name="Log_AccJournal">
+    <Key>
+      <PropertyRef Name="LogJournalId" />
+    </Key>
+    <Property Name="LogJournalId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LogField" Type="varchar(max)" />
+    <Property Name="LogDate" Type="datetime" />
+    <Property Name="LogBy" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Log_InvenReorder">
+    <Key>
+      <PropertyRef Name="LogInvenReorderId" />
+    </Key>
+    <Property Name="LogInvenReorderId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LogField" Type="varchar(max)" />
+    <Property Name="LogDate" Type="datetime" />
+    <Property Name="LogBy" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Log_PayEmpInfo">
+    <Key>
+      <PropertyRef Name="LogPayEmpInfoId" />
+    </Key>
+    <Property Name="LogPayEmpInfoId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LogField" Type="varchar" MaxLength="850" />
+    <Property Name="LogBy" Type="varchar" MaxLength="50" />
+    <Property Name="LogDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Log_PayuserRole">
+    <Key>
+      <PropertyRef Name="LogFilePayUserRoleId" />
+    </Key>
+    <Property Name="LogFilePayUserRoleId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LogField" Type="varchar" MaxLength="850" />
+    <Property Name="LogBy" Type="varchar" MaxLength="50" />
+    <Property Name="LogDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Member">
+    <Key>
+      <PropertyRef Name="MemberId" />
+    </Key>
+    <Property Name="MemberId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MemberNo" Type="varchar(max)" />
+    <Property Name="Type" Type="varchar" MaxLength="50" />
+    <Property Name="FullName" Type="varchar(max)" />
+    <Property Name="Exservice" Type="varchar" MaxLength="50" />
+    <Property Name="ContactNo" Type="varchar" MaxLength="50" />
+    <Property Name="MemType" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="PageObjectRoles">
+    <Key>
+      <PropertyRef Name="PageObjAccId" />
+    </Key>
+    <Property Name="PageObjAccId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="RoleId" Type="int" Nullable="false" />
+    <Property Name="PageObjectId" Type="int" Nullable="false" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="PageObjects">
+    <Key>
+      <PropertyRef Name="PageObjectId" />
+    </Key>
+    <Property Name="PageObjectId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PageTypeName" Type="nvarchar(max)" />
+    <Property Name="PageName" Type="nvarchar(max)" />
+    <Property Name="PagePath" Type="nvarchar(max)" />
+    <Property Name="PageMethodeName" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="PayAccountTypeInfoes">
+    <Key>
+      <PropertyRef Name="AccountTypeId" />
+    </Key>
+    <Property Name="AccountTypeId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AccountTypeName" Type="varchar" MaxLength="50" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="PayAsset">
+    <Key>
+      <PropertyRef Name="AssetId" />
+    </Key>
+    <Property Name="AssetId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CashAmount_Current" Type="float" />
+    <Property Name="BankAmount_Current" Type="float" />
+  </EntityType>
+  <EntityType Name="PayBankAccountInfoes">
+    <Key>
+      <PropertyRef Name="AccountInfoId" />
+    </Key>
+    <Property Name="AccountInfoId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="BranchName" Type="varchar" MaxLength="50" />
+    <Property Name="BankId" Type="int" />
+    <Property Name="Address" Type="varchar" MaxLength="350" />
+    <Property Name="Phone" Type="varchar" MaxLength="50" />
+    <Property Name="Mobile" Type="varchar" MaxLength="50" />
+    <Property Name="AccountTypeId" Type="int" />
+    <Property Name="AccountName" Type="varchar" MaxLength="50" />
+    <Property Name="AccountNum" Type="varchar" MaxLength="50" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="ActivationSatus" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="BrProId" Type="int" />
+  </EntityType>
+  <EntityType Name="PayBankInfoes">
+    <Key>
+      <PropertyRef Name="BankId" />
+    </Key>
+    <Property Name="BankId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="BankName" Type="varchar" MaxLength="250" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="PayBankTransectionDtlInfoes">
+    <Key>
+      <PropertyRef Name="TransectionDtlId" />
+    </Key>
+    <Property Name="TransectionDtlId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AccountInfoId" Type="int" Nullable="false" />
+    <Property Name="BrProId" Type="int" />
+    <Property Name="Amount_EachTransection" Type="float" />
+    <Property Name="PaymentDate" Type="datetime" />
+    <Property Name="PaymentBy" Type="varchar" MaxLength="50" />
+    <Property Name="Year" Type="int" Nullable="false" />
+    <Property Name="Remarks" Type="varchar" MaxLength="550" />
+    <Property Name="CollectionDate" Type="date" />
+  </EntityType>
+  <EntityType Name="PayBankTransectionInfoes">
+    <Key>
+      <PropertyRef Name="BankTransectionId" />
+    </Key>
+    <Property Name="BankTransectionId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AccountInfoId" Type="int" Nullable="false" />
+    <Property Name="BankAmount" Type="float" />
+  </EntityType>
+  <EntityType Name="PayCompanyCashEntries">
+    <Key>
+      <PropertyRef Name="CashId" />
+    </Key>
+    <Property Name="CashId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="BrProId" Type="int" />
+    <Property Name="CashAmount" Type="float" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CrateDate" Type="datetime" />
+    <Property Name="Remarks" Type="varchar" MaxLength="450" />
+    <Property Name="Year" Type="int" Nullable="false" />
+    <Property Name="Month" Type="varchar" MaxLength="50" />
+    <Property Name="CollectionDate" Type="date" />
+  </EntityType>
+  <EntityType Name="PayRole">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="RoleId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="RoleName" Type="varchar" MaxLength="50" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="PayUserRole">
+    <Key>
+      <PropertyRef Name="UserRoleId" />
+    </Key>
+    <Property Name="UserRoleId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="EmpId" Type="int" Nullable="false" />
+    <Property Name="RoleId" Type="int" Nullable="false" />
+    <Property Name="CreateBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Products">
+    <Key>
+      <PropertyRef Name="ProductId" />
+    </Key>
+    <Property Name="ProductId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UnitId" Type="int" />
+    <Property Name="CompId" Type="int" />
+    <Property Name="ProductName" Type="nvarchar(max)" />
+    <Property Name="ProductPurchasePrice" Type="float" />
+    <Property Name="CenterReorderValue" Type="int" />
+    <Property Name="ReorderInsertStatus" Type="varchar" MaxLength="50" />
+    <Property Name="CategoryId" Type="int" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="ProductSalePrice" Type="float" />
+    <Property Name="ProductReOrderStatus" Type="int" />
+    <Property Name="ProductOffSalePrice" Type="float" />
+  </EntityType>
+  <EntityType Name="PurchaseDtls">
+    <Key>
+      <PropertyRef Name="PurchaseDtlID" />
+    </Key>
+    <Property Name="PurchaseDtlID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PurchasePrice" Type="float" />
+    <Property Name="Quantity" Type="int" />
+    <Property Name="PurId" Type="int" Nullable="false" />
+    <Property Name="ProductId" Type="int" Nullable="false" />
+    <Property Name="ProductSalePrice" Type="float" />
+  </EntityType>
+  <EntityType Name="PurchaseInfoes">
+    <Key>
+      <PropertyRef Name="PurId" />
+    </Key>
+    <Property Name="PurId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PurDes" Type="varchar" MaxLength="550" />
+    <Property Name="CreateBy" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime" Nullable="false" />
+    <Property Name="SalesManName" Type="varchar" MaxLength="50" />
+    <Property Name="CompId" Type="int" />
+    <Property Name="DONO" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="PurchcasePaymentDtl">
+    <Key>
+      <PropertyRef Name="PurPayDtlId" />
+    </Key>
+    <Property Name="PurPayDtlId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PaymentMode" Type="varchar" MaxLength="50" />
+    <Property Name="PaidAmount" Type="float" />
+    <Property Name="DueAmount" Type="float" />
+    <Property Name="TotalPrice" Type="float" />
+    <Property Name="Note" Type="nvarchar(max)" />
+    <Property Name="PurId" Type="int" Nullable="false" />
+    <Property Name="PaymentDate" Type="datetime" />
+    <Property Name="PaymentBy" Type="varchar" MaxLength="50" />
+    <Property Name="ChequeNo" Type="varchar" MaxLength="500" />
+    <Property Name="ChequeDate" Type="datetime" />
+    <Property Name="IssDate" Type="datetime" />
+    <Property Name="AccountInfoId" Type="int" />
+    <Property Name="LCNumber" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="PurchcasePayments">
+    <Key>
+      <PropertyRef Name="PurPaymentId" />
+    </Key>
+    <Property Name="PurPaymentId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PaymentMode" Type="varchar" MaxLength="50" />
+    <Property Name="PaidAmount" Type="float" />
+    <Property Name="DueAmount" Type="float" />
+    <Property Name="TotalPrice" Type="float" />
+    <Property Name="Note" Type="nvarchar(max)" />
+    <Property Name="PurId" Type="int" Nullable="false" />
+    <Property Name="PaymentDate" Type="datetime" />
+    <Property Name="PaymentBy" Type="varchar" MaxLength="50" />
+    <Property Name="ChequeNo" Type="varchar" MaxLength="500" />
+    <Property Name="ChequeDate" Type="datetime" />
+    <Property Name="IssDate" Type="datetime" />
+    <Property Name="AccountInfoId" Type="int" />
+    <Property Name="LCNumber" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Units">
+    <Key>
+      <PropertyRef Name="UnitId" />
+    </Key>
+    <Property Name="UnitId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UnitName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CreateBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <Association Name="FK_AccBalanceSheetRpt_AccMainHeads">
+    <End Role="AccMainHeads" Type="InventoryRaowaModel.Store.AccMainHeads" Multiplicity="0..1" />
+    <End Role="AccBalanceSheetRpt" Type="InventoryRaowaModel.Store.AccBalanceSheetRpt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccMainHeads">
+        <PropertyRef Name="MainHeadId" />
+      </Principal>
+      <Dependent Role="AccBalanceSheetRpt">
+        <PropertyRef Name="MainHeadId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccBalanceSheetRpt_AccSubCode1">
+    <End Role="AccSubCode1" Type="InventoryRaowaModel.Store.AccSubCode1" Multiplicity="0..1" />
+    <End Role="AccBalanceSheetRpt" Type="InventoryRaowaModel.Store.AccBalanceSheetRpt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccSubCode1">
+        <PropertyRef Name="SubCode_1Id" />
+      </Principal>
+      <Dependent Role="AccBalanceSheetRpt">
+        <PropertyRef Name="SubCode1Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccCashFlowReport_AccSubCode1">
+    <End Role="AccSubCode1" Type="InventoryRaowaModel.Store.AccSubCode1" Multiplicity="0..1" />
+    <End Role="AccCashFlowReport" Type="InventoryRaowaModel.Store.AccCashFlowReport" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccSubCode1">
+        <PropertyRef Name="SubCode_1Id" />
+      </Principal>
+      <Dependent Role="AccCashFlowReport">
+        <PropertyRef Name="SubCode_1Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccCOAInfo_AccSubCode2">
+    <End Role="AccSubCode2" Type="InventoryRaowaModel.Store.AccSubCode2" Multiplicity="0..1" />
+    <End Role="AccCOAInfoes" Type="InventoryRaowaModel.Store.AccCOAInfoes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccSubCode2">
+        <PropertyRef Name="SubCode2_Id" />
+      </Principal>
+      <Dependent Role="AccCOAInfoes">
+        <PropertyRef Name="SubCode_2Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccIncomeStatementRpt_AccMainHeads">
+    <End Role="AccMainHeads" Type="InventoryRaowaModel.Store.AccMainHeads" Multiplicity="0..1" />
+    <End Role="AccIncomeStatementRpt" Type="InventoryRaowaModel.Store.AccIncomeStatementRpt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccMainHeads">
+        <PropertyRef Name="MainHeadId" />
+      </Principal>
+      <Dependent Role="AccIncomeStatementRpt">
+        <PropertyRef Name="MainHeadId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccJournalEntry_AccCOAInfoes">
+    <End Role="AccCOAInfoes" Type="InventoryRaowaModel.Store.AccCOAInfoes" Multiplicity="0..1" />
+    <End Role="AccJournalEntry" Type="InventoryRaowaModel.Store.AccJournalEntry" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccCOAInfoes">
+        <PropertyRef Name="COAId" />
+      </Principal>
+      <Dependent Role="AccJournalEntry">
+        <PropertyRef Name="COAId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccJournalEntry_AccSubCode2">
+    <End Role="AccSubCode2" Type="InventoryRaowaModel.Store.AccSubCode2" Multiplicity="0..1" />
+    <End Role="AccJournalEntry" Type="InventoryRaowaModel.Store.AccJournalEntry" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccSubCode2">
+        <PropertyRef Name="SubCode2_Id" />
+      </Principal>
+      <Dependent Role="AccJournalEntry">
+        <PropertyRef Name="SubCode2Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccJournalEntry_AccSubVouchers">
+    <End Role="AccSubVouchers" Type="InventoryRaowaModel.Store.AccSubVouchers" Multiplicity="0..1" />
+    <End Role="AccJournalEntry" Type="InventoryRaowaModel.Store.AccJournalEntry" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccSubVouchers">
+        <PropertyRef Name="SubVoucherId" />
+      </Principal>
+      <Dependent Role="AccJournalEntry">
+        <PropertyRef Name="SubVoucherId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccLedger_AccJournalEntry">
+    <End Role="AccJournalEntry" Type="InventoryRaowaModel.Store.AccJournalEntry" Multiplicity="0..1" />
+    <End Role="AccLedger" Type="InventoryRaowaModel.Store.AccLedger" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccJournalEntry">
+        <PropertyRef Name="JournalId" />
+      </Principal>
+      <Dependent Role="AccLedger">
+        <PropertyRef Name="JournalId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccLiabilitiesRpt_AccMainHeads">
+    <End Role="AccMainHeads" Type="InventoryRaowaModel.Store.AccMainHeads" Multiplicity="0..1" />
+    <End Role="AccLiabilitiesRpt" Type="InventoryRaowaModel.Store.AccLiabilitiesRpt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccMainHeads">
+        <PropertyRef Name="MainHeadId" />
+      </Principal>
+      <Dependent Role="AccLiabilitiesRpt">
+        <PropertyRef Name="MainHeadId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccSubCode1_AccMainHeads">
+    <End Role="AccMainHeads" Type="InventoryRaowaModel.Store.AccMainHeads" Multiplicity="0..1" />
+    <End Role="AccSubCode1" Type="InventoryRaowaModel.Store.AccSubCode1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccMainHeads">
+        <PropertyRef Name="MainHeadId" />
+      </Principal>
+      <Dependent Role="AccSubCode1">
+        <PropertyRef Name="MainHeadId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccSubCode2_AccMainHeads">
+    <End Role="AccMainHeads" Type="InventoryRaowaModel.Store.AccMainHeads" Multiplicity="0..1" />
+    <End Role="AccSubCode2" Type="InventoryRaowaModel.Store.AccSubCode2" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccMainHeads">
+        <PropertyRef Name="MainHeadId" />
+      </Principal>
+      <Dependent Role="AccSubCode2">
+        <PropertyRef Name="MainHeadId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccSubCode2_AccSubCode1">
+    <End Role="AccSubCode1" Type="InventoryRaowaModel.Store.AccSubCode1" Multiplicity="0..1" />
+    <End Role="AccSubCode2" Type="InventoryRaowaModel.Store.AccSubCode2" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccSubCode1">
+        <PropertyRef Name="SubCode_1Id" />
+      </Principal>
+      <Dependent Role="AccSubCode2">
+        <PropertyRef Name="SubCode_1Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccSubVoucher_AccMainVoucher">
+    <End Role="AccMainVouchers" Type="InventoryRaowaModel.Store.AccMainVouchers" Multiplicity="0..1" />
+    <End Role="AccSubVouchers" Type="InventoryRaowaModel.Store.AccSubVouchers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccMainVouchers">
+        <PropertyRef Name="MainVoucherId" />
+      </Principal>
+      <Dependent Role="AccSubVouchers">
+        <PropertyRef Name="MainVoucherId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccSubVouchers_AccMainVouchers">
+    <End Role="AccMainVouchers" Type="InventoryRaowaModel.Store.AccMainVouchers" Multiplicity="0..1" />
+    <End Role="AccSubVouchers" Type="InventoryRaowaModel.Store.AccSubVouchers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccMainVouchers">
+        <PropertyRef Name="MainVoucherId" />
+      </Principal>
+      <Dependent Role="AccSubVouchers">
+        <PropertyRef Name="MainVoucherId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccTransDetails_AccCOAInfoes">
+    <End Role="AccCOAInfoes" Type="InventoryRaowaModel.Store.AccCOAInfoes" Multiplicity="1" />
+    <End Role="AccTransDetails" Type="InventoryRaowaModel.Store.AccTransDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccCOAInfoes">
+        <PropertyRef Name="COAId" />
+      </Principal>
+      <Dependent Role="AccTransDetails">
+        <PropertyRef Name="CRCOAId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccTransDetails_AccCOAInfoes1">
+    <End Role="AccCOAInfoes" Type="InventoryRaowaModel.Store.AccCOAInfoes" Multiplicity="1" />
+    <End Role="AccTransDetails" Type="InventoryRaowaModel.Store.AccTransDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccCOAInfoes">
+        <PropertyRef Name="COAId" />
+      </Principal>
+      <Dependent Role="AccTransDetails">
+        <PropertyRef Name="DRCOAId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccTransDetails_AccSubCode2">
+    <End Role="AccSubCode2" Type="InventoryRaowaModel.Store.AccSubCode2" Multiplicity="1" />
+    <End Role="AccTransDetails" Type="InventoryRaowaModel.Store.AccTransDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccSubCode2">
+        <PropertyRef Name="SubCode2_Id" />
+      </Principal>
+      <Dependent Role="AccTransDetails">
+        <PropertyRef Name="CRSubCoId2" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccTransDetails_AccSubCode21">
+    <End Role="AccSubCode2" Type="InventoryRaowaModel.Store.AccSubCode2" Multiplicity="1" />
+    <End Role="AccTransDetails" Type="InventoryRaowaModel.Store.AccTransDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccSubCode2">
+        <PropertyRef Name="SubCode2_Id" />
+      </Principal>
+      <Dependent Role="AccTransDetails">
+        <PropertyRef Name="DRSubCoId2" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccTransDetails_AccSubVouchers">
+    <End Role="AccSubVouchers" Type="InventoryRaowaModel.Store.AccSubVouchers" Multiplicity="1" />
+    <End Role="AccTransDetails" Type="InventoryRaowaModel.Store.AccTransDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccSubVouchers">
+        <PropertyRef Name="SubVoucherId" />
+      </Principal>
+      <Dependent Role="AccTransDetails">
+        <PropertyRef Name="CrSubVoucherId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccTransDetails_AccSubVouchers1">
+    <End Role="AccSubVouchers" Type="InventoryRaowaModel.Store.AccSubVouchers" Multiplicity="1" />
+    <End Role="AccTransDetails" Type="InventoryRaowaModel.Store.AccTransDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccSubVouchers">
+        <PropertyRef Name="SubVoucherId" />
+      </Principal>
+      <Dependent Role="AccTransDetails">
+        <PropertyRef Name="DrSubVoucherId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccTransDetails_AccTranItem">
+    <End Role="AccTranItem" Type="InventoryRaowaModel.Store.AccTranItem" Multiplicity="1" />
+    <End Role="AccTransDetails" Type="InventoryRaowaModel.Store.AccTransDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccTranItem">
+        <PropertyRef Name="TranId" />
+      </Principal>
+      <Dependent Role="AccTransDetails">
+        <PropertyRef Name="TranId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CashFlowReport_AccCOAInfoes">
+    <End Role="AccCOAInfoes" Type="InventoryRaowaModel.Store.AccCOAInfoes" Multiplicity="0..1" />
+    <End Role="AccCashFlowReport" Type="InventoryRaowaModel.Store.AccCashFlowReport" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccCOAInfoes">
+        <PropertyRef Name="COAId" />
+      </Principal>
+      <Dependent Role="AccCashFlowReport">
+        <PropertyRef Name="COAId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CashFlowReport_CashFlowEntity">
+    <End Role="AccCashFlowEntity" Type="InventoryRaowaModel.Store.AccCashFlowEntity" Multiplicity="0..1" />
+    <End Role="AccCashFlowReport" Type="InventoryRaowaModel.Store.AccCashFlowReport" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccCashFlowEntity">
+        <PropertyRef Name="CFEId" />
+      </Principal>
+      <Dependent Role="AccCashFlowReport">
+        <PropertyRef Name="CFEId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Category_Products">
+    <End Role="Categories" Type="InventoryRaowaModel.Store.Categories" Multiplicity="0..1" />
+    <End Role="Products" Type="InventoryRaowaModel.Store.Products" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="CatId" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CompanyInfo_Products">
+    <End Role="CompanyInfoes" Type="InventoryRaowaModel.Store.CompanyInfoes" Multiplicity="0..1" />
+    <End Role="Products" Type="InventoryRaowaModel.Store.Products" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CompanyInfoes">
+        <PropertyRef Name="CompId" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="CompId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EmpEducations_Employees">
+    <End Role="Employees" Type="InventoryRaowaModel.Store.Employees" Multiplicity="0..1" />
+    <End Role="EmpEducations" Type="InventoryRaowaModel.Store.EmpEducations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="EmpId" />
+      </Principal>
+      <Dependent Role="EmpEducations">
+        <PropertyRef Name="EmpId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EmpExperienceInfoes_Employees">
+    <End Role="Employees" Type="InventoryRaowaModel.Store.Employees" Multiplicity="0..1" />
+    <End Role="EmpExperienceInfoes" Type="InventoryRaowaModel.Store.EmpExperienceInfoes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="EmpId" />
+      </Principal>
+      <Dependent Role="EmpExperienceInfoes">
+        <PropertyRef Name="EmpId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employees_EmpSpecialists">
+    <End Role="EmpSpecialists" Type="InventoryRaowaModel.Store.EmpSpecialists" Multiplicity="1" />
+    <End Role="Employees" Type="InventoryRaowaModel.Store.Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EmpSpecialists">
+        <PropertyRef Name="EmpSpecilistId" />
+      </Principal>
+      <Dependent Role="Employees">
+        <PropertyRef Name="EmpSpecilistId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employees_EmpTypes">
+    <End Role="EmpTypes" Type="InventoryRaowaModel.Store.EmpTypes" Multiplicity="1" />
+    <End Role="Employees" Type="InventoryRaowaModel.Store.Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EmpTypes">
+        <PropertyRef Name="EmpTypeId" />
+      </Principal>
+      <Dependent Role="Employees">
+        <PropertyRef Name="EmpTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employees_InvenBranchProfile">
+    <End Role="InvenBranchProfile" Type="InventoryRaowaModel.Store.InvenBranchProfile" Multiplicity="0..1" />
+    <End Role="Employees" Type="InventoryRaowaModel.Store.Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InvenBranchProfile">
+        <PropertyRef Name="BrProId" />
+      </Principal>
+      <Dependent Role="Employees">
+        <PropertyRef Name="BrProId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EmpSpecialists_EmpTypes">
+    <End Role="EmpTypes" Type="InventoryRaowaModel.Store.EmpTypes" Multiplicity="1" />
+    <End Role="EmpSpecialists" Type="InventoryRaowaModel.Store.EmpSpecialists" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EmpTypes">
+        <PropertyRef Name="EmpTypeId" />
+      </Principal>
+      <Dependent Role="EmpSpecialists">
+        <PropertyRef Name="EmpTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EmpTrainings_Employees">
+    <End Role="Employees" Type="InventoryRaowaModel.Store.Employees" Multiplicity="0..1" />
+    <End Role="EmpTrainings" Type="InventoryRaowaModel.Store.EmpTrainings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="EmpId" />
+      </Principal>
+      <Dependent Role="EmpTrainings">
+        <PropertyRef Name="EmpId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Expenses_ExpenseHeads">
+    <End Role="ExpenseHeads" Type="InventoryRaowaModel.Store.ExpenseHeads" Multiplicity="1" />
+    <End Role="Expenses" Type="InventoryRaowaModel.Store.Expenses" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ExpenseHeads">
+        <PropertyRef Name="ExHeadId" />
+      </Principal>
+      <Dependent Role="Expenses">
+        <PropertyRef Name="ExHeadId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenBranchProfile_InvenCompProfileInfo">
+    <End Role="InvenCompProfileInfo" Type="InventoryRaowaModel.Store.InvenCompProfileInfo" Multiplicity="1" />
+    <End Role="InvenBranchProfile" Type="InventoryRaowaModel.Store.InvenBranchProfile" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InvenCompProfileInfo">
+        <PropertyRef Name="CompProId" />
+      </Principal>
+      <Dependent Role="InvenBranchProfile">
+        <PropertyRef Name="CompProId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenBranchToCentralReturnDtl_InvenBranchProfile">
+    <End Role="InvenBranchProfile" Type="InventoryRaowaModel.Store.InvenBranchProfile" Multiplicity="0..1" />
+    <End Role="InvenBranchToCentralReturnDtl" Type="InventoryRaowaModel.Store.InvenBranchToCentralReturnDtl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InvenBranchProfile">
+        <PropertyRef Name="BrProId" />
+      </Principal>
+      <Dependent Role="InvenBranchToCentralReturnDtl">
+        <PropertyRef Name="reProBranchId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenBranchToCentralReturnDtl_Products">
+    <End Role="Products" Type="InventoryRaowaModel.Store.Products" Multiplicity="0..1" />
+    <End Role="InvenBranchToCentralReturnDtl" Type="InventoryRaowaModel.Store.InvenBranchToCentralReturnDtl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ProductId" />
+      </Principal>
+      <Dependent Role="InvenBranchToCentralReturnDtl">
+        <PropertyRef Name="reProId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenCenteralStoreStatus_Products">
+    <End Role="Products" Type="InventoryRaowaModel.Store.Products" Multiplicity="0..1" />
+    <End Role="InvenCenteralStoreStatus" Type="InventoryRaowaModel.Store.InvenCenteralStoreStatus" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ProductId" />
+      </Principal>
+      <Dependent Role="InvenCenteralStoreStatus">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenCentralChallanDtl_InvenCentralChallanInfo">
+    <End Role="InvenCentralChallanInfo" Type="InventoryRaowaModel.Store.InvenCentralChallanInfo" Multiplicity="0..1" />
+    <End Role="InvenCentralChallanDtl" Type="InventoryRaowaModel.Store.InvenCentralChallanDtl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InvenCentralChallanInfo">
+        <PropertyRef Name="ChallanId" />
+      </Principal>
+      <Dependent Role="InvenCentralChallanDtl">
+        <PropertyRef Name="ChallanId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenCentralChallanDtl_Products">
+    <End Role="Products" Type="InventoryRaowaModel.Store.Products" Multiplicity="0..1" />
+    <End Role="InvenCentralChallanDtl" Type="InventoryRaowaModel.Store.InvenCentralChallanDtl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ProductId" />
+      </Principal>
+      <Dependent Role="InvenCentralChallanDtl">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenCentralChallanInfo_InvenBranchProfile">
+    <End Role="InvenBranchProfile" Type="InventoryRaowaModel.Store.InvenBranchProfile" Multiplicity="1" />
+    <End Role="InvenCentralChallanInfo" Type="InventoryRaowaModel.Store.InvenCentralChallanInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InvenBranchProfile">
+        <PropertyRef Name="BrProId" />
+      </Principal>
+      <Dependent Role="InvenCentralChallanInfo">
+        <PropertyRef Name="BrProId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenCentralPurchaseDtls_InvenCentralPurchaseInfoes">
+    <End Role="InvenCentralPurchaseInfoes" Type="InventoryRaowaModel.Store.InvenCentralPurchaseInfoes" Multiplicity="0..1" />
+    <End Role="InvenCentralPurchaseDtls" Type="InventoryRaowaModel.Store.InvenCentralPurchaseDtls" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InvenCentralPurchaseInfoes">
+        <PropertyRef Name="PurId" />
+      </Principal>
+      <Dependent Role="InvenCentralPurchaseDtls">
+        <PropertyRef Name="PurId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenCentralPurchaseDtls_Products1">
+    <End Role="Products" Type="InventoryRaowaModel.Store.Products" Multiplicity="1" />
+    <End Role="InvenCentralPurchaseDtls" Type="InventoryRaowaModel.Store.InvenCentralPurchaseDtls" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ProductId" />
+      </Principal>
+      <Dependent Role="InvenCentralPurchaseDtls">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenCentralPurchcasePaymentDtls_InvenCentralPurchcasePayments">
+    <End Role="InvenCentralPurchcasePayments" Type="InventoryRaowaModel.Store.InvenCentralPurchcasePayments" Multiplicity="0..1" />
+    <End Role="InvenCentralPurchcasePaymentDtls" Type="InventoryRaowaModel.Store.InvenCentralPurchcasePaymentDtls" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InvenCentralPurchcasePayments">
+        <PropertyRef Name="PurPaymentId" />
+      </Principal>
+      <Dependent Role="InvenCentralPurchcasePaymentDtls">
+        <PropertyRef Name="PurPaymentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenCentralPurchcasePaymentDtls_PayBankAccountInfoes">
+    <End Role="PayBankAccountInfoes" Type="InventoryRaowaModel.Store.PayBankAccountInfoes" Multiplicity="0..1" />
+    <End Role="InvenCentralPurchcasePaymentDtls" Type="InventoryRaowaModel.Store.InvenCentralPurchcasePaymentDtls" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PayBankAccountInfoes">
+        <PropertyRef Name="AccountInfoId" />
+      </Principal>
+      <Dependent Role="InvenCentralPurchcasePaymentDtls">
+        <PropertyRef Name="AccountInfoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenCentralPurchcasePayments_CompanyInfoes">
+    <End Role="CompanyInfoes" Type="InventoryRaowaModel.Store.CompanyInfoes" Multiplicity="0..1" />
+    <End Role="InvenCentralPurchcasePayments" Type="InventoryRaowaModel.Store.InvenCentralPurchcasePayments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CompanyInfoes">
+        <PropertyRef Name="CompId" />
+      </Principal>
+      <Dependent Role="InvenCentralPurchcasePayments">
+        <PropertyRef Name="CompId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenCentralPurchcasePayments_InvenCentralPurchaseInfoes">
+    <End Role="InvenCentralPurchaseInfoes" Type="InventoryRaowaModel.Store.InvenCentralPurchaseInfoes" Multiplicity="1" />
+    <End Role="InvenCentralPurchcasePayments" Type="InventoryRaowaModel.Store.InvenCentralPurchcasePayments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InvenCentralPurchaseInfoes">
+        <PropertyRef Name="PurId" />
+      </Principal>
+      <Dependent Role="InvenCentralPurchcasePayments">
+        <PropertyRef Name="PurId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenCentralPurRequisition_Products">
+    <End Role="Products" Type="InventoryRaowaModel.Store.Products" Multiplicity="1" />
+    <End Role="InvenCentralPurRequisition" Type="InventoryRaowaModel.Store.InvenCentralPurRequisition" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ProductId" />
+      </Principal>
+      <Dependent Role="InvenCentralPurRequisition">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenCentralReturn_InvenBranchReturn">
+    <End Role="InvenBranchReturn" Type="InventoryRaowaModel.Store.InvenBranchReturn" Multiplicity="0..1" />
+    <End Role="InvenCentralReturn" Type="InventoryRaowaModel.Store.InvenCentralReturn" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InvenBranchReturn">
+        <PropertyRef Name="BranchReturnId" />
+      </Principal>
+      <Dependent Role="InvenCentralReturn">
+        <PropertyRef Name="BranchReturnId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenCentralToPartyReturnDtl_InvenBranchProfile">
+    <End Role="InvenBranchProfile" Type="InventoryRaowaModel.Store.InvenBranchProfile" Multiplicity="0..1" />
+    <End Role="InvenCentralToPartyReturnDtl" Type="InventoryRaowaModel.Store.InvenCentralToPartyReturnDtl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InvenBranchProfile">
+        <PropertyRef Name="BrProId" />
+      </Principal>
+      <Dependent Role="InvenCentralToPartyReturnDtl">
+        <PropertyRef Name="reProBranchId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenCentralToPartyReturnDtl_Products">
+    <End Role="Products" Type="InventoryRaowaModel.Store.Products" Multiplicity="0..1" />
+    <End Role="InvenCentralToPartyReturnDtl" Type="InventoryRaowaModel.Store.InvenCentralToPartyReturnDtl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ProductId" />
+      </Principal>
+      <Dependent Role="InvenCentralToPartyReturnDtl">
+        <PropertyRef Name="reProId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenCentrealPurOrder_Products">
+    <End Role="Products" Type="InventoryRaowaModel.Store.Products" Multiplicity="1" />
+    <End Role="InvenCentrealPurOrder" Type="InventoryRaowaModel.Store.InvenCentrealPurOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ProductId" />
+      </Principal>
+      <Dependent Role="InvenCentrealPurOrder">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenChangeDtls_InvenChangeInfoes">
+    <End Role="InvenChangeInfoes" Type="InventoryRaowaModel.Store.InvenChangeInfoes" Multiplicity="0..1" />
+    <End Role="InvenChangeDtls" Type="InventoryRaowaModel.Store.InvenChangeDtls" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InvenChangeInfoes">
+        <PropertyRef Name="ChangeId" />
+      </Principal>
+      <Dependent Role="InvenChangeDtls">
+        <PropertyRef Name="ChangeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenChangeDtls_InvenSaleDtls">
+    <End Role="InvenSaleDtls" Type="InventoryRaowaModel.Store.InvenSaleDtls" Multiplicity="0..1" />
+    <End Role="InvenChangeDtls" Type="InventoryRaowaModel.Store.InvenChangeDtls" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InvenSaleDtls">
+        <PropertyRef Name="SaleDtlId" />
+      </Principal>
+      <Dependent Role="InvenChangeDtls">
+        <PropertyRef Name="SaleDtlId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenChangeDtls_Products">
+    <End Role="Products" Type="InventoryRaowaModel.Store.Products" Multiplicity="1" />
+    <End Role="InvenChangeDtls" Type="InventoryRaowaModel.Store.InvenChangeDtls" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ProductId" />
+      </Principal>
+      <Dependent Role="InvenChangeDtls">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenChangeInfoes_InvenBranchProfile">
+    <End Role="InvenBranchProfile" Type="InventoryRaowaModel.Store.InvenBranchProfile" Multiplicity="0..1" />
+    <End Role="InvenChangeInfoes" Type="InventoryRaowaModel.Store.InvenChangeInfoes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InvenBranchProfile">
+        <PropertyRef Name="BrProId" />
+      </Principal>
+      <Dependent Role="InvenChangeInfoes">
+        <PropertyRef Name="BrProId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenChangePaymentDtls_InvenChangeInfoes">
+    <End Role="InvenChangeInfoes" Type="InventoryRaowaModel.Store.InvenChangeInfoes" Multiplicity="0..1" />
+    <End Role="InvenChangePaymentDtls" Type="InventoryRaowaModel.Store.InvenChangePaymentDtls" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InvenChangeInfoes">
+        <PropertyRef Name="ChangeId" />
+      </Principal>
+      <Dependent Role="InvenChangePaymentDtls">
+        <PropertyRef Name="ChangeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenChangePayments_InvenChangeInfoes">
+    <End Role="InvenChangeInfoes" Type="InventoryRaowaModel.Store.InvenChangeInfoes" Multiplicity="1" />
+    <End Role="InvenChangePayments" Type="InventoryRaowaModel.Store.InvenChangePayments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InvenChangeInfoes">
+        <PropertyRef Name="ChangeId" />
+      </Principal>
+      <Dependent Role="InvenChangePayments">
+        <PropertyRef Name="ChangeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenPerRequisition_InvenBranchProfile">
+    <End Role="InvenBranchProfile" Type="InventoryRaowaModel.Store.InvenBranchProfile" Multiplicity="0..1" />
+    <End Role="InvenPerRequisition" Type="InventoryRaowaModel.Store.InvenPerRequisition" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InvenBranchProfile">
+        <PropertyRef Name="BrProId" />
+      </Principal>
+      <Dependent Role="InvenPerRequisition">
+        <PropertyRef Name="BrProId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenPerRequisition_Products">
+    <End Role="Products" Type="InventoryRaowaModel.Store.Products" Multiplicity="1" />
+    <End Role="InvenPerRequisition" Type="InventoryRaowaModel.Store.InvenPerRequisition" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ProductId" />
+      </Principal>
+      <Dependent Role="InvenPerRequisition">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenPurOrder_InvenBranchProfile">
+    <End Role="InvenBranchProfile" Type="InventoryRaowaModel.Store.InvenBranchProfile" Multiplicity="1" />
+    <End Role="InvenPurOrder" Type="InventoryRaowaModel.Store.InvenPurOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InvenBranchProfile">
+        <PropertyRef Name="BrProId" />
+      </Principal>
+      <Dependent Role="InvenPurOrder">
+        <PropertyRef Name="BrProId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenPurOrder_Products">
+    <End Role="Products" Type="InventoryRaowaModel.Store.Products" Multiplicity="1" />
+    <End Role="InvenPurOrder" Type="InventoryRaowaModel.Store.InvenPurOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ProductId" />
+      </Principal>
+      <Dependent Role="InvenPurOrder">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenReorder_InvenBranchProfile">
+    <End Role="InvenBranchProfile" Type="InventoryRaowaModel.Store.InvenBranchProfile" Multiplicity="1" />
+    <End Role="InvenReorder" Type="InventoryRaowaModel.Store.InvenReorder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InvenBranchProfile">
+        <PropertyRef Name="BrProId" />
+      </Principal>
+      <Dependent Role="InvenReorder">
+        <PropertyRef Name="BrProId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenReorder_Products">
+    <End Role="Products" Type="InventoryRaowaModel.Store.Products" Multiplicity="1" />
+    <End Role="InvenReorder" Type="InventoryRaowaModel.Store.InvenReorder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ProductId" />
+      </Principal>
+      <Dependent Role="InvenReorder">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenSaleDtls_InvenSalesInfoes">
+    <End Role="InvenSalesInfoes" Type="InventoryRaowaModel.Store.InvenSalesInfoes" Multiplicity="0..1" />
+    <End Role="InvenSaleDtls" Type="InventoryRaowaModel.Store.InvenSaleDtls" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InvenSalesInfoes">
+        <PropertyRef Name="SalId" />
+      </Principal>
+      <Dependent Role="InvenSaleDtls">
+        <PropertyRef Name="SalId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenSaleDtls_Products">
+    <End Role="Products" Type="InventoryRaowaModel.Store.Products" Multiplicity="1" />
+    <End Role="InvenSaleDtls" Type="InventoryRaowaModel.Store.InvenSaleDtls" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ProductId" />
+      </Principal>
+      <Dependent Role="InvenSaleDtls">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenSalePayments_InvenSalesInfoes">
+    <End Role="InvenSalesInfoes" Type="InventoryRaowaModel.Store.InvenSalesInfoes" Multiplicity="1" />
+    <End Role="InvenSalePayments" Type="InventoryRaowaModel.Store.InvenSalePayments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InvenSalesInfoes">
+        <PropertyRef Name="SalId" />
+      </Principal>
+      <Dependent Role="InvenSalePayments">
+        <PropertyRef Name="SalId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenSalesDetail_Product">
+    <End Role="Products" Type="InventoryRaowaModel.Store.Products" Multiplicity="1" />
+    <End Role="InvenSalesDetail" Type="InventoryRaowaModel.Store.InvenSalesDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ProductId" />
+      </Principal>
+      <Dependent Role="InvenSalesDetail">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenSalesInfoes_InvenSalesInfoes">
+    <End Role="InvenBranchProfile" Type="InventoryRaowaModel.Store.InvenBranchProfile" Multiplicity="0..1" />
+    <End Role="InvenSalesInfoes" Type="InventoryRaowaModel.Store.InvenSalesInfoes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InvenBranchProfile">
+        <PropertyRef Name="BrProId" />
+      </Principal>
+      <Dependent Role="InvenSalesInfoes">
+        <PropertyRef Name="BrProId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenSalesInfoes_Member">
+    <End Role="Member" Type="InventoryRaowaModel.Store.Member" Multiplicity="0..1" />
+    <End Role="InvenSalesInfoes" Type="InventoryRaowaModel.Store.InvenSalesInfoes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Member">
+        <PropertyRef Name="MemberId" />
+      </Principal>
+      <Dependent Role="InvenSalesInfoes">
+        <PropertyRef Name="MemberId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenSalesPaymentDtls_InvenSalesInfoes">
+    <End Role="InvenSalesInfoes" Type="InventoryRaowaModel.Store.InvenSalesInfoes" Multiplicity="0..1" />
+    <End Role="InvenSalesPaymentDtls" Type="InventoryRaowaModel.Store.InvenSalesPaymentDtls" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InvenSalesInfoes">
+        <PropertyRef Name="SalId" />
+      </Principal>
+      <Dependent Role="InvenSalesPaymentDtls">
+        <PropertyRef Name="SalId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenSaleXtraInfo_InvenSalesInfoes">
+    <End Role="InvenSalesInfoes" Type="InventoryRaowaModel.Store.InvenSalesInfoes" Multiplicity="0..1" />
+    <End Role="InvenSaleXtraInfo" Type="InventoryRaowaModel.Store.InvenSaleXtraInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InvenSalesInfoes">
+        <PropertyRef Name="SalId" />
+      </Principal>
+      <Dependent Role="InvenSaleXtraInfo">
+        <PropertyRef Name="SalId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenStoreStatus_InvenBranchProfile">
+    <End Role="InvenBranchProfile" Type="InventoryRaowaModel.Store.InvenBranchProfile" Multiplicity="0..1" />
+    <End Role="InvenStoreStatus" Type="InventoryRaowaModel.Store.InvenStoreStatus" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InvenBranchProfile">
+        <PropertyRef Name="BrProId" />
+      </Principal>
+      <Dependent Role="InvenStoreStatus">
+        <PropertyRef Name="BrProId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InvenStoreStatus_Products">
+    <End Role="Products" Type="InventoryRaowaModel.Store.Products" Multiplicity="0..1" />
+    <End Role="InvenStoreStatus" Type="InventoryRaowaModel.Store.InvenStoreStatus" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ProductId" />
+      </Principal>
+      <Dependent Role="InvenStoreStatus">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PageObjectRole_PageObject">
+    <End Role="PageObjects" Type="InventoryRaowaModel.Store.PageObjects" Multiplicity="1" />
+    <End Role="PageObjectRoles" Type="InventoryRaowaModel.Store.PageObjectRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PageObjects">
+        <PropertyRef Name="PageObjectId" />
+      </Principal>
+      <Dependent Role="PageObjectRoles">
+        <PropertyRef Name="PageObjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PageObjectRoles_PayRole">
+    <End Role="PayRole" Type="InventoryRaowaModel.Store.PayRole" Multiplicity="1" />
+    <End Role="PageObjectRoles" Type="InventoryRaowaModel.Store.PageObjectRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PayRole">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="PageObjectRoles">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PayBankAccountInfoes_InvenBranchProfile">
+    <End Role="InvenBranchProfile" Type="InventoryRaowaModel.Store.InvenBranchProfile" Multiplicity="0..1" />
+    <End Role="PayBankAccountInfoes" Type="InventoryRaowaModel.Store.PayBankAccountInfoes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InvenBranchProfile">
+        <PropertyRef Name="BrProId" />
+      </Principal>
+      <Dependent Role="PayBankAccountInfoes">
+        <PropertyRef Name="BrProId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PayBankAccountInfoes_PayAccountTypeInfoes">
+    <End Role="PayAccountTypeInfoes" Type="InventoryRaowaModel.Store.PayAccountTypeInfoes" Multiplicity="0..1" />
+    <End Role="PayBankAccountInfoes" Type="InventoryRaowaModel.Store.PayBankAccountInfoes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PayAccountTypeInfoes">
+        <PropertyRef Name="AccountTypeId" />
+      </Principal>
+      <Dependent Role="PayBankAccountInfoes">
+        <PropertyRef Name="AccountTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PayBankAccountInfoes_PayBankInfoes">
+    <End Role="PayBankInfoes" Type="InventoryRaowaModel.Store.PayBankInfoes" Multiplicity="0..1" />
+    <End Role="PayBankAccountInfoes" Type="InventoryRaowaModel.Store.PayBankAccountInfoes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PayBankInfoes">
+        <PropertyRef Name="BankId" />
+      </Principal>
+      <Dependent Role="PayBankAccountInfoes">
+        <PropertyRef Name="BankId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PayBankTransectionDtlInfo_PayBankTransectionInfo">
+    <End Role="PayBankAccountInfoes" Type="InventoryRaowaModel.Store.PayBankAccountInfoes" Multiplicity="1" />
+    <End Role="PayBankTransectionDtlInfoes" Type="InventoryRaowaModel.Store.PayBankTransectionDtlInfoes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PayBankAccountInfoes">
+        <PropertyRef Name="AccountInfoId" />
+      </Principal>
+      <Dependent Role="PayBankTransectionDtlInfoes">
+        <PropertyRef Name="AccountInfoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PayBankTransectionDtlInfoes_InvenBranchProfile">
+    <End Role="InvenBranchProfile" Type="InventoryRaowaModel.Store.InvenBranchProfile" Multiplicity="0..1" />
+    <End Role="PayBankTransectionDtlInfoes" Type="InventoryRaowaModel.Store.PayBankTransectionDtlInfoes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InvenBranchProfile">
+        <PropertyRef Name="BrProId" />
+      </Principal>
+      <Dependent Role="PayBankTransectionDtlInfoes">
+        <PropertyRef Name="BrProId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PayBankTransectionInfo_PayBankAccountInfo">
+    <End Role="PayBankAccountInfoes" Type="InventoryRaowaModel.Store.PayBankAccountInfoes" Multiplicity="1" />
+    <End Role="PayBankTransectionInfoes" Type="InventoryRaowaModel.Store.PayBankTransectionInfoes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PayBankAccountInfoes">
+        <PropertyRef Name="AccountInfoId" />
+      </Principal>
+      <Dependent Role="PayBankTransectionInfoes">
+        <PropertyRef Name="AccountInfoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PayCompanyCashEntries_InvenBranchProfile">
+    <End Role="InvenBranchProfile" Type="InventoryRaowaModel.Store.InvenBranchProfile" Multiplicity="0..1" />
+    <End Role="PayCompanyCashEntries" Type="InventoryRaowaModel.Store.PayCompanyCashEntries" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InvenBranchProfile">
+        <PropertyRef Name="BrProId" />
+      </Principal>
+      <Dependent Role="PayCompanyCashEntries">
+        <PropertyRef Name="BrProId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PayUserRole_Employees">
+    <End Role="Employees" Type="InventoryRaowaModel.Store.Employees" Multiplicity="1" />
+    <End Role="PayUserRole" Type="InventoryRaowaModel.Store.PayUserRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="EmpId" />
+      </Principal>
+      <Dependent Role="PayUserRole">
+        <PropertyRef Name="EmpId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PayUserRole_PayRole">
+    <End Role="PayRole" Type="InventoryRaowaModel.Store.PayRole" Multiplicity="1" />
+    <End Role="PayUserRole" Type="InventoryRaowaModel.Store.PayUserRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PayRole">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="PayUserRole">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PurchaseDtls_Products">
+    <End Role="Products" Type="InventoryRaowaModel.Store.Products" Multiplicity="1" />
+    <End Role="PurchaseDtls" Type="InventoryRaowaModel.Store.PurchaseDtls" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ProductId" />
+      </Principal>
+      <Dependent Role="PurchaseDtls">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PurchaseDtls_PurchaseInfoes">
+    <End Role="PurchaseInfoes" Type="InventoryRaowaModel.Store.PurchaseInfoes" Multiplicity="1" />
+    <End Role="PurchaseDtls" Type="InventoryRaowaModel.Store.PurchaseDtls" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PurchaseInfoes">
+        <PropertyRef Name="PurId" />
+      </Principal>
+      <Dependent Role="PurchaseDtls">
+        <PropertyRef Name="PurId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PurchaseInfoes_CompanyInfoes">
+    <End Role="CompanyInfoes" Type="InventoryRaowaModel.Store.CompanyInfoes" Multiplicity="0..1" />
+    <End Role="PurchaseInfoes" Type="InventoryRaowaModel.Store.PurchaseInfoes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CompanyInfoes">
+        <PropertyRef Name="CompId" />
+      </Principal>
+      <Dependent Role="PurchaseInfoes">
+        <PropertyRef Name="CompId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PurchcasePaymentDtl_PayBankAccountInfoes">
+    <End Role="PayBankAccountInfoes" Type="InventoryRaowaModel.Store.PayBankAccountInfoes" Multiplicity="0..1" />
+    <End Role="PurchcasePaymentDtl" Type="InventoryRaowaModel.Store.PurchcasePaymentDtl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PayBankAccountInfoes">
+        <PropertyRef Name="AccountInfoId" />
+      </Principal>
+      <Dependent Role="PurchcasePaymentDtl">
+        <PropertyRef Name="AccountInfoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PurchcasePaymentDtl_PurchaseInfoes">
+    <End Role="PurchaseInfoes" Type="InventoryRaowaModel.Store.PurchaseInfoes" Multiplicity="1" />
+    <End Role="PurchcasePaymentDtl" Type="InventoryRaowaModel.Store.PurchcasePaymentDtl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PurchaseInfoes">
+        <PropertyRef Name="PurId" />
+      </Principal>
+      <Dependent Role="PurchcasePaymentDtl">
+        <PropertyRef Name="PurId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PurchcasePayments_PayBankAccountInfoes">
+    <End Role="PayBankAccountInfoes" Type="InventoryRaowaModel.Store.PayBankAccountInfoes" Multiplicity="0..1" />
+    <End Role="PurchcasePayments" Type="InventoryRaowaModel.Store.PurchcasePayments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PayBankAccountInfoes">
+        <PropertyRef Name="AccountInfoId" />
+      </Principal>
+      <Dependent Role="PurchcasePayments">
+        <PropertyRef Name="AccountInfoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PurchcasePayments_PurchaseInfoes">
+    <End Role="PurchaseInfoes" Type="InventoryRaowaModel.Store.PurchaseInfoes" Multiplicity="1" />
+    <End Role="PurchcasePayments" Type="InventoryRaowaModel.Store.PurchcasePayments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PurchaseInfoes">
+        <PropertyRef Name="PurId" />
+      </Principal>
+      <Dependent Role="PurchcasePayments">
+        <PropertyRef Name="PurId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Unit_Products">
+    <End Role="Units" Type="InventoryRaowaModel.Store.Units" Multiplicity="0..1" />
+    <End Role="Products" Type="InventoryRaowaModel.Store.Products" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Units">
+        <PropertyRef Name="UnitId" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="UnitId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" ReturnType="int" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <!--Errors Found During Generation:
+      warning 6013: The table/view 'InventoryRaowa.dbo.PageObjectType' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="PageObjectType">
+        <Property Name="PageObjectTypeId" Type="int" />
+        <Property Name="PageObjectTypeName" Type="nvarchar" MaxLength="50" />
+      </EntityType>-->
+</Schema>

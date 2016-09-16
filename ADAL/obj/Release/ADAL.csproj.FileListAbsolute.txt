@@ -1,0 +1,16 @@
+D:\Raowa Club (BAR)\ADAL\bin\Release\ADAL.dll.config
+D:\Raowa Club (BAR)\ADAL\bin\Release\ADAL.dll
+D:\Raowa Club (BAR)\ADAL\bin\Release\ADAL.pdb
+D:\Raowa Club (BAR)\ADAL\bin\Release\ADTO.dll
+D:\Raowa Club (BAR)\ADAL\bin\Release\DAL.dll
+D:\Raowa Club (BAR)\ADAL\bin\Release\Utility.dll
+D:\Raowa Club (BAR)\ADAL\bin\Release\DTO.dll
+D:\Raowa Club (BAR)\ADAL\bin\Release\log4net.dll
+D:\Raowa Club (BAR)\ADAL\bin\Release\AutoMapper.dll
+D:\Raowa Club (BAR)\ADAL\bin\Release\ADTO.pdb
+D:\Raowa Club (BAR)\ADAL\bin\Release\DAL.pdb
+D:\Raowa Club (BAR)\ADAL\bin\Release\Utility.pdb
+D:\Raowa Club (BAR)\ADAL\bin\Release\DTO.pdb
+D:\Raowa Club (BAR)\ADAL\obj\Release\ADAL.csprojResolveAssemblyReference.cache
+D:\Raowa Club (BAR)\ADAL\obj\Release\ADAL.dll
+D:\Raowa Club (BAR)\ADAL\obj\Release\ADAL.pdb

@@ -1,0 +1,96 @@
+E:\Grammeen Bikash\Inventory\DAL\obj\Debug\ResolveAssemblyReference.cache
+E:\Grammeen Bikash\Inventory\DAL\obj\Debug\DAL.pdb
+E:\Grammeen Bikash\Inventory\DAL\bin\Debug\DAL.dll.config
+E:\Grammeen Bikash\Inventory\DAL\bin\Debug\DAL.dll
+E:\Grammeen Bikash\Inventory\DAL\bin\Debug\DAL.pdb
+E:\Grammeen Bikash\Inventory\DAL\bin\Debug\DTO.dll
+E:\Grammeen Bikash\Inventory\DAL\bin\Debug\Utility.dll
+E:\Grammeen Bikash\Inventory\DAL\bin\Debug\DTO.pdb
+E:\Grammeen Bikash\Inventory\DAL\bin\Debug\Utility.pdb
+E:\Grammeen Bikash\Inventory\DAL\obj\Debug\DAL.dll
+E:\Grammeen Bikash\Inventory\DAL\bin\Debug\log4net.dll
+E:\Grammeen Bikash\Inventory\DAL\bin\Debug\AutoMapper.dll
+E:\Grameenbikash Accounting\Inventory\DAL\bin\Debug\DAL.dll.config
+E:\Grameenbikash Accounting\Inventory\DAL\bin\Debug\DAL.dll
+E:\Grameenbikash Accounting\Inventory\DAL\bin\Debug\DAL.pdb
+E:\Grameenbikash Accounting\Inventory\DAL\bin\Debug\DTO.dll
+E:\Grameenbikash Accounting\Inventory\DAL\bin\Debug\Utility.dll
+E:\Grameenbikash Accounting\Inventory\DAL\bin\Debug\log4net.dll
+E:\Grameenbikash Accounting\Inventory\DAL\bin\Debug\AutoMapper.dll
+E:\Grameenbikash Accounting\Inventory\DAL\bin\Debug\DTO.pdb
+E:\Grameenbikash Accounting\Inventory\DAL\bin\Debug\Utility.pdb
+E:\Grameenbikash Accounting\Inventory\DAL\obj\Debug\ResolveAssemblyReference.cache
+E:\Grameenbikash Accounting\Inventory\DAL\obj\Debug\DAL.dll
+E:\Grameenbikash Accounting\Inventory\DAL\obj\Debug\DAL.pdb
+D:\Grameenbikash Accounting\Inventory\DAL\bin\Debug\DAL.dll.config
+D:\Grameenbikash Accounting\Inventory\DAL\bin\Debug\DAL.dll
+D:\Grameenbikash Accounting\Inventory\DAL\bin\Debug\DAL.pdb
+D:\Grameenbikash Accounting\Inventory\DAL\bin\Debug\DTO.dll
+D:\Grameenbikash Accounting\Inventory\DAL\bin\Debug\Utility.dll
+D:\Grameenbikash Accounting\Inventory\DAL\bin\Debug\log4net.dll
+D:\Grameenbikash Accounting\Inventory\DAL\bin\Debug\AutoMapper.dll
+D:\Grameenbikash Accounting\Inventory\DAL\bin\Debug\DTO.pdb
+D:\Grameenbikash Accounting\Inventory\DAL\bin\Debug\Utility.pdb
+D:\Grameenbikash Accounting\Inventory\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Grameenbikash Accounting\Inventory\DAL\obj\Debug\DAL.dll
+D:\Grameenbikash Accounting\Inventory\DAL\obj\Debug\DAL.pdb
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\DAL\bin\Debug\DAL.dll.config
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\DAL\bin\Debug\DAL.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\DAL\bin\Debug\DAL.pdb
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\DAL\bin\Debug\DTO.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\DAL\bin\Debug\Utility.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\DAL\bin\Debug\log4net.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\DAL\bin\Debug\AutoMapper.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\DAL\bin\Debug\DTO.pdb
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\DAL\bin\Debug\Utility.pdb
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\DAL\obj\Debug\DAL.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\DAL\obj\Debug\DAL.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\DAL\bin\Debug\DAL.dll.config
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\DAL\bin\Debug\DAL.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\DAL\bin\Debug\DAL.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\DAL\bin\Debug\DTO.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\DAL\bin\Debug\Utility.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\DAL\bin\Debug\log4net.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\DAL\bin\Debug\AutoMapper.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\DAL\bin\Debug\DTO.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\DAL\bin\Debug\Utility.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\DAL\obj\Debug\DAL.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\DAL\obj\Debug\DAL.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\DAL\bin\Debug\DAL.dll.config
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\DAL\bin\Debug\DAL.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\DAL\bin\Debug\DAL.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\DAL\bin\Debug\DTO.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\DAL\bin\Debug\Utility.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\DAL\bin\Debug\log4net.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\DAL\bin\Debug\AutoMapper.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\DAL\bin\Debug\DTO.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\DAL\bin\Debug\Utility.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\DAL\obj\Debug\DAL.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\DAL\obj\Debug\DAL.pdb
+E:\latest\New folder\Inventory\DAL\bin\Debug\DAL.dll.config
+E:\latest\New folder\Inventory\DAL\bin\Debug\DAL.dll
+E:\latest\New folder\Inventory\DAL\bin\Debug\DAL.pdb
+E:\latest\New folder\Inventory\DAL\bin\Debug\DTO.dll
+E:\latest\New folder\Inventory\DAL\bin\Debug\Utility.dll
+E:\latest\New folder\Inventory\DAL\bin\Debug\log4net.dll
+E:\latest\New folder\Inventory\DAL\bin\Debug\AutoMapper.dll
+E:\latest\New folder\Inventory\DAL\bin\Debug\DTO.pdb
+E:\latest\New folder\Inventory\DAL\bin\Debug\Utility.pdb
+E:\latest\New folder\Inventory\DAL\obj\Debug\ResolveAssemblyReference.cache
+E:\latest\New folder\Inventory\DAL\obj\Debug\DAL.dll
+E:\latest\New folder\Inventory\DAL\obj\Debug\DAL.pdb
+D:\Raowa Club (BAR)\DAL\bin\Debug\DAL.dll.config
+D:\Raowa Club (BAR)\DAL\bin\Debug\DAL.dll
+D:\Raowa Club (BAR)\DAL\bin\Debug\DAL.pdb
+D:\Raowa Club (BAR)\DAL\bin\Debug\DTO.dll
+D:\Raowa Club (BAR)\DAL\bin\Debug\Utility.dll
+D:\Raowa Club (BAR)\DAL\bin\Debug\log4net.dll
+D:\Raowa Club (BAR)\DAL\bin\Debug\AutoMapper.dll
+D:\Raowa Club (BAR)\DAL\bin\Debug\DTO.pdb
+D:\Raowa Club (BAR)\DAL\bin\Debug\Utility.pdb
+D:\Raowa Club (BAR)\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Raowa Club (BAR)\DAL\obj\Debug\DAL.dll
+D:\Raowa Club (BAR)\DAL\obj\Debug\DAL.pdb

@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBAccountStoreContainer" CdmEntityContainer="InventoryContainer">
+    <EntitySetMapping Name="AccBalanceSheetRpts">
+      <EntityTypeMapping TypeName="DBAccount.AccBalanceSheetRpt">
+        <MappingFragment StoreEntitySet="AccBalanceSheetRpt">
+          <ScalarProperty Name="ActiveStatus" ColumnName="ActiveStatus" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="SubCode1Id" ColumnName="SubCode1Id" />
+          <ScalarProperty Name="MainHeadId" ColumnName="MainHeadId" />
+          <ScalarProperty Name="BalanceShtId" ColumnName="BalanceShtId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccBalanceSheetRpts1">
+      <EntityTypeMapping TypeName="DBAccount.AccBalanceSheetRpt1">
+        <MappingFragment StoreEntitySet="AccBalanceSheetRpts">
+          <ScalarProperty Name="ActiveStatus" ColumnName="ActiveStatus" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="SubCode1Id" ColumnName="SubCode1Id" />
+          <ScalarProperty Name="MainHeadId" ColumnName="MainHeadId" />
+          <ScalarProperty Name="BalanceShtId" ColumnName="BalanceShtId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccCashFlowEntities">
+      <EntityTypeMapping TypeName="DBAccount.AccCashFlowEntity">
+        <MappingFragment StoreEntitySet="AccCashFlowEntities">
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="CFEName" ColumnName="CFEName" />
+          <ScalarProperty Name="CFEId" ColumnName="CFEId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccCashFlowEntities1">
+      <EntityTypeMapping TypeName="DBAccount.AccCashFlowEntity1">
+        <MappingFragment StoreEntitySet="AccCashFlowEntity">
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="CFEName" ColumnName="CFEName" />
+          <ScalarProperty Name="CFEId" ColumnName="CFEId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccCashFlowReports">
+      <EntityTypeMapping TypeName="DBAccount.AccCashFlowReport">
+        <MappingFragment StoreEntitySet="AccCashFlowReport">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="COAId" ColumnName="COAId" />
+          <ScalarProperty Name="SubCode_1Id" ColumnName="SubCode_1Id" />
+          <ScalarProperty Name="ActiveStatus" ColumnName="ActiveStatus" />
+          <ScalarProperty Name="CFEId" ColumnName="CFEId" />
+          <ScalarProperty Name="CFRId" ColumnName="CFRId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccCashFlowReports1">
+      <EntityTypeMapping TypeName="DBAccount.AccCashFlowReport1">
+        <MappingFragment StoreEntitySet="AccCashFlowReports">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="COAId" ColumnName="COAId" />
+          <ScalarProperty Name="SubCode_1Id" ColumnName="SubCode_1Id" />
+          <ScalarProperty Name="ActiveStatus" ColumnName="ActiveStatus" />
+          <ScalarProperty Name="CFEId" ColumnName="CFEId" />
+          <ScalarProperty Name="CFRId" ColumnName="CFRId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccCOAInfoes">
+      <EntityTypeMapping TypeName="DBAccount.AccCOAInfo">
+        <MappingFragment StoreEntitySet="AccCOAInfoes">
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="OpenBy" ColumnName="OpenBy" />
+          <ScalarProperty Name="OpeningDate" ColumnName="OpeningDate" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="APPID" ColumnName="APPID" />
+          <ScalarProperty Name="SubCode_2Id" ColumnName="SubCode_2Id" />
+          <ScalarProperty Name="AID" ColumnName="AID" />
+          <ScalarProperty Name="AccountName" ColumnName="AccountName" />
+          <ScalarProperty Name="COAACCId" ColumnName="COAACCId" />
+          <ScalarProperty Name="COAId" ColumnName="COAId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccIncomeStatementRpts">
+      <EntityTypeMapping TypeName="DBAccount.AccIncomeStatementRpt">
+        <MappingFragment StoreEntitySet="AccIncomeStatementRpt">
+          <ScalarProperty Name="ActiveStatus" ColumnName="ActiveStatus" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="SubCode1Id" ColumnName="SubCode1Id" />
+          <ScalarProperty Name="MainHeadId" ColumnName="MainHeadId" />
+          <ScalarProperty Name="InStaRptId" ColumnName="InStaRptId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccIncomeStatementRpts1">
+      <EntityTypeMapping TypeName="DBAccount.AccIncomeStatementRpt1">
+        <MappingFragment StoreEntitySet="AccIncomeStatementRpts">
+          <ScalarProperty Name="ActiveStatus" ColumnName="ActiveStatus" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="SubCode1Id" ColumnName="SubCode1Id" />
+          <ScalarProperty Name="MainHeadId" ColumnName="MainHeadId" />
+          <ScalarProperty Name="InStaRptId" ColumnName="InStaRptId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccJournalEntries">
+      <EntityTypeMapping TypeName="DBAccount.AccJournalEntry">
+        <MappingFragment StoreEntitySet="AccJournalEntries">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="PostLeadgerStatus" ColumnName="PostLeadgerStatus" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="TransectionDate" ColumnName="TransectionDate" />
+          <ScalarProperty Name="MRNO" ColumnName="MRNO" />
+          <ScalarProperty Name="VONO" ColumnName="VONO" />
+          <ScalarProperty Name="CRAmount" ColumnName="CRAmount" />
+          <ScalarProperty Name="DRAmount" ColumnName="DRAmount" />
+          <ScalarProperty Name="JournalType" ColumnName="JournalType" />
+          <ScalarProperty Name="TransectionNo" ColumnName="TransectionNo" />
+          <ScalarProperty Name="SubVoucherId" ColumnName="SubVoucherId" />
+          <ScalarProperty Name="COAId" ColumnName="COAId" />
+          <ScalarProperty Name="SubCode2Id" ColumnName="SubCode2Id" />
+          <ScalarProperty Name="JournalId" ColumnName="JournalId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccJournalEntries1">
+      <EntityTypeMapping TypeName="DBAccount.AccJournalEntry1">
+        <MappingFragment StoreEntitySet="AccJournalEntry">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="PostLeadgerStatus" ColumnName="PostLeadgerStatus" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="TransectionDate" ColumnName="TransectionDate" />
+          <ScalarProperty Name="MRNO" ColumnName="MRNO" />
+          <ScalarProperty Name="VONO" ColumnName="VONO" />
+          <ScalarProperty Name="CRAmount" ColumnName="CRAmount" />
+          <ScalarProperty Name="DRAmount" ColumnName="DRAmount" />
+          <ScalarProperty Name="JournalType" ColumnName="JournalType" />
+          <ScalarProperty Name="TransectionNo" ColumnName="TransectionNo" />
+          <ScalarProperty Name="SubVoucherId" ColumnName="SubVoucherId" />
+          <ScalarProperty Name="COAId" ColumnName="COAId" />
+          <ScalarProperty Name="SubCode2Id" ColumnName="SubCode2Id" />
+          <ScalarProperty Name="JournalId" ColumnName="JournalId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccLedgers">
+      <EntityTypeMapping TypeName="DBAccount.AccLedger">
+        <MappingFragment StoreEntitySet="AccLedger">
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CLBAL" ColumnName="CLBAL" />
+          <ScalarProperty Name="CRAmount" ColumnName="CRAmount" />
+          <ScalarProperty Name="DRAmount" ColumnName="DRAmount" />
+          <ScalarProperty Name="OPBAL" ColumnName="OPBAL" />
+          <ScalarProperty Name="JournalId" ColumnName="JournalId" />
+          <ScalarProperty Name="LedgerId" ColumnName="LedgerId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccLedgers1">
+      <EntityTypeMapping TypeName="DBAccount.AccLedger1">
+        <MappingFragment StoreEntitySet="AccLedgers">
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CLBAL" ColumnName="CLBAL" />
+          <ScalarProperty Name="CRAmount" ColumnName="CRAmount" />
+          <ScalarProperty Name="DRAmount" ColumnName="DRAmount" />
+          <ScalarProperty Name="OPBAL" ColumnName="OPBAL" />
+          <ScalarProperty Name="JournalId" ColumnName="JournalId" />
+          <ScalarProperty Name="LedgerId" ColumnName="LedgerId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccLiabilitiesRpts">
+      <EntityTypeMapping TypeName="DBAccount.AccLiabilitiesRpt">
+        <MappingFragment StoreEntitySet="AccLiabilitiesRpt">
+          <ScalarProperty Name="ActiveStatus" ColumnName="ActiveStatus" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="SubCode1Id" ColumnName="SubCode1Id" />
+          <ScalarProperty Name="MainHeadId" ColumnName="MainHeadId" />
+          <ScalarProperty Name="LiabRptId" ColumnName="LiabRptId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccLiabilitiesRpts1">
+      <EntityTypeMapping TypeName="DBAccount.AccLiabilitiesRpt1">
+        <MappingFragment StoreEntitySet="AccLiabilitiesRpts">
+          <ScalarProperty Name="ActiveStatus" ColumnName="ActiveStatus" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="SubCode1Id" ColumnName="SubCode1Id" />
+          <ScalarProperty Name="MainHeadId" ColumnName="MainHeadId" />
+          <ScalarProperty Name="LiabRptId" ColumnName="LiabRptId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccMainHeads">
+      <EntityTypeMapping TypeName="DBAccount.AccMainHead">
+        <MappingFragment StoreEntitySet="AccMainHeads">
+          <ScalarProperty Name="AID" ColumnName="AID" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="MainHeadName" ColumnName="MainHeadName" />
+          <ScalarProperty Name="MainHadeNum" ColumnName="MainHadeNum" />
+          <ScalarProperty Name="MainHeadId" ColumnName="MainHeadId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccMainVouchers">
+      <EntityTypeMapping TypeName="DBAccount.AccMainVoucher">
+        <MappingFragment StoreEntitySet="AccMainVouchers">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="MainVoucherName" ColumnName="MainVoucherName" />
+          <ScalarProperty Name="MainVoucherCode" ColumnName="MainVoucherCode" />
+          <ScalarProperty Name="MainVoucherId" ColumnName="MainVoucherId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccSubCode1">
+      <EntityTypeMapping TypeName="DBAccount.AccSubCode1">
+        <MappingFragment StoreEntitySet="AccSubCode1">
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="AssetType" ColumnName="AssetType" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="MainHeadId" ColumnName="MainHeadId" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="AID" ColumnName="AID" />
+          <ScalarProperty Name="SubCode_1Name" ColumnName="SubCode_1Name" />
+          <ScalarProperty Name="SubCode_1Num" ColumnName="SubCode_1Num" />
+          <ScalarProperty Name="SubCode_1Id" ColumnName="SubCode_1Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccSubCode2">
+      <EntityTypeMapping TypeName="DBAccount.AccSubCode2">
+        <MappingFragment StoreEntitySet="AccSubCode2">
+          <ScalarProperty Name="Depreciation" ColumnName="Depreciation" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="AssetType" ColumnName="AssetType" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="SubCode_1Id" ColumnName="SubCode_1Id" />
+          <ScalarProperty Name="MainHeadId" ColumnName="MainHeadId" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="AID" ColumnName="AID" />
+          <ScalarProperty Name="SubCode_2Name" ColumnName="SubCode_2Name" />
+          <ScalarProperty Name="SubCode2_Num" ColumnName="SubCode2_Num" />
+          <ScalarProperty Name="SubCode2_Id" ColumnName="SubCode2_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccSubVouchers">
+      <EntityTypeMapping TypeName="DBAccount.AccSubVoucher">
+        <MappingFragment StoreEntitySet="AccSubVouchers">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="MainVoucherId" ColumnName="MainVoucherId" />
+          <ScalarProperty Name="SubVoucherName" ColumnName="SubVoucherName" />
+          <ScalarProperty Name="SubVoucherCode" ColumnName="SubVoucherCode" />
+          <ScalarProperty Name="SubVoucherId" ColumnName="SubVoucherId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DDLTests">
+      <EntityTypeMapping TypeName="DBAccount.DDLTest">
+        <MappingFragment StoreEntitySet="DDLTests">
+          <ScalarProperty Name="ParentId" ColumnName="ParentId" />
+          <ScalarProperty Name="DDLName" ColumnName="DDLName" />
+          <ScalarProperty Name="DDLId" ColumnName="DDLId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmpEducations">
+      <EntityTypeMapping TypeName="DBAccount.EmpEducation">
+        <MappingFragment StoreEntitySet="EmpEducations">
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="Updatedate" ColumnName="Updatedate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="Eximination" ColumnName="Eximination" />
+          <ScalarProperty Name="PassingYear" ColumnName="PassingYear" />
+          <ScalarProperty Name="Board" ColumnName="Board" />
+          <ScalarProperty Name="InstituteName" ColumnName="InstituteName" />
+          <ScalarProperty Name="Cgpa" ColumnName="Cgpa" />
+          <ScalarProperty Name="Division" ColumnName="Division" />
+          <ScalarProperty Name="ResultType" ColumnName="ResultType" />
+          <ScalarProperty Name="EmpId" ColumnName="EmpId" />
+          <ScalarProperty Name="EduId" ColumnName="EduId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmpExperienceInfoes">
+      <EntityTypeMapping TypeName="DBAccount.EmpExperienceInfo">
+        <MappingFragment StoreEntitySet="EmpExperienceInfoes">
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="Responsibility" ColumnName="Responsibility" />
+          <ScalarProperty Name="OrganizationName" ColumnName="OrganizationName" />
+          <ScalarProperty Name="ToDate" ColumnName="ToDate" />
+          <ScalarProperty Name="FromDate" ColumnName="FromDate" />
+          <ScalarProperty Name="Disignation" ColumnName="Disignation" />
+          <ScalarProperty Name="EmpId" ColumnName="EmpId" />
+          <ScalarProperty Name="ExperienceId" ColumnName="ExperienceId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="DBAccount.Employee">
+        <MappingFragment StoreEntitySet="Employees">
+          <ScalarProperty Name="DiscountStatus" ColumnName="DiscountStatus" />
+          <ScalarProperty Name="LocationStatus" ColumnName="LocationStatus" />
+          <ScalarProperty Name="SalaryStatus" ColumnName="SalaryStatus" />
+          <ScalarProperty Name="ExperienceStatus" ColumnName="ExperienceStatus" />
+          <ScalarProperty Name="TariningStatus" ColumnName="TariningStatus" />
+          <ScalarProperty Name="EduStatus" ColumnName="EduStatus" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="OtizmType" ColumnName="OtizmType" />
+          <ScalarProperty Name="OtizmStatus" ColumnName="OtizmStatus" />
+          <ScalarProperty Name="FamilyContactNum" ColumnName="FamilyContactNum" />
+          <ScalarProperty Name="RefContactNum" ColumnName="RefContactNum" />
+          <ScalarProperty Name="ReferenceBy" ColumnName="ReferenceBy" />
+          <ScalarProperty Name="JobStatus" ColumnName="JobStatus" />
+          <ScalarProperty Name="JobType" ColumnName="JobType" />
+          <ScalarProperty Name="EmpTypeId" ColumnName="EmpTypeId" />
+          <ScalarProperty Name="EmpSpecilistId" ColumnName="EmpSpecilistId" />
+          <ScalarProperty Name="ImageName" ColumnName="ImageName" />
+          <ScalarProperty Name="Religion" ColumnName="Religion" />
+          <ScalarProperty Name="Merital" ColumnName="Merital" />
+          <ScalarProperty Name="Nationality" ColumnName="Nationality" />
+          <ScalarProperty Name="PermanentAdd" ColumnName="PermanentAdd" />
+          <ScalarProperty Name="FatherName" ColumnName="FatherName" />
+          <ScalarProperty Name="MotherName" ColumnName="MotherName" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="NationalID" ColumnName="NationalID" />
+          <ScalarProperty Name="JoinDate" ColumnName="JoinDate" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Mobile2" ColumnName="Mobile2" />
+          <ScalarProperty Name="Mobile1" ColumnName="Mobile1" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="SurName" ColumnName="SurName" />
+          <ScalarProperty Name="EmpName" ColumnName="EmpName" />
+          <ScalarProperty Name="EmpId" ColumnName="EmpId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmpSpecialists">
+      <EntityTypeMapping TypeName="DBAccount.EmpSpecialist">
+        <MappingFragment StoreEntitySet="EmpSpecialists">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="EmpTypeId" ColumnName="EmpTypeId" />
+          <ScalarProperty Name="Specialist" ColumnName="Specialist" />
+          <ScalarProperty Name="EmpSpecilistId" ColumnName="EmpSpecilistId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmpTrainings">
+      <EntityTypeMapping TypeName="DBAccount.EmpTraining">
+        <MappingFragment StoreEntitySet="EmpTrainings">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="Duration" ColumnName="Duration" />
+          <ScalarProperty Name="TrainingYear" ColumnName="TrainingYear" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="InstituteName" ColumnName="InstituteName" />
+          <ScalarProperty Name="TopicsCovered" ColumnName="TopicsCovered" />
+          <ScalarProperty Name="TrainingName" ColumnName="TrainingName" />
+          <ScalarProperty Name="EmpId" ColumnName="EmpId" />
+          <ScalarProperty Name="TrainingId" ColumnName="TrainingId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmpTypes">
+      <EntityTypeMapping TypeName="DBAccount.EmpType">
+        <MappingFragment StoreEntitySet="EmpTypes">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="TypeName" ColumnName="TypeName" />
+          <ScalarProperty Name="EmpTypeId" ColumnName="EmpTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Log_AccJournal">
+      <EntityTypeMapping TypeName="DBAccount.Log_AccJournal">
+        <MappingFragment StoreEntitySet="Log_AccJournal">
+          <ScalarProperty Name="LogBy" ColumnName="LogBy" />
+          <ScalarProperty Name="LogDate" ColumnName="LogDate" />
+          <ScalarProperty Name="LogField" ColumnName="LogField" />
+          <ScalarProperty Name="LogJournalId" ColumnName="LogJournalId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PayRoles">
+      <EntityTypeMapping TypeName="DBAccount.PayRole">
+        <MappingFragment StoreEntitySet="PayRole">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PayRoles1">
+      <EntityTypeMapping TypeName="DBAccount.PayRole1">
+        <MappingFragment StoreEntitySet="PayRoles">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PayUserRoles">
+      <EntityTypeMapping TypeName="DBAccount.PayUserRole">
+        <MappingFragment StoreEntitySet="PayUserRole">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="EmpId" ColumnName="EmpId" />
+          <ScalarProperty Name="UserRoleId" ColumnName="UserRoleId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PayUserRoles1">
+      <EntityTypeMapping TypeName="DBAccount.PayUserRole1">
+        <MappingFragment StoreEntitySet="PayUserRoles">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="EmpId" ColumnName="EmpId" />
+          <ScalarProperty Name="UserRoleId" ColumnName="UserRoleId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

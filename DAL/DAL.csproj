@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BD657B32-4490-43D6-99BB-724FB5432359}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAL</RootNamespace>
+    <AssemblyName>DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountInfoDAL.cs" />
+    <Compile Include="AccountTypeDAL.cs" />
+    <Compile Include="BankInfoDAL.cs" />
+    <Compile Include="CategoryDAL.cs" />
+    <Compile Include="CocktailInfoDAL.cs" />
+    <Compile Include="CompanyInfoDAL.cs" />
+    <Compile Include="CompProfile\BranchProfileDAL.cs" />
+    <Compile Include="CompProfile\CompProfileInfoDAL.cs" />
+    <Compile Include="InvenCentralToPartyReturnDtlDal.cs" />
+    <Compile Include="ExpenseDAL.cs" />
+    <Compile Include="ExpenseHeadDAL.cs" />
+    <Compile Include="InvenBranchReturnDAL.cs" />
+    <Compile Include="InvenBranchToCentralReturnDtlDal.cs" />
+    <Compile Include="InvenCentralChallanDAL.cs" />
+    <Compile Include="InvenCentralPurchaseDAL.cs" />
+    <Compile Include="InvenCentralPurOrderDAL.cs" />
+    <Compile Include="InvenCentralPurRequisitonDAL.cs" />
+    <Compile Include="InvenCentralReturnDAL.cs" />
+    <Compile Include="InvenCentralStoreDTO.cs" />
+    <Compile Include="InvenCentralStoreStatusDAL.cs" />
+    <Compile Include="InvenChangeDAL.cs" />
+    <Compile Include="InvenPerRequisitionDal.cs" />
+    <Compile Include="InvenPurOrderDal.cs" />
+    <Compile Include="InvenReorderDal.cs" />
+    <Compile Include="InvenSalesDAL.cs" />
+    <Compile Include="InvenSalesDetailDAL.cs" />
+    <Compile Include="InvenSalesInputDAL.cs" />
+    <Compile Include="InvenSaleXtraInfoDAL.cs" />
+    <Compile Include="InvenStoreStatusDal.cs" />
+    <Compile Include="InvenTempSaleDAL.cs" />
+    <Compile Include="Inventory.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Inventory.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Log_InventoryDAL.cs" />
+    <Compile Include="MemberDAL.cs" />
+    <Compile Include="PDAL\AssetDAL.cs" />
+    <Compile Include="PDAL\BankTransectionDAL.cs" />
+    <Compile Include="PDAL\BankTransectionDtlDAL.cs" />
+    <Compile Include="PDAL\CompanyCashEntryDAL.cs" />
+    <Compile Include="PDAL\Log_PayRollDAL.cs" />
+    <Compile Include="PDAL\Page_Object\PageObjectDAL.cs" />
+    <Compile Include="PDAL\Page_Object\PageObjectRoleDAL.cs" />
+    <Compile Include="PDAL\ReportDAL.cs" />
+    <Compile Include="PharmPurchasePaymentDTO.cs" />
+    <Compile Include="ProductDAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PurchaseDueDAL.cs" />
+    <Compile Include="ReportDAL.cs" />
+    <Compile Include="ReportSetUpFileDAL.cs" />
+    <Compile Include="UnitDAL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <EntityDeploy Include="Inventory.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Inventory.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Inventory.edmx.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{C04A182B-5CC1-4144-BF3B-3F257AA4E63D}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{2289A21E-4A86-4020-AA0B-3B943D77BBD9}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

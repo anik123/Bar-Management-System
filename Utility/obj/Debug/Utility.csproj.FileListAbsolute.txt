@@ -1,0 +1,77 @@
+E:\Grammeen Bikash\Inventory\Utility\obj\Debug\ResolveAssemblyReference.cache
+E:\Grammeen Bikash\Inventory\Utility\obj\Debug\Utility.pdb
+E:\Grammeen Bikash\Inventory\Utility\bin\Debug\Utility.dll
+E:\Grammeen Bikash\Inventory\Utility\bin\Debug\Utility.pdb
+E:\Grammeen Bikash\Inventory\Utility\bin\Debug\AutoMapper.dll
+E:\Grammeen Bikash\Inventory\Utility\bin\Debug\log4net.dll
+E:\Grammeen Bikash\Inventory\Utility\bin\Debug\Ninject.dll
+E:\Grammeen Bikash\Inventory\Utility\bin\Debug\NMock2.dll
+E:\Grammeen Bikash\Inventory\Utility\bin\Debug\nunit.framework.dll
+E:\Grammeen Bikash\Inventory\Utility\obj\Debug\Utility.dll
+E:\Grameenbikash Accounting\Inventory\Utility\bin\Debug\Utility.dll
+E:\Grameenbikash Accounting\Inventory\Utility\bin\Debug\Utility.pdb
+E:\Grameenbikash Accounting\Inventory\Utility\bin\Debug\AutoMapper.dll
+E:\Grameenbikash Accounting\Inventory\Utility\bin\Debug\log4net.dll
+E:\Grameenbikash Accounting\Inventory\Utility\bin\Debug\Ninject.dll
+E:\Grameenbikash Accounting\Inventory\Utility\bin\Debug\NMock2.dll
+E:\Grameenbikash Accounting\Inventory\Utility\bin\Debug\nunit.framework.dll
+E:\Grameenbikash Accounting\Inventory\Utility\obj\Debug\ResolveAssemblyReference.cache
+E:\Grameenbikash Accounting\Inventory\Utility\obj\Debug\Utility.dll
+E:\Grameenbikash Accounting\Inventory\Utility\obj\Debug\Utility.pdb
+D:\Grameenbikash Accounting\Inventory\Utility\bin\Debug\Utility.dll
+D:\Grameenbikash Accounting\Inventory\Utility\bin\Debug\Utility.pdb
+D:\Grameenbikash Accounting\Inventory\Utility\bin\Debug\AutoMapper.dll
+D:\Grameenbikash Accounting\Inventory\Utility\bin\Debug\log4net.dll
+D:\Grameenbikash Accounting\Inventory\Utility\bin\Debug\Ninject.dll
+D:\Grameenbikash Accounting\Inventory\Utility\bin\Debug\NMock2.dll
+D:\Grameenbikash Accounting\Inventory\Utility\bin\Debug\nunit.framework.dll
+D:\Grameenbikash Accounting\Inventory\Utility\obj\Debug\Utility.dll
+D:\Grameenbikash Accounting\Inventory\Utility\obj\Debug\Utility.pdb
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\Utility\bin\Debug\Utility.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\Utility\bin\Debug\Utility.pdb
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\Utility\bin\Debug\AutoMapper.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\Utility\bin\Debug\log4net.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\Utility\bin\Debug\Ninject.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\Utility\bin\Debug\NMock2.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\Utility\bin\Debug\nunit.framework.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\Utility\obj\Debug\Utility.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\Utility\obj\Debug\Utility.pdb
+D:\Grameenbikash Accounting\Inventory\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\Utility\bin\Debug\Utility.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\Utility\bin\Debug\Utility.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\Utility\bin\Debug\AutoMapper.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\Utility\bin\Debug\log4net.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\Utility\bin\Debug\Ninject.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\Utility\bin\Debug\NMock2.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\Utility\bin\Debug\nunit.framework.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\Utility\obj\Debug\Utility.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\Utility\obj\Debug\Utility.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\Utility\bin\Debug\Utility.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\Utility\bin\Debug\Utility.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\Utility\bin\Debug\AutoMapper.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\Utility\bin\Debug\log4net.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\Utility\bin\Debug\Ninject.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\Utility\bin\Debug\NMock2.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\Utility\bin\Debug\nunit.framework.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\Utility\obj\Debug\Utility.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\Utility\obj\Debug\Utility.pdb
+E:\latest\New folder\Inventory\Utility\bin\Debug\Utility.dll
+E:\latest\New folder\Inventory\Utility\bin\Debug\Utility.pdb
+E:\latest\New folder\Inventory\Utility\bin\Debug\AutoMapper.dll
+E:\latest\New folder\Inventory\Utility\bin\Debug\log4net.dll
+E:\latest\New folder\Inventory\Utility\bin\Debug\Ninject.dll
+E:\latest\New folder\Inventory\Utility\bin\Debug\NMock2.dll
+E:\latest\New folder\Inventory\Utility\bin\Debug\nunit.framework.dll
+E:\latest\New folder\Inventory\Utility\obj\Debug\ResolveAssemblyReference.cache
+E:\latest\New folder\Inventory\Utility\obj\Debug\Utility.dll
+E:\latest\New folder\Inventory\Utility\obj\Debug\Utility.pdb
+D:\Raowa Club (BAR)\Utility\bin\Debug\Utility.dll
+D:\Raowa Club (BAR)\Utility\bin\Debug\Utility.pdb
+D:\Raowa Club (BAR)\Utility\bin\Debug\AutoMapper.dll
+D:\Raowa Club (BAR)\Utility\bin\Debug\log4net.dll
+D:\Raowa Club (BAR)\Utility\bin\Debug\Ninject.dll
+D:\Raowa Club (BAR)\Utility\bin\Debug\NMock2.dll
+D:\Raowa Club (BAR)\Utility\bin\Debug\nunit.framework.dll
+D:\Raowa Club (BAR)\Utility\obj\Debug\Utility.dll
+D:\Raowa Club (BAR)\Utility\obj\Debug\Utility.pdb
+D:\Raowa Club (BAR)\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache

@@ -1,0 +1,167 @@
+E:\Accounting software\Tarun Web Version\Account\ABLL\obj\Debug\ResolveAssemblyReference.cache
+E:\Accounting software\Tarun Web Version\Account\ABLL\obj\Debug\ABLL.pdb
+E:\Accounting software\Tarun Web Version\Account\ABLL\bin\Debug\ABLL.dll
+E:\Accounting software\Tarun Web Version\Account\ABLL\bin\Debug\ABLL.pdb
+E:\Accounting software\Tarun Web Version\Account\ABLL\bin\Debug\ADAL.dll
+E:\Accounting software\Tarun Web Version\Account\ABLL\bin\Debug\ADTO.dll
+E:\Accounting software\Tarun Web Version\Account\ABLL\bin\Debug\Utility.dll
+E:\Accounting software\Tarun Web Version\Account\ABLL\bin\Debug\log4net.dll
+E:\Accounting software\Tarun Web Version\Account\ABLL\bin\Debug\AutoMapper.dll
+E:\Accounting software\Tarun Web Version\Account\ABLL\bin\Debug\ADAL.pdb
+E:\Accounting software\Tarun Web Version\Account\ABLL\bin\Debug\ADTO.pdb
+E:\Accounting software\Tarun Web Version\Account\ABLL\bin\Debug\Utility.pdb
+E:\Accounting software\Tarun Web Version\Account\ABLL\obj\Debug\ABLL.dll
+D:\Accounting software\Tarun Web Version\Account - Copy\ABLL\bin\Debug\ABLL.dll
+D:\Accounting software\Tarun Web Version\Account - Copy\ABLL\bin\Debug\ABLL.pdb
+D:\Accounting software\Tarun Web Version\Account - Copy\ABLL\bin\Debug\ADAL.dll
+D:\Accounting software\Tarun Web Version\Account - Copy\ABLL\bin\Debug\ADTO.dll
+D:\Accounting software\Tarun Web Version\Account - Copy\ABLL\bin\Debug\Utility.dll
+D:\Accounting software\Tarun Web Version\Account - Copy\ABLL\bin\Debug\log4net.dll
+D:\Accounting software\Tarun Web Version\Account - Copy\ABLL\bin\Debug\AutoMapper.dll
+D:\Accounting software\Tarun Web Version\Account - Copy\ABLL\bin\Debug\ADAL.pdb
+D:\Accounting software\Tarun Web Version\Account - Copy\ABLL\bin\Debug\ADTO.pdb
+D:\Accounting software\Tarun Web Version\Account - Copy\ABLL\bin\Debug\Utility.pdb
+D:\Accounting software\Tarun Web Version\Account - Copy\ABLL\obj\Debug\ABLL.csprojResolveAssemblyReference.cache
+D:\Accounting software\Tarun Web Version\Account - Copy\ABLL\obj\Debug\ABLL.dll
+D:\Accounting software\Tarun Web Version\Account - Copy\ABLL\obj\Debug\ABLL.pdb
+D:\Accounting software\Tarun Web Version\Account\ABLL\bin\Debug\ABLL.dll
+D:\Accounting software\Tarun Web Version\Account\ABLL\bin\Debug\ABLL.pdb
+D:\Accounting software\Tarun Web Version\Account\ABLL\bin\Debug\ADAL.dll
+D:\Accounting software\Tarun Web Version\Account\ABLL\bin\Debug\ADTO.dll
+D:\Accounting software\Tarun Web Version\Account\ABLL\bin\Debug\Utility.dll
+D:\Accounting software\Tarun Web Version\Account\ABLL\bin\Debug\log4net.dll
+D:\Accounting software\Tarun Web Version\Account\ABLL\bin\Debug\AutoMapper.dll
+D:\Accounting software\Tarun Web Version\Account\ABLL\bin\Debug\ADAL.pdb
+D:\Accounting software\Tarun Web Version\Account\ABLL\bin\Debug\ADTO.pdb
+D:\Accounting software\Tarun Web Version\Account\ABLL\bin\Debug\Utility.pdb
+D:\Accounting software\Tarun Web Version\Account\ABLL\obj\Debug\ABLL.csprojResolveAssemblyReference.cache
+D:\Accounting software\Tarun Web Version\Account\ABLL\obj\Debug\ABLL.dll
+D:\Accounting software\Tarun Web Version\Account\ABLL\obj\Debug\ABLL.pdb
+D:\Accounting software\Tarun Web Version\Account - Login Without FOlder\ABLL\bin\Debug\ABLL.dll
+D:\Accounting software\Tarun Web Version\Account - Login Without FOlder\ABLL\bin\Debug\ABLL.pdb
+D:\Accounting software\Tarun Web Version\Account - Login Without FOlder\ABLL\bin\Debug\ADAL.dll
+D:\Accounting software\Tarun Web Version\Account - Login Without FOlder\ABLL\bin\Debug\ADTO.dll
+D:\Accounting software\Tarun Web Version\Account - Login Without FOlder\ABLL\bin\Debug\Utility.dll
+D:\Accounting software\Tarun Web Version\Account - Login Without FOlder\ABLL\bin\Debug\log4net.dll
+D:\Accounting software\Tarun Web Version\Account - Login Without FOlder\ABLL\bin\Debug\AutoMapper.dll
+D:\Accounting software\Tarun Web Version\Account - Login Without FOlder\ABLL\bin\Debug\ADAL.pdb
+D:\Accounting software\Tarun Web Version\Account - Login Without FOlder\ABLL\bin\Debug\ADTO.pdb
+D:\Accounting software\Tarun Web Version\Account - Login Without FOlder\ABLL\bin\Debug\Utility.pdb
+D:\Accounting software\Tarun Web Version\Account - Login Without FOlder\ABLL\obj\Debug\ABLL.csprojResolveAssemblyReference.cache
+D:\Accounting software\Tarun Web Version\Account - Login Without FOlder\ABLL\obj\Debug\ABLL.dll
+D:\Accounting software\Tarun Web Version\Account - Login Without FOlder\ABLL\obj\Debug\ABLL.pdb
+C:\Users\sanzeeb\Desktop\Account\ABLL\bin\Debug\ABLL.dll
+C:\Users\sanzeeb\Desktop\Account\ABLL\bin\Debug\ABLL.pdb
+C:\Users\sanzeeb\Desktop\Account\ABLL\bin\Debug\ADAL.dll
+C:\Users\sanzeeb\Desktop\Account\ABLL\bin\Debug\ADTO.dll
+C:\Users\sanzeeb\Desktop\Account\ABLL\bin\Debug\Utility.dll
+C:\Users\sanzeeb\Desktop\Account\ABLL\bin\Debug\log4net.dll
+C:\Users\sanzeeb\Desktop\Account\ABLL\bin\Debug\AutoMapper.dll
+C:\Users\sanzeeb\Desktop\Account\ABLL\bin\Debug\ADAL.pdb
+C:\Users\sanzeeb\Desktop\Account\ABLL\bin\Debug\ADTO.pdb
+C:\Users\sanzeeb\Desktop\Account\ABLL\bin\Debug\Utility.pdb
+C:\Users\sanzeeb\Desktop\Account\ABLL\obj\Debug\ABLL.csprojResolveAssemblyReference.cache
+C:\Users\sanzeeb\Desktop\Account\ABLL\obj\Debug\ABLL.dll
+C:\Users\sanzeeb\Desktop\Account\ABLL\obj\Debug\ABLL.pdb
+D:\Grameenbikash Accounting\Inventory\ABLL\bin\Debug\ABLL.dll
+D:\Grameenbikash Accounting\Inventory\ABLL\bin\Debug\ABLL.pdb
+D:\Grameenbikash Accounting\Inventory\ABLL\bin\Debug\ADAL.dll
+D:\Grameenbikash Accounting\Inventory\ABLL\bin\Debug\ADTO.dll
+D:\Grameenbikash Accounting\Inventory\ABLL\bin\Debug\DAL.dll
+D:\Grameenbikash Accounting\Inventory\ABLL\bin\Debug\Utility.dll
+D:\Grameenbikash Accounting\Inventory\ABLL\bin\Debug\DTO.dll
+D:\Grameenbikash Accounting\Inventory\ABLL\bin\Debug\log4net.dll
+D:\Grameenbikash Accounting\Inventory\ABLL\bin\Debug\AutoMapper.dll
+D:\Grameenbikash Accounting\Inventory\ABLL\bin\Debug\ADAL.pdb
+D:\Grameenbikash Accounting\Inventory\ABLL\bin\Debug\ADTO.pdb
+D:\Grameenbikash Accounting\Inventory\ABLL\bin\Debug\DAL.pdb
+D:\Grameenbikash Accounting\Inventory\ABLL\bin\Debug\Utility.pdb
+D:\Grameenbikash Accounting\Inventory\ABLL\bin\Debug\DTO.pdb
+D:\Grameenbikash Accounting\Inventory\ABLL\obj\Debug\ABLL.csprojResolveAssemblyReference.cache
+D:\Grameenbikash Accounting\Inventory\ABLL\obj\Debug\ABLL.dll
+D:\Grameenbikash Accounting\Inventory\ABLL\obj\Debug\ABLL.pdb
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\ABLL\bin\Debug\ABLL.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\ABLL\bin\Debug\ABLL.pdb
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\ABLL\bin\Debug\ADAL.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\ABLL\bin\Debug\ADTO.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\ABLL\bin\Debug\DAL.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\ABLL\bin\Debug\Utility.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\ABLL\bin\Debug\DTO.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\ABLL\bin\Debug\log4net.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\ABLL\bin\Debug\AutoMapper.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\ABLL\bin\Debug\ADAL.pdb
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\ABLL\bin\Debug\ADTO.pdb
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\ABLL\bin\Debug\DAL.pdb
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\ABLL\bin\Debug\Utility.pdb
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\ABLL\bin\Debug\DTO.pdb
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\ABLL\obj\Debug\ABLL.csprojResolveAssemblyReference.cache
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\ABLL\obj\Debug\ABLL.dll
+D:\Grameenbikash Accounting\Inventory - Copy - Copy\ABLL\obj\Debug\ABLL.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\ABLL\bin\Debug\ABLL.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\ABLL\bin\Debug\ABLL.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\ABLL\bin\Debug\ADAL.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\ABLL\bin\Debug\ADTO.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\ABLL\bin\Debug\DAL.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\ABLL\bin\Debug\Utility.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\ABLL\bin\Debug\DTO.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\ABLL\bin\Debug\log4net.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\ABLL\bin\Debug\AutoMapper.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\ABLL\bin\Debug\ADAL.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\ABLL\bin\Debug\ADTO.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\ABLL\bin\Debug\DAL.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\ABLL\bin\Debug\Utility.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\ABLL\bin\Debug\DTO.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\ABLL\obj\Debug\ABLL.csprojResolveAssemblyReference.cache
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\ABLL\obj\Debug\ABLL.dll
+D:\Grameenbikash Accounting\Grameen Bikash\Inventory\ABLL\obj\Debug\ABLL.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\ABLL\bin\Debug\ABLL.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\ABLL\bin\Debug\ABLL.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\ABLL\bin\Debug\ADAL.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\ABLL\bin\Debug\ADTO.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\ABLL\bin\Debug\DAL.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\ABLL\bin\Debug\Utility.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\ABLL\bin\Debug\DTO.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\ABLL\bin\Debug\log4net.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\ABLL\bin\Debug\AutoMapper.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\ABLL\bin\Debug\ADAL.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\ABLL\bin\Debug\ADTO.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\ABLL\bin\Debug\DAL.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\ABLL\bin\Debug\Utility.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\ABLL\bin\Debug\DTO.pdb
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\ABLL\obj\Debug\ABLL.csprojResolveAssemblyReference.cache
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\ABLL\obj\Debug\ABLL.dll
+D:\Grameenbikash Accounting\Grameen Bikash\InventoryRealGB\Inventory\ABLL\obj\Debug\ABLL.pdb
+E:\latest\New folder\Inventory\ABLL\bin\Debug\ABLL.dll
+E:\latest\New folder\Inventory\ABLL\bin\Debug\ABLL.pdb
+E:\latest\New folder\Inventory\ABLL\bin\Debug\ADAL.dll
+E:\latest\New folder\Inventory\ABLL\bin\Debug\ADTO.dll
+E:\latest\New folder\Inventory\ABLL\bin\Debug\DAL.dll
+E:\latest\New folder\Inventory\ABLL\bin\Debug\Utility.dll
+E:\latest\New folder\Inventory\ABLL\bin\Debug\DTO.dll
+E:\latest\New folder\Inventory\ABLL\bin\Debug\log4net.dll
+E:\latest\New folder\Inventory\ABLL\bin\Debug\AutoMapper.dll
+E:\latest\New folder\Inventory\ABLL\bin\Debug\ADAL.pdb
+E:\latest\New folder\Inventory\ABLL\bin\Debug\ADTO.pdb
+E:\latest\New folder\Inventory\ABLL\bin\Debug\DAL.pdb
+E:\latest\New folder\Inventory\ABLL\bin\Debug\Utility.pdb
+E:\latest\New folder\Inventory\ABLL\bin\Debug\DTO.pdb
+E:\latest\New folder\Inventory\ABLL\obj\Debug\ResolveAssemblyReference.cache
+E:\latest\New folder\Inventory\ABLL\obj\Debug\ABLL.dll
+E:\latest\New folder\Inventory\ABLL\obj\Debug\ABLL.pdb
+D:\Raowa Club (BAR)\ABLL\bin\Debug\ABLL.dll
+D:\Raowa Club (BAR)\ABLL\bin\Debug\ABLL.pdb
+D:\Raowa Club (BAR)\ABLL\bin\Debug\ADAL.dll
+D:\Raowa Club (BAR)\ABLL\bin\Debug\ADTO.dll
+D:\Raowa Club (BAR)\ABLL\bin\Debug\DAL.dll
+D:\Raowa Club (BAR)\ABLL\bin\Debug\Utility.dll
+D:\Raowa Club (BAR)\ABLL\bin\Debug\DTO.dll
+D:\Raowa Club (BAR)\ABLL\bin\Debug\log4net.dll
+D:\Raowa Club (BAR)\ABLL\bin\Debug\AutoMapper.dll
+D:\Raowa Club (BAR)\ABLL\bin\Debug\ADAL.pdb
+D:\Raowa Club (BAR)\ABLL\bin\Debug\ADTO.pdb
+D:\Raowa Club (BAR)\ABLL\bin\Debug\DAL.pdb
+D:\Raowa Club (BAR)\ABLL\bin\Debug\Utility.pdb
+D:\Raowa Club (BAR)\ABLL\bin\Debug\DTO.pdb
+D:\Raowa Club (BAR)\ABLL\obj\Debug\ABLL.csprojResolveAssemblyReference.cache
+D:\Raowa Club (BAR)\ABLL\obj\Debug\ABLL.dll
+D:\Raowa Club (BAR)\ABLL\obj\Debug\ABLL.pdb

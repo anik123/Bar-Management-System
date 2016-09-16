@@ -1,0 +1,4 @@
+D:\Raowa Club (BAR)\ADTO\bin\Release\ADTO.dll
+D:\Raowa Club (BAR)\ADTO\bin\Release\ADTO.pdb
+D:\Raowa Club (BAR)\ADTO\obj\Release\ADTO.dll
+D:\Raowa Club (BAR)\ADTO\obj\Release\ADTO.pdb
